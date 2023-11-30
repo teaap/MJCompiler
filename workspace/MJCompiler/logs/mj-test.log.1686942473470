@@ -1,0 +1,43 @@
+INFO  00:52:30,411 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  00:52:30,432 - #2 program
+INFO  00:52:30,433 - #39 MJProgram
+INFO  00:52:30,433 - #3 {
+INFO  00:52:30,434 - #36 void
+INFO  00:52:30,435 - #39 main
+INFO  00:52:30,435 - #8 (
+INFO  00:52:30,435 - #9 )
+INFO  00:52:30,435 - #39 int
+INFO  00:52:30,436 - #39 a
+INFO  00:52:30,437 - #41 ;
+INFO  00:52:30,438 - #3 {
+INFO  00:52:30,438 - #4 }
+INFO  00:52:30,439 - #4 }
+INFO  00:52:30,440 - Program(
+ MJProgram
+  NoConstVar(
+  ) [NoConstVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclNoVoid(
+     main
+      VarList(
+        NoVar(
+        ) [NoVar]
+        NoVarDecl(
+          Type(
+           int
+          ) [Type]
+         a
+          NoBrackList(
+          ) [NoBrackList]
+        ) [NoVarDecl]
+      ) [VarList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclNoVoid]
+  ) [MethodList]
+) [Program]
+INFO  00:52:30,442 - ===================================
+INFO  00:52:30,444 -  Print count calls = 0
+INFO  00:52:30,444 -  Deklarisanih promenljivih ima = 1

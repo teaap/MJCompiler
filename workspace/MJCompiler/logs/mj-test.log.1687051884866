@@ -1,0 +1,148 @@
+INFO  03:31:04,401 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  03:31:04,439 - #2 program
+INFO  03:31:04,439 - #39 test301
+INFO  03:31:04,439 - #5 const
+INFO  03:31:04,440 - #39 int
+INFO  03:31:04,441 - #39 nula
+INFO  03:31:04,441 - #40 =
+INFO  03:31:04,441 - #45 0
+INFO  03:31:04,442 - #41 ;
+INFO  03:31:04,442 - #5 const
+INFO  03:31:04,443 - #39 char
+INFO  03:31:04,443 - #39 jedan
+INFO  03:31:04,443 - #40 =
+INFO  03:31:04,444 - #47 v
+INFO  03:31:04,444 - #41 ;
+INFO  03:31:04,444 - #5 const
+INFO  03:31:04,444 - #39 bool
+INFO  03:31:04,444 - #39 dva
+INFO  03:31:04,444 - #40 =
+INFO  03:31:04,444 - #46 true
+INFO  03:31:04,444 - #41 ;
+INFO  03:31:04,445 - #3 {
+INFO  03:31:04,447 - #34 void
+INFO  03:31:04,448 - #39 add
+INFO  03:31:04,449 - #8 (
+INFO  03:31:04,450 - #39 int
+INFO  03:31:04,450 - #39 a
+INFO  03:31:04,450 - #44 ,
+INFO  03:31:04,451 - #39 int
+INFO  03:31:04,451 - #39 a
+INFO  03:31:04,452 - #9 )
+INFO  03:31:04,453 - #3 {
+INFO  03:31:04,454 - #4 }
+INFO  03:31:04,455 - #34 void
+INFO  03:31:04,455 - #39 main
+INFO  03:31:04,455 - #8 (
+INFO  03:31:04,455 - #9 )
+INFO  03:31:04,455 - #3 {
+INFO  03:31:04,456 - #4 }
+INFO  03:31:04,456 - #4 }
+INFO  03:31:04,463 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeVoid(
+          ) [MethodReturnTypeVoid]
+         add
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               a
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        NoVarL(
+        ) [NoVarL]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  03:31:04,464 - ===================================
+INFO  03:31:04,466 - Nova konstanta: nula = 0. na liniji 6
+INFO  03:31:04,467 - Nova konstanta: jedan = v. na liniji 7
+INFO  03:31:04,467 - Nova konstanta: dva = true. na liniji 8
+INFO  03:31:04,467 - Funkcija add na liniji 11
+ERROR 03:31:04,467 - Promenljiva je vec parametar na liniji 11
+INFO  03:31:04,467 - param rs.etf.pp1.symboltable.concepts.Struct@5cdd8682
+ERROR 03:31:04,467 - Funkcija nema return na liniji 11
+INFO  03:31:04,467 - Funkcija main na liniji 12
+INFO  03:31:04,467 - param rs.etf.pp1.symboltable.concepts.Struct@d6da883
+INFO  03:31:04,467 - ===================================
+ERROR 03:31:04,468 - Parsiranje NIJE uspesno zavrseno!

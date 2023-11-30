@@ -1,0 +1,986 @@
+INFO  03:59:33,034 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  03:59:33,069 - #2 program
+INFO  03:59:33,069 - #39 myProgram
+INFO  03:59:33,070 - #39 int
+INFO  03:59:33,071 - #39 broj
+INFO  03:59:33,071 - #44 ,
+INFO  03:59:33,072 - #39 niz_brojeva
+INFO  03:59:33,072 - #6 [
+INFO  03:59:33,072 - #7 ]
+INFO  03:59:33,073 - #44 ,
+INFO  03:59:33,073 - #39 matrica_brojeva
+INFO  03:59:33,073 - #6 [
+INFO  03:59:33,073 - #7 ]
+INFO  03:59:33,073 - #6 [
+INFO  03:59:33,073 - #7 ]
+INFO  03:59:33,073 - #41 ;
+INFO  03:59:33,073 - #39 char
+INFO  03:59:33,074 - #39 karakter
+INFO  03:59:33,074 - #41 ;
+INFO  03:59:33,074 - #39 bool
+INFO  03:59:33,074 - #39 logic
+INFO  03:59:33,074 - #41 ;
+INFO  03:59:33,077 - #3 {
+INFO  03:59:33,077 - #39 int
+INFO  03:59:33,077 - #39 f
+INFO  03:59:33,078 - #8 (
+INFO  03:59:33,079 - #39 int
+INFO  03:59:33,079 - #39 lokalnibroj
+INFO  03:59:33,079 - #44 ,
+INFO  03:59:33,080 - #39 bool
+INFO  03:59:33,080 - #39 drugiparam
+INFO  03:59:33,080 - #6 [
+INFO  03:59:33,080 - #7 ]
+INFO  03:59:33,080 - #9 )
+INFO  03:59:33,081 - #39 char
+INFO  03:59:33,082 - #39 lokalnichar
+INFO  03:59:33,082 - #41 ;
+INFO  03:59:33,082 - #3 {
+INFO  03:59:33,082 - #39 broj
+INFO  03:59:33,083 - #40 =
+INFO  03:59:33,083 - #39 lokalnibroj
+INFO  03:59:33,083 - #41 ;
+INFO  03:59:33,083 - #39 broj
+INFO  03:59:33,084 - #40 =
+INFO  03:59:33,084 - #39 niz_brojeva
+INFO  03:59:33,084 - #41 ;
+INFO  03:59:33,084 - #39 matrica_brojeva
+INFO  03:59:33,084 - #6 [
+INFO  03:59:33,084 - #45 1
+INFO  03:59:33,084 - #7 ]
+INFO  03:59:33,084 - #6 [
+INFO  03:59:33,084 - #45 0
+INFO  03:59:33,084 - #7 ]
+INFO  03:59:33,084 - #40 =
+INFO  03:59:33,084 - #39 lokalnichar
+INFO  03:59:33,084 - #41 ;
+INFO  03:59:33,085 - #39 matrica_brojeva
+INFO  03:59:33,085 - #6 [
+INFO  03:59:33,085 - #45 1
+INFO  03:59:33,085 - #7 ]
+INFO  03:59:33,085 - #6 [
+INFO  03:59:33,085 - #45 0
+INFO  03:59:33,085 - #7 ]
+INFO  03:59:33,085 - #40 =
+INFO  03:59:33,085 - #39 lokalnibroj
+INFO  03:59:33,085 - #12 +
+INFO  03:59:33,085 - #39 logic
+INFO  03:59:33,087 - #13 /
+INFO  03:59:33,087 - #39 broj
+INFO  03:59:33,088 - #41 ;
+INFO  03:59:33,088 - #39 matrica_brojeva
+INFO  03:59:33,089 - #6 [
+INFO  03:59:33,089 - #45 1
+INFO  03:59:33,089 - #7 ]
+INFO  03:59:33,089 - #6 [
+INFO  03:59:33,089 - #45 0
+INFO  03:59:33,089 - #7 ]
+INFO  03:59:33,089 - #40 =
+INFO  03:59:33,089 - #39 lokalnibroj
+INFO  03:59:33,089 - #12 +
+INFO  03:59:33,089 - #39 broj
+INFO  03:59:33,089 - #10 *
+INFO  03:59:33,089 - #39 niz_brojeva
+INFO  03:59:33,090 - #6 [
+INFO  03:59:33,090 - #45 1
+INFO  03:59:33,090 - #7 ]
+INFO  03:59:33,090 - #41 ;
+INFO  03:59:33,091 - #39 matrica_brojeva
+INFO  03:59:33,091 - #6 [
+INFO  03:59:33,091 - #45 1
+INFO  03:59:33,091 - #7 ]
+INFO  03:59:33,091 - #40 =
+INFO  03:59:33,091 - #39 niz_brojeva
+INFO  03:59:33,091 - #41 ;
+INFO  03:59:33,091 - #39 matrica_brojeva
+INFO  03:59:33,091 - #40 =
+INFO  03:59:33,091 - #39 niz_brojeva
+INFO  03:59:33,091 - #41 ;
+INFO  03:59:33,091 - #39 matrica_brojeva
+INFO  03:59:33,091 - #6 [
+INFO  03:59:33,091 - #45 1
+INFO  03:59:33,091 - #7 ]
+INFO  03:59:33,092 - #6 [
+INFO  03:59:33,092 - #45 0
+INFO  03:59:33,092 - #7 ]
+INFO  03:59:33,092 - #40 =
+INFO  03:59:33,092 - #39 niz_brojeva
+INFO  03:59:33,092 - #6 [
+INFO  03:59:33,092 - #45 1
+INFO  03:59:33,092 - #7 ]
+INFO  03:59:33,092 - #41 ;
+INFO  03:59:33,092 - #39 logic
+INFO  03:59:33,092 - #40 =
+INFO  03:59:33,092 - #46 true
+INFO  03:59:33,092 - #41 ;
+INFO  03:59:33,092 - #39 karakter
+INFO  03:59:33,093 - #40 =
+INFO  03:59:33,093 - #47 x
+INFO  03:59:33,093 - #41 ;
+INFO  03:59:33,093 - #39 broj
+INFO  03:59:33,093 - #40 =
+INFO  03:59:33,093 - #45 2
+INFO  03:59:33,093 - #10 *
+INFO  03:59:33,093 - #45 3
+INFO  03:59:33,094 - #12 +
+INFO  03:59:33,094 - #45 7
+INFO  03:59:33,094 - #11 -
+INFO  03:59:33,094 - #45 4
+INFO  03:59:33,095 - #41 ;
+INFO  03:59:33,095 - #39 broj
+INFO  03:59:33,095 - #40 =
+INFO  03:59:33,095 - #8 (
+INFO  03:59:33,095 - #45 2
+INFO  03:59:33,095 - #12 +
+INFO  03:59:33,096 - #45 3
+INFO  03:59:33,096 - #11 -
+INFO  03:59:33,096 - #8 (
+INFO  03:59:33,096 - #39 matrica_brojeva
+INFO  03:59:33,096 - #6 [
+INFO  03:59:33,096 - #45 1
+INFO  03:59:33,096 - #7 ]
+INFO  03:59:33,096 - #6 [
+INFO  03:59:33,096 - #45 2
+INFO  03:59:33,096 - #7 ]
+INFO  03:59:33,096 - #13 /
+INFO  03:59:33,096 - #45 3
+INFO  03:59:33,096 - #9 )
+INFO  03:59:33,096 - #17 %
+INFO  03:59:33,097 - #45 4
+INFO  03:59:33,098 - #9 )
+INFO  03:59:33,098 - #41 ;
+INFO  03:59:33,098 - #39 broj
+INFO  03:59:33,098 - #40 =
+INFO  03:59:33,098 - #8 (
+INFO  03:59:33,098 - #45 2
+INFO  03:59:33,098 - #12 +
+INFO  03:59:33,098 - #45 3
+INFO  03:59:33,098 - #11 -
+INFO  03:59:33,098 - #8 (
+INFO  03:59:33,098 - #39 lokalnichar
+INFO  03:59:33,098 - #13 /
+INFO  03:59:33,098 - #45 3
+INFO  03:59:33,098 - #9 )
+INFO  03:59:33,098 - #17 %
+INFO  03:59:33,098 - #45 4
+INFO  03:59:33,098 - #9 )
+INFO  03:59:33,099 - #41 ;
+INFO  03:59:33,099 - #39 broj
+INFO  03:59:33,099 - #40 =
+INFO  03:59:33,099 - #28 new
+INFO  03:59:33,099 - #39 int
+INFO  03:59:33,099 - #6 [
+INFO  03:59:33,099 - #8 (
+INFO  03:59:33,099 - #45 2
+INFO  03:59:33,099 - #12 +
+INFO  03:59:33,099 - #45 3
+INFO  03:59:33,099 - #11 -
+INFO  03:59:33,099 - #8 (
+INFO  03:59:33,099 - #39 matrica_brojeva
+INFO  03:59:33,099 - #6 [
+INFO  03:59:33,099 - #45 1
+INFO  03:59:33,099 - #7 ]
+INFO  03:59:33,099 - #6 [
+INFO  03:59:33,099 - #45 2
+INFO  03:59:33,099 - #7 ]
+INFO  03:59:33,099 - #13 /
+INFO  03:59:33,099 - #45 3
+INFO  03:59:33,099 - #9 )
+INFO  03:59:33,099 - #17 %
+INFO  03:59:33,100 - #45 4
+INFO  03:59:33,100 - #9 )
+INFO  03:59:33,100 - #7 ]
+INFO  03:59:33,100 - #41 ;
+INFO  03:59:33,100 - #39 niz_brojeva
+INFO  03:59:33,100 - #40 =
+INFO  03:59:33,100 - #28 new
+INFO  03:59:33,100 - #39 int
+INFO  03:59:33,100 - #6 [
+INFO  03:59:33,100 - #47 a
+INFO  03:59:33,100 - #7 ]
+INFO  03:59:33,100 - #41 ;
+INFO  03:59:33,100 - #39 niz_brojeva
+INFO  03:59:33,100 - #40 =
+INFO  03:59:33,100 - #28 new
+INFO  03:59:33,101 - #39 int
+INFO  03:59:33,101 - #6 [
+INFO  03:59:33,101 - #45 10
+INFO  03:59:33,101 - #7 ]
+INFO  03:59:33,101 - #41 ;
+INFO  03:59:33,101 - #42 return
+INFO  03:59:33,101 - #45 1
+INFO  03:59:33,101 - #41 ;
+INFO  03:59:33,101 - #4 }
+INFO  03:59:33,101 - #34 void
+INFO  03:59:33,101 - #39 main
+INFO  03:59:33,102 - #8 (
+INFO  03:59:33,102 - #9 )
+INFO  03:59:33,102 - #3 {
+INFO  03:59:33,102 - #4 }
+INFO  03:59:33,102 - #4 }
+INFO  03:59:33,108 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        NoConstVar(
+        ) [NoConstVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclNo(
+           broj
+          ) [VarDeclNo]
+          BrackListOne(
+            BrackListOne(
+              NoBrackList(
+              ) [NoBrackList]
+              VarDeclGOne(
+               niz_brojeva
+              ) [VarDeclGOne]
+            ) [BrackListOne]
+            VarDeclGTwo(
+             matrica_brojeva
+            ) [VarDeclGTwo]
+          ) [BrackListOne]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclNo(
+         karakter
+        ) [VarDeclNo]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+      VarDeclNo(
+       logic
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         f
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             lokalnibroj
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               bool
+              ) [Type]
+              FormParamDeclVarOne(
+               drugiparam
+              ) [FormParamDeclVarOne]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        VarList(
+          NoVarL(
+          ) [NoVarL]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclNo(
+             lokalnichar
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [VarList]
+        StatementListYes(
+          StatementListYes(
+            StatementListYes(
+              StatementListYes(
+                StatementListYes(
+                  StatementListYes(
+                    StatementListYes(
+                      StatementListYes(
+                        StatementListYes(
+                          StatementListYes(
+                            StatementListYes(
+                              StatementListYes(
+                                StatementListYes(
+                                  StatementListYes(
+                                    StatementListYes(
+                                      StatementListYes(
+                                        StatementListYes(
+                                          NoStmt(
+                                          ) [NoStmt]
+                                          DesignatorStatementOne(
+                                            DesignatorAsExpr(
+                                              NoDesig(
+                                               broj
+                                              ) [NoDesig]
+                                              ExprNoMinus(
+                                                TermFactor(
+                                                  FactorDesignator(
+                                                    NoDesig(
+                                                     lokalnibroj
+                                                    ) [NoDesig]
+                                                  ) [FactorDesignator]
+                                                ) [TermFactor]
+                                              ) [ExprNoMinus]
+                                            ) [DesignatorAsExpr]
+                                          ) [DesignatorStatementOne]
+                                        ) [StatementListYes]
+                                        DesignatorStatementOne(
+                                          DesignatorAsExpr(
+                                            NoDesig(
+                                             broj
+                                            ) [NoDesig]
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorDesignator(
+                                                  NoDesig(
+                                                   niz_brojeva
+                                                  ) [NoDesig]
+                                                ) [FactorDesignator]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                          ) [DesignatorAsExpr]
+                                        ) [DesignatorStatementOne]
+                                      ) [StatementListYes]
+                                      DesignatorStatementOne(
+                                        DesignatorAsExpr(
+                                          DesigExprDouble(
+                                           matrica_brojeva
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorNumConst(
+                                                 1
+                                                ) [FactorNumConst]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorNumConst(
+                                                 0
+                                                ) [FactorNumConst]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                          ) [DesigExprDouble]
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                NoDesig(
+                                                 lokalnichar
+                                                ) [NoDesig]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                        ) [DesignatorAsExpr]
+                                      ) [DesignatorStatementOne]
+                                    ) [StatementListYes]
+                                    DesignatorStatementOne(
+                                      DesignatorAsExpr(
+                                        DesigExprDouble(
+                                         matrica_brojeva
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorNumConst(
+                                               1
+                                              ) [FactorNumConst]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorNumConst(
+                                               0
+                                              ) [FactorNumConst]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                        ) [DesigExprDouble]
+                                        ExprAddop(
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                NoDesig(
+                                                 lokalnibroj
+                                                ) [NoDesig]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                          AddopPlus(
+                                          ) [AddopPlus]
+                                          TermFactorMulop(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                NoDesig(
+                                                 logic
+                                                ) [NoDesig]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                            MulopDiv(
+                                            ) [MulopDiv]
+                                            FactorDesignator(
+                                              NoDesig(
+                                               broj
+                                              ) [NoDesig]
+                                            ) [FactorDesignator]
+                                          ) [TermFactorMulop]
+                                        ) [ExprAddop]
+                                      ) [DesignatorAsExpr]
+                                    ) [DesignatorStatementOne]
+                                  ) [StatementListYes]
+                                  DesignatorStatementOne(
+                                    DesignatorAsExpr(
+                                      DesigExprDouble(
+                                       matrica_brojeva
+                                        ExprNoMinus(
+                                          TermFactor(
+                                            FactorNumConst(
+                                             1
+                                            ) [FactorNumConst]
+                                          ) [TermFactor]
+                                        ) [ExprNoMinus]
+                                        ExprNoMinus(
+                                          TermFactor(
+                                            FactorNumConst(
+                                             0
+                                            ) [FactorNumConst]
+                                          ) [TermFactor]
+                                        ) [ExprNoMinus]
+                                      ) [DesigExprDouble]
+                                      ExprAddop(
+                                        ExprNoMinus(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              NoDesig(
+                                               lokalnibroj
+                                              ) [NoDesig]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                        ) [ExprNoMinus]
+                                        AddopPlus(
+                                        ) [AddopPlus]
+                                        TermFactorMulop(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              NoDesig(
+                                               broj
+                                              ) [NoDesig]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                          MulopMulti(
+                                          ) [MulopMulti]
+                                          FactorDesignator(
+                                            DesigExprOne(
+                                             niz_brojeva
+                                              ExprNoMinus(
+                                                TermFactor(
+                                                  FactorNumConst(
+                                                   1
+                                                  ) [FactorNumConst]
+                                                ) [TermFactor]
+                                              ) [ExprNoMinus]
+                                            ) [DesigExprOne]
+                                          ) [FactorDesignator]
+                                        ) [TermFactorMulop]
+                                      ) [ExprAddop]
+                                    ) [DesignatorAsExpr]
+                                  ) [DesignatorStatementOne]
+                                ) [StatementListYes]
+                                DesignatorStatementOne(
+                                  DesignatorAsExpr(
+                                    DesigExprOne(
+                                     matrica_brojeva
+                                      ExprNoMinus(
+                                        TermFactor(
+                                          FactorNumConst(
+                                           1
+                                          ) [FactorNumConst]
+                                        ) [TermFactor]
+                                      ) [ExprNoMinus]
+                                    ) [DesigExprOne]
+                                    ExprNoMinus(
+                                      TermFactor(
+                                        FactorDesignator(
+                                          NoDesig(
+                                           niz_brojeva
+                                          ) [NoDesig]
+                                        ) [FactorDesignator]
+                                      ) [TermFactor]
+                                    ) [ExprNoMinus]
+                                  ) [DesignatorAsExpr]
+                                ) [DesignatorStatementOne]
+                              ) [StatementListYes]
+                              DesignatorStatementOne(
+                                DesignatorAsExpr(
+                                  NoDesig(
+                                   matrica_brojeva
+                                  ) [NoDesig]
+                                  ExprNoMinus(
+                                    TermFactor(
+                                      FactorDesignator(
+                                        NoDesig(
+                                         niz_brojeva
+                                        ) [NoDesig]
+                                      ) [FactorDesignator]
+                                    ) [TermFactor]
+                                  ) [ExprNoMinus]
+                                ) [DesignatorAsExpr]
+                              ) [DesignatorStatementOne]
+                            ) [StatementListYes]
+                            DesignatorStatementOne(
+                              DesignatorAsExpr(
+                                DesigExprDouble(
+                                 matrica_brojeva
+                                  ExprNoMinus(
+                                    TermFactor(
+                                      FactorNumConst(
+                                       1
+                                      ) [FactorNumConst]
+                                    ) [TermFactor]
+                                  ) [ExprNoMinus]
+                                  ExprNoMinus(
+                                    TermFactor(
+                                      FactorNumConst(
+                                       0
+                                      ) [FactorNumConst]
+                                    ) [TermFactor]
+                                  ) [ExprNoMinus]
+                                ) [DesigExprDouble]
+                                ExprNoMinus(
+                                  TermFactor(
+                                    FactorDesignator(
+                                      DesigExprOne(
+                                       niz_brojeva
+                                        ExprNoMinus(
+                                          TermFactor(
+                                            FactorNumConst(
+                                             1
+                                            ) [FactorNumConst]
+                                          ) [TermFactor]
+                                        ) [ExprNoMinus]
+                                      ) [DesigExprOne]
+                                    ) [FactorDesignator]
+                                  ) [TermFactor]
+                                ) [ExprNoMinus]
+                              ) [DesignatorAsExpr]
+                            ) [DesignatorStatementOne]
+                          ) [StatementListYes]
+                          DesignatorStatementOne(
+                            DesignatorAsExpr(
+                              NoDesig(
+                               logic
+                              ) [NoDesig]
+                              ExprNoMinus(
+                                TermFactor(
+                                  FactorBoolConst(
+                                   true
+                                  ) [FactorBoolConst]
+                                ) [TermFactor]
+                              ) [ExprNoMinus]
+                            ) [DesignatorAsExpr]
+                          ) [DesignatorStatementOne]
+                        ) [StatementListYes]
+                        DesignatorStatementOne(
+                          DesignatorAsExpr(
+                            NoDesig(
+                             karakter
+                            ) [NoDesig]
+                            ExprNoMinus(
+                              TermFactor(
+                                FactorCharConst(
+                                 x
+                                ) [FactorCharConst]
+                              ) [TermFactor]
+                            ) [ExprNoMinus]
+                          ) [DesignatorAsExpr]
+                        ) [DesignatorStatementOne]
+                      ) [StatementListYes]
+                      DesignatorStatementOne(
+                        DesignatorAsExpr(
+                          NoDesig(
+                           broj
+                          ) [NoDesig]
+                          ExprAddop(
+                            ExprAddop(
+                              ExprNoMinus(
+                                TermFactorMulop(
+                                  TermFactor(
+                                    FactorNumConst(
+                                     2
+                                    ) [FactorNumConst]
+                                  ) [TermFactor]
+                                  MulopMulti(
+                                  ) [MulopMulti]
+                                  FactorNumConst(
+                                   3
+                                  ) [FactorNumConst]
+                                ) [TermFactorMulop]
+                              ) [ExprNoMinus]
+                              AddopPlus(
+                              ) [AddopPlus]
+                              TermFactor(
+                                FactorNumConst(
+                                 7
+                                ) [FactorNumConst]
+                              ) [TermFactor]
+                            ) [ExprAddop]
+                            AddopMinus(
+                            ) [AddopMinus]
+                            TermFactor(
+                              FactorNumConst(
+                               4
+                              ) [FactorNumConst]
+                            ) [TermFactor]
+                          ) [ExprAddop]
+                        ) [DesignatorAsExpr]
+                      ) [DesignatorStatementOne]
+                    ) [StatementListYes]
+                    DesignatorStatementOne(
+                      DesignatorAsExpr(
+                        NoDesig(
+                         broj
+                        ) [NoDesig]
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorExpr(
+                              ExprAddop(
+                                ExprAddop(
+                                  ExprNoMinus(
+                                    TermFactor(
+                                      FactorNumConst(
+                                       2
+                                      ) [FactorNumConst]
+                                    ) [TermFactor]
+                                  ) [ExprNoMinus]
+                                  AddopPlus(
+                                  ) [AddopPlus]
+                                  TermFactor(
+                                    FactorNumConst(
+                                     3
+                                    ) [FactorNumConst]
+                                  ) [TermFactor]
+                                ) [ExprAddop]
+                                AddopMinus(
+                                ) [AddopMinus]
+                                TermFactorMulop(
+                                  TermFactor(
+                                    FactorExpr(
+                                      ExprNoMinus(
+                                        TermFactorMulop(
+                                          TermFactor(
+                                            FactorDesignator(
+                                              DesigExprDouble(
+                                               matrica_brojeva
+                                                ExprNoMinus(
+                                                  TermFactor(
+                                                    FactorNumConst(
+                                                     1
+                                                    ) [FactorNumConst]
+                                                  ) [TermFactor]
+                                                ) [ExprNoMinus]
+                                                ExprNoMinus(
+                                                  TermFactor(
+                                                    FactorNumConst(
+                                                     2
+                                                    ) [FactorNumConst]
+                                                  ) [TermFactor]
+                                                ) [ExprNoMinus]
+                                              ) [DesigExprDouble]
+                                            ) [FactorDesignator]
+                                          ) [TermFactor]
+                                          MulopDiv(
+                                          ) [MulopDiv]
+                                          FactorNumConst(
+                                           3
+                                          ) [FactorNumConst]
+                                        ) [TermFactorMulop]
+                                      ) [ExprNoMinus]
+                                    ) [FactorExpr]
+                                  ) [TermFactor]
+                                  MulopMod(
+                                  ) [MulopMod]
+                                  FactorNumConst(
+                                   4
+                                  ) [FactorNumConst]
+                                ) [TermFactorMulop]
+                              ) [ExprAddop]
+                            ) [FactorExpr]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [DesignatorAsExpr]
+                    ) [DesignatorStatementOne]
+                  ) [StatementListYes]
+                  DesignatorStatementOne(
+                    DesignatorAsExpr(
+                      NoDesig(
+                       broj
+                      ) [NoDesig]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorExpr(
+                            ExprAddop(
+                              ExprAddop(
+                                ExprNoMinus(
+                                  TermFactor(
+                                    FactorNumConst(
+                                     2
+                                    ) [FactorNumConst]
+                                  ) [TermFactor]
+                                ) [ExprNoMinus]
+                                AddopPlus(
+                                ) [AddopPlus]
+                                TermFactor(
+                                  FactorNumConst(
+                                   3
+                                  ) [FactorNumConst]
+                                ) [TermFactor]
+                              ) [ExprAddop]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              TermFactorMulop(
+                                TermFactor(
+                                  FactorExpr(
+                                    ExprNoMinus(
+                                      TermFactorMulop(
+                                        TermFactor(
+                                          FactorDesignator(
+                                            NoDesig(
+                                             lokalnichar
+                                            ) [NoDesig]
+                                          ) [FactorDesignator]
+                                        ) [TermFactor]
+                                        MulopDiv(
+                                        ) [MulopDiv]
+                                        FactorNumConst(
+                                         3
+                                        ) [FactorNumConst]
+                                      ) [TermFactorMulop]
+                                    ) [ExprNoMinus]
+                                  ) [FactorExpr]
+                                ) [TermFactor]
+                                MulopMod(
+                                ) [MulopMod]
+                                FactorNumConst(
+                                 4
+                                ) [FactorNumConst]
+                              ) [TermFactorMulop]
+                            ) [ExprAddop]
+                          ) [FactorExpr]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [DesignatorAsExpr]
+                  ) [DesignatorStatementOne]
+                ) [StatementListYes]
+                DesignatorStatementOne(
+                  DesignatorAsExpr(
+                    NoDesig(
+                     broj
+                    ) [NoDesig]
+                    ExprNoMinus(
+                      TermFactor(
+                        FactorNewBracket(
+                          Type(
+                           int
+                          ) [Type]
+                          ExprNoMinus(
+                            TermFactor(
+                              FactorExpr(
+                                ExprAddop(
+                                  ExprAddop(
+                                    ExprNoMinus(
+                                      TermFactor(
+                                        FactorNumConst(
+                                         2
+                                        ) [FactorNumConst]
+                                      ) [TermFactor]
+                                    ) [ExprNoMinus]
+                                    AddopPlus(
+                                    ) [AddopPlus]
+                                    TermFactor(
+                                      FactorNumConst(
+                                       3
+                                      ) [FactorNumConst]
+                                    ) [TermFactor]
+                                  ) [ExprAddop]
+                                  AddopMinus(
+                                  ) [AddopMinus]
+                                  TermFactorMulop(
+                                    TermFactor(
+                                      FactorExpr(
+                                        ExprNoMinus(
+                                          TermFactorMulop(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                DesigExprDouble(
+                                                 matrica_brojeva
+                                                  ExprNoMinus(
+                                                    TermFactor(
+                                                      FactorNumConst(
+                                                       1
+                                                      ) [FactorNumConst]
+                                                    ) [TermFactor]
+                                                  ) [ExprNoMinus]
+                                                  ExprNoMinus(
+                                                    TermFactor(
+                                                      FactorNumConst(
+                                                       2
+                                                      ) [FactorNumConst]
+                                                    ) [TermFactor]
+                                                  ) [ExprNoMinus]
+                                                ) [DesigExprDouble]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                            MulopDiv(
+                                            ) [MulopDiv]
+                                            FactorNumConst(
+                                             3
+                                            ) [FactorNumConst]
+                                          ) [TermFactorMulop]
+                                        ) [ExprNoMinus]
+                                      ) [FactorExpr]
+                                    ) [TermFactor]
+                                    MulopMod(
+                                    ) [MulopMod]
+                                    FactorNumConst(
+                                     4
+                                    ) [FactorNumConst]
+                                  ) [TermFactorMulop]
+                                ) [ExprAddop]
+                              ) [FactorExpr]
+                            ) [TermFactor]
+                          ) [ExprNoMinus]
+                        ) [FactorNewBracket]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [DesignatorAsExpr]
+                ) [DesignatorStatementOne]
+              ) [StatementListYes]
+              DesignatorStatementOne(
+                DesignatorAsExpr(
+                  NoDesig(
+                   niz_brojeva
+                  ) [NoDesig]
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorNewBracket(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorCharConst(
+                             a
+                            ) [FactorCharConst]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [FactorNewBracket]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [DesignatorAsExpr]
+              ) [DesignatorStatementOne]
+            ) [StatementListYes]
+            DesignatorStatementOne(
+              DesignatorAsExpr(
+                NoDesig(
+                 niz_brojeva
+                ) [NoDesig]
+                ExprNoMinus(
+                  TermFactor(
+                    FactorNewBracket(
+                      Type(
+                       int
+                      ) [Type]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorNumConst(
+                           10
+                          ) [FactorNumConst]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [FactorNewBracket]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [DesignatorAsExpr]
+            ) [DesignatorStatementOne]
+          ) [StatementListYes]
+          StatementRetExp(
+            ExprNoMinus(
+              TermFactor(
+                FactorNumConst(
+                 1
+                ) [FactorNumConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  03:59:33,109 - ===================================
+INFO  03:59:33,112 - Promenljiva niz_brojeva na liniji 6
+INFO  03:59:33,113 - Funkcija f na liniji 11
+INFO  03:59:33,113 - Dodela na liniji 14
+ERROR 03:59:33,113 - Greska! Leva i desna strana nisu kompatibilne! na liniji 15
+ERROR 03:59:33,113 - Greska! Leva i desna strana nisu kompatibilne! na liniji 16
+ERROR 03:59:33,113 - Greska! Neodgovarajuci tipovi pri mnozenju! na liniji 17
+ERROR 03:59:33,113 - Greska! Neodgovarajuci tipovi pri sabiranju! na liniji 17
+ERROR 03:59:33,113 - Greska! Leva i desna strana nisu kompatibilne! na liniji 17
+INFO  03:59:33,113 - Dodela na liniji 18
+INFO  03:59:33,113 - Dodela na liniji 19
+ERROR 03:59:33,113 - Greska! Leva i desna strana nisu kompatibilne! na liniji 20
+INFO  03:59:33,113 - Dodela na liniji 21
+INFO  03:59:33,113 - Dodela na liniji 22
+INFO  03:59:33,114 - Dodela na liniji 23
+INFO  03:59:33,114 - Dodela na liniji 24
+INFO  03:59:33,114 - Dodela na liniji 25
+ERROR 03:59:33,114 - Greska! Neodgovarajuci tipovi pri mnozenju! na liniji 26
+ERROR 03:59:33,114 - Greska! Neodgovarajuci tipovi pri mnozenju! na liniji 26
+ERROR 03:59:33,114 - Greska! Neodgovarajuci tipovi pri sabiranju! na liniji 26
+ERROR 03:59:33,114 - Greska! Leva i desna strana nisu kompatibilne! na liniji 26
+ERROR 03:59:33,114 - Greska! Leva i desna strana nisu kompatibilne! na liniji 27
+ERROR 03:59:33,114 - Greska! Broj mora biti int na liniji 28
+ERROR 03:59:33,114 - Greska! Leva i desna strana nisu kompatibilne! na liniji 28
+INFO  03:59:33,114 - Dodela na liniji 29
+INFO  03:59:33,114 - param 1
+INFO  03:59:33,114 - Funkcija main na liniji 32
+INFO  03:59:33,114 - param 4
+INFO  03:59:33,114 - ===================================
+ERROR 03:59:33,115 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,170 @@
+INFO  01:05:05,685 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  01:05:06,480 - #2 program
+INFO  01:05:06,481 - #39 test302
+INFO  01:05:06,481 - #5 const
+INFO  01:05:06,510 - #39 int
+INFO  01:05:06,510 - #39 jedan
+INFO  01:05:06,511 - #40 =
+INFO  01:05:06,512 - #45 1
+INFO  01:05:06,512 - #41 ;
+INFO  01:05:06,513 - #39 int
+INFO  01:05:06,533 - #39 i
+INFO  01:05:06,533 - #41 ;
+INFO  01:05:06,534 - #39 bool
+INFO  01:05:06,536 - #39 ibool
+INFO  01:05:06,536 - #41 ;
+INFO  01:05:06,536 - #39 int
+INFO  01:05:06,536 - #39 niz2
+INFO  01:05:06,536 - #6 [
+INFO  01:05:06,536 - #7 ]
+INFO  01:05:06,536 - #41 ;
+INFO  01:05:06,537 - #39 int
+INFO  01:05:06,537 - #39 niz
+INFO  01:05:06,537 - #6 [
+INFO  01:05:06,537 - #7 ]
+INFO  01:05:06,537 - #41 ;
+INFO  01:05:06,537 - #39 int
+INFO  01:05:06,537 - #39 a
+INFO  01:05:06,538 - #44 ,
+INFO  01:05:06,538 - #39 curr
+INFO  01:05:06,538 - #41 ;
+INFO  01:05:06,538 - #3 {
+INFO  01:05:06,538 - #34 void
+INFO  01:05:06,554 - #39 main
+INFO  01:05:06,556 - #8 (
+INFO  01:05:06,557 - #9 )
+INFO  01:05:06,558 - #3 {
+INFO  01:05:06,577 - #39 a
+INFO  01:05:06,578 - #40 =
+INFO  01:05:06,596 - #45 6
+INFO  01:05:06,596 - #41 ;
+INFO  01:05:06,597 - #4 }
+INFO  01:05:06,597 - #4 }
+INFO  01:05:06,646 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        ConstNoVar(
+          ConstNoVar(
+            ConstVardecl(
+              NoConstVar(
+              ) [NoConstVar]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+                NoList(
+                ) [NoList]
+              ) [ConstDecl]
+            ) [ConstVardecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclNo(
+               i
+              ) [VarDeclNo]
+              NoBrackList(
+              ) [NoBrackList]
+            ) [VarDecl]
+          ) [ConstNoVar]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            VarDeclNo(
+             ibool
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [ConstNoVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclGOne(
+           niz2
+          ) [VarDeclGOne]
+          NoBrackList(
+          ) [NoBrackList]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclGOne(
+         niz
+        ) [VarDeclGOne]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       a
+      ) [VarDeclNo]
+      BrackListOne(
+        NoBrackList(
+        ) [NoBrackList]
+        VarDeclNo(
+         curr
+        ) [VarDeclNo]
+      ) [BrackListOne]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStatementOne(
+          DesignatorAsExpr(
+            NoDesig(
+              DesigIdent(
+               a
+              ) [DesigIdent]
+            ) [NoDesig]
+            ExprNoMinus(
+              TermFactor(
+                FactorNumConst(
+                 6
+                ) [FactorNumConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [DesignatorAsExpr]
+        ) [DesignatorStatementOne]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  01:05:06,646 - ===================================
+INFO  01:05:06,675 - Nova konstanta: jedan = 1. na liniji 5
+INFO  01:05:06,675 - Promenljiva niz2 na liniji 10
+INFO  01:05:06,676 - Promenljiva niz na liniji 12
+INFO  01:05:06,676 - Funkcija main na liniji 18
+INFO  01:05:06,676 - Dodela na liniji 21
+INFO  01:05:06,676 - ===================================
+INFO  01:05:06,705 - Parsiranje uspesno zavrseno!

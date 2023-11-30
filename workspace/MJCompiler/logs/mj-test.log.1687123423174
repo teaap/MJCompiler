@@ -1,0 +1,169 @@
+INFO  23:21:39,052 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  23:21:39,099 - #2 program
+INFO  23:21:39,100 - #39 test301
+INFO  23:21:39,100 - #5 const
+INFO  23:21:39,102 - #39 int
+INFO  23:21:39,102 - #39 nula
+INFO  23:21:39,103 - #40 =
+INFO  23:21:39,103 - #45 0
+INFO  23:21:39,103 - #41 ;
+INFO  23:21:39,104 - #5 const
+INFO  23:21:39,105 - #39 char
+INFO  23:21:39,106 - #39 jedan
+INFO  23:21:39,106 - #40 =
+INFO  23:21:39,106 - #47 v
+INFO  23:21:39,106 - #41 ;
+INFO  23:21:39,106 - #5 const
+INFO  23:21:39,107 - #39 bool
+INFO  23:21:39,107 - #39 dva
+INFO  23:21:39,107 - #40 =
+INFO  23:21:39,107 - #46 true
+INFO  23:21:39,107 - #41 ;
+INFO  23:21:39,107 - #3 {
+INFO  23:21:39,108 - #39 int
+INFO  23:21:39,109 - #39 add
+INFO  23:21:39,109 - #8 (
+INFO  23:21:39,110 - #39 int
+INFO  23:21:39,110 - #39 a
+INFO  23:21:39,110 - #44 ,
+INFO  23:21:39,111 - #39 int
+INFO  23:21:39,111 - #39 b
+INFO  23:21:39,111 - #9 )
+INFO  23:21:39,112 - #39 int
+INFO  23:21:39,113 - #39 niz
+INFO  23:21:39,114 - #6 [
+INFO  23:21:39,114 - #7 ]
+INFO  23:21:39,114 - #6 [
+INFO  23:21:39,114 - #7 ]
+INFO  23:21:39,114 - #41 ;
+INFO  23:21:39,115 - #3 {
+INFO  23:21:39,116 - #4 }
+INFO  23:21:39,117 - #34 void
+INFO  23:21:39,117 - #39 main
+INFO  23:21:39,118 - #8 (
+INFO  23:21:39,119 - #9 )
+INFO  23:21:39,119 - #3 {
+INFO  23:21:39,120 - #4 }
+INFO  23:21:39,120 - #4 }
+INFO  23:21:39,126 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         add
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               b
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        VarList(
+          NoVarL(
+          ) [NoVarL]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclGTwo(
+             niz
+            ) [VarDeclGTwo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [VarList]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  23:21:39,127 - ===================================
+INFO  23:21:39,130 - Nova konstanta: nula = 0. na liniji 6
+INFO  23:21:39,130 - Nova konstanta: jedan = v. na liniji 7
+INFO  23:21:39,130 - Nova konstanta: dva = true. na liniji 8
+INFO  23:21:39,131 - Funkcija add na liniji 12
+INFO  23:21:39,131 - param 1
+ERROR 23:21:39,131 - Funkcija nema return na liniji 12
+INFO  23:21:39,131 - Funkcija main na liniji 15
+INFO  23:21:39,131 - param 4
+INFO  23:21:39,131 - ===================================
+ERROR 23:21:39,132 - Parsiranje NIJE uspesno zavrseno!

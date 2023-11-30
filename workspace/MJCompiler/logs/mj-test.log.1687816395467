@@ -1,0 +1,310 @@
+INFO  23:48:31,469 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  23:48:31,539 - #2 program
+INFO  23:48:31,540 - #39 test2
+INFO  23:48:31,540 - #5 const
+INFO  23:48:31,541 - #39 int
+INFO  23:48:31,541 - #39 jedan
+INFO  23:48:31,542 - #40 =
+INFO  23:48:31,542 - #45 1
+INFO  23:48:31,543 - #41 ;
+INFO  23:48:31,543 - #3 {
+INFO  23:48:31,544 - #34 void
+INFO  23:48:31,545 - #39 main
+INFO  23:48:31,546 - #8 (
+INFO  23:48:31,547 - #9 )
+INFO  23:48:31,547 - #39 int
+INFO  23:48:31,550 - #39 i
+INFO  23:48:31,550 - #41 ;
+INFO  23:48:31,551 - #3 {
+INFO  23:48:31,553 - #27 if
+INFO  23:48:31,554 - #8 (
+INFO  23:48:31,557 - #46 true
+INFO  23:48:31,557 - #9 )
+INFO  23:48:31,558 - #3 {
+INFO  23:48:31,559 - #27 if
+INFO  23:48:31,559 - #8 (
+INFO  23:48:31,560 - #45 4
+INFO  23:48:31,560 - #18 >
+INFO  23:48:31,560 - #45 5
+INFO  23:48:31,562 - #9 )
+INFO  23:48:31,562 - #3 {
+INFO  23:48:31,562 - #35 print
+INFO  23:48:31,563 - #8 (
+INFO  23:48:31,563 - #45 1
+INFO  23:48:31,563 - #9 )
+INFO  23:48:31,563 - #41 ;
+INFO  23:48:31,563 - #4 }
+INFO  23:48:31,563 - #26 else
+INFO  23:48:31,563 - #3 {
+INFO  23:48:31,565 - #35 print
+INFO  23:48:31,565 - #8 (
+INFO  23:48:31,565 - #45 2
+INFO  23:48:31,565 - #9 )
+INFO  23:48:31,565 - #41 ;
+INFO  23:48:31,565 - #4 }
+INFO  23:48:31,565 - #39 i
+INFO  23:48:31,566 - #40 =
+INFO  23:48:31,567 - #45 1
+INFO  23:48:31,567 - #41 ;
+INFO  23:48:31,567 - #29 while
+INFO  23:48:31,568 - #8 (
+INFO  23:48:31,569 - #39 i
+INFO  23:48:31,569 - #18 >
+INFO  23:48:31,569 - #45 0
+INFO  23:48:31,569 - #9 )
+INFO  23:48:31,571 - #3 {
+INFO  23:48:31,571 - #35 print
+INFO  23:48:31,571 - #8 (
+INFO  23:48:31,571 - #45 2
+INFO  23:48:31,571 - #9 )
+INFO  23:48:31,572 - #41 ;
+INFO  23:48:31,572 - #39 i
+INFO  23:48:31,572 - #33 --
+INFO  23:48:31,572 - #41 ;
+INFO  23:48:31,572 - #4 }
+INFO  23:48:31,572 - #4 }
+INFO  23:48:31,572 - #26 else
+INFO  23:48:31,573 - #35 print
+INFO  23:48:31,573 - #8 (
+INFO  23:48:31,573 - #45 1
+INFO  23:48:31,573 - #9 )
+INFO  23:48:31,573 - #41 ;
+INFO  23:48:31,573 - #4 }
+INFO  23:48:31,573 - #4 }
+INFO  23:48:31,580 - Program(
+  ProgName(
+   test2
+  ) [ProgName]
+  ConstVardecl(
+    NoConstVar(
+    ) [NoConstVar]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      NumConst(
+       jedan
+       1
+      ) [NumConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      VarList(
+        NoVarL(
+        ) [NoVarL]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclNo(
+           i
+          ) [VarDeclNo]
+          NoBrackList(
+          ) [NoBrackList]
+        ) [VarDecl]
+      ) [VarList]
+      StatementListYes(
+        NoStmt(
+        ) [NoStmt]
+        StatementIfElse(
+          IFStart(
+          ) [IFStart]
+          IfCond(
+            CondTermOne(
+              CondFactOne(
+                CondFactExpr(
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorBoolConst(
+                       true
+                      ) [FactorBoolConst]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [CondFactExpr]
+              ) [CondFactOne]
+            ) [CondTermOne]
+          ) [IfCond]
+          StatementListBrace(
+            StatementListYes(
+              StatementListYes(
+                StatementListYes(
+                  NoStmt(
+                  ) [NoStmt]
+                  StatementIfElse(
+                    IFStart(
+                    ) [IFStart]
+                    IfCond(
+                      CondTermOne(
+                        CondFactOne(
+                          CondFactRelop(
+                            ExprNoMinus(
+                              TermFactor(
+                                FactorNumConst(
+                                 4
+                                ) [FactorNumConst]
+                              ) [TermFactor]
+                            ) [ExprNoMinus]
+                            RelopGre(
+                            ) [RelopGre]
+                            ExprNoMinus(
+                              TermFactor(
+                                FactorNumConst(
+                                 5
+                                ) [FactorNumConst]
+                              ) [TermFactor]
+                            ) [ExprNoMinus]
+                          ) [CondFactRelop]
+                        ) [CondFactOne]
+                      ) [CondTermOne]
+                    ) [IfCond]
+                    StatementListBrace(
+                      StatementListYes(
+                        NoStmt(
+                        ) [NoStmt]
+                        StatementExpr(
+                          ExprNoMinus(
+                            TermFactor(
+                              FactorNumConst(
+                               1
+                              ) [FactorNumConst]
+                            ) [TermFactor]
+                          ) [ExprNoMinus]
+                        ) [StatementExpr]
+                      ) [StatementListYes]
+                    ) [StatementListBrace]
+                    ELSEStart(
+                    ) [ELSEStart]
+                    StatementListBrace(
+                      StatementListYes(
+                        NoStmt(
+                        ) [NoStmt]
+                        StatementExpr(
+                          ExprNoMinus(
+                            TermFactor(
+                              FactorNumConst(
+                               2
+                              ) [FactorNumConst]
+                            ) [TermFactor]
+                          ) [ExprNoMinus]
+                        ) [StatementExpr]
+                      ) [StatementListYes]
+                    ) [StatementListBrace]
+                  ) [StatementIfElse]
+                ) [StatementListYes]
+                DesignatorStatementOne(
+                  DesignatorAsExpr(
+                    DsignatorAss(
+                      NoDesig(
+                        DesigIdent(
+                         i
+                        ) [DesigIdent]
+                      ) [NoDesig]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorNumConst(
+                           1
+                          ) [FactorNumConst]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [DsignatorAss]
+                  ) [DesignatorAsExpr]
+                ) [DesignatorStatementOne]
+              ) [StatementListYes]
+              StatementWhile(
+                WHILEStart(
+                ) [WHILEStart]
+                WhileCondition(
+                  CondTermOne(
+                    CondFactOne(
+                      CondFactRelop(
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorDesignator(
+                              NoDesig(
+                                DesigIdent(
+                                 i
+                                ) [DesigIdent]
+                              ) [NoDesig]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                        RelopGre(
+                        ) [RelopGre]
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorNumConst(
+                             0
+                            ) [FactorNumConst]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [CondFactRelop]
+                    ) [CondFactOne]
+                  ) [CondTermOne]
+                ) [WhileCondition]
+                StatementListBrace(
+                  StatementListYes(
+                    StatementListYes(
+                      NoStmt(
+                      ) [NoStmt]
+                      StatementExpr(
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorNumConst(
+                             2
+                            ) [FactorNumConst]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [StatementExpr]
+                    ) [StatementListYes]
+                    DesignatorStatementOne(
+                      DesignatorMinusMinus(
+                        NoDesig(
+                          DesigIdent(
+                           i
+                          ) [DesigIdent]
+                        ) [NoDesig]
+                      ) [DesignatorMinusMinus]
+                    ) [DesignatorStatementOne]
+                  ) [StatementListYes]
+                ) [StatementListBrace]
+              ) [StatementWhile]
+            ) [StatementListYes]
+          ) [StatementListBrace]
+          ELSEStart(
+          ) [ELSEStart]
+          StatementExpr(
+            ExprNoMinus(
+              TermFactor(
+                FactorNumConst(
+                 1
+                ) [FactorNumConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [StatementExpr]
+        ) [StatementIfElse]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  23:48:31,581 - ===================================
+INFO  23:48:31,584 - Ime programa: test2 na liniji 3
+INFO  23:48:31,585 - Pronadjen tip int na liniji 5
+INFO  23:48:31,585 - Deklarisana konstanta: jedan = 1. na liniji 5
+INFO  23:48:31,585 - Deklarisana funkcija main na liniji 11
+INFO  23:48:31,585 - Pronadjen tip int na liniji 11
+INFO  23:48:31,585 - Deklarisana promenljiva i na liniji 11
+INFO  23:48:31,585 - Dodela vrednosti na liniji 18
+INFO  23:48:31,586 - ===================================
+INFO  23:48:31,593 - Parsiranje uspesno zavrseno!

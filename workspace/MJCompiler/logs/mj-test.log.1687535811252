@@ -1,0 +1,169 @@
+INFO  17:52:02,541 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  17:52:03,296 - #2 program
+INFO  17:52:03,296 - #39 test302
+INFO  17:52:03,297 - #5 const
+INFO  17:52:03,305 - #39 int
+INFO  17:52:03,305 - #39 jedan
+INFO  17:52:03,316 - #40 =
+INFO  17:52:03,316 - #45 1
+INFO  17:52:03,316 - #41 ;
+INFO  17:52:03,317 - #39 int
+INFO  17:52:03,329 - #39 i
+INFO  17:52:03,329 - #41 ;
+INFO  17:52:03,331 - #39 bool
+INFO  17:52:03,341 - #39 ibool
+INFO  17:52:03,342 - #41 ;
+INFO  17:52:03,342 - #39 int
+INFO  17:52:03,342 - #39 niz2
+INFO  17:52:03,342 - #6 [
+INFO  17:52:03,342 - #7 ]
+INFO  17:52:03,342 - #41 ;
+INFO  17:52:03,342 - #39 int
+INFO  17:52:03,342 - #39 niz
+INFO  17:52:03,343 - #6 [
+INFO  17:52:03,343 - #7 ]
+INFO  17:52:03,343 - #41 ;
+INFO  17:52:03,343 - #39 int
+INFO  17:52:03,343 - #39 a
+INFO  17:52:03,343 - #44 ,
+INFO  17:52:03,343 - #39 b
+INFO  17:52:03,343 - #44 ,
+INFO  17:52:03,344 - #39 curr
+INFO  17:52:03,344 - #41 ;
+INFO  17:52:03,344 - #3 {
+INFO  17:52:03,344 - #34 void
+INFO  17:52:03,453 - #39 main
+INFO  17:52:03,470 - #8 (
+INFO  17:52:03,487 - #9 )
+INFO  17:52:03,487 - #3 {
+INFO  17:52:03,508 - #39 a
+INFO  17:52:03,520 - #40 =
+INFO  17:52:03,521 - #12 +
+ERROR 17:52:03,521 - 
+Sintaksna greska na liniji 19
+INFO  17:52:03,521 - #41 ;
+INFO  17:52:03,521 - #4 }
+INFO  17:52:03,521 - #4 }
+ERROR 17:52:03,522 - Sintaksna greska! Izvresn oporavak posle naredbe dodele 1
+INFO  17:52:03,544 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        ConstNoVar(
+          ConstNoVar(
+            ConstVardecl(
+              NoConstVar(
+              ) [NoConstVar]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+                NoList(
+                ) [NoList]
+              ) [ConstDecl]
+            ) [ConstVardecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclNo(
+               i
+              ) [VarDeclNo]
+              NoBrackList(
+              ) [NoBrackList]
+            ) [VarDecl]
+          ) [ConstNoVar]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            VarDeclNo(
+             ibool
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [ConstNoVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclGOne(
+           niz2
+          ) [VarDeclGOne]
+          NoBrackList(
+          ) [NoBrackList]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclGOne(
+         niz
+        ) [VarDeclGOne]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       a
+      ) [VarDeclNo]
+      BrackListOne(
+        BrackListOne(
+          NoBrackList(
+          ) [NoBrackList]
+          VarDeclNo(
+           b
+          ) [VarDeclNo]
+        ) [BrackListOne]
+        VarDeclNo(
+         curr
+        ) [VarDeclNo]
+      ) [BrackListOne]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStatementOne(
+          DesignatorAsExpr(
+            DesignatorExprError(
+            ) [DesignatorExprError]
+          ) [DesignatorAsExpr]
+        ) [DesignatorStatementOne]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  17:52:03,544 - ===================================
+INFO  17:52:03,586 - Nova konstanta: jedan = 1. na liniji 5
+INFO  17:52:03,586 - Promenljiva niz2 na liniji 10
+INFO  17:52:03,587 - Promenljiva niz na liniji 12
+INFO  17:52:03,587 - Funkcija main na liniji 17
+INFO  17:52:03,587 - ===================================
+ERROR 17:52:03,588 - Parsiranje NIJE uspesno zavrseno!

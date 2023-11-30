@@ -1,0 +1,115 @@
+INFO  19:28:08,073 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  19:28:08,155 - #2 program
+INFO  19:28:08,155 - #39 test301
+INFO  19:28:08,155 - #39 int
+INFO  19:28:08,157 - #39 sd
+INFO  19:28:08,159 - #6 [
+INFO  19:28:08,159 - #7 ]
+INFO  19:28:08,159 - #6 [
+INFO  19:28:08,159 - #7 ]
+INFO  19:28:08,159 - #41 ;
+INFO  19:28:08,161 - #3 {
+INFO  19:28:08,162 - #39 int
+INFO  19:28:08,163 - #39 add
+INFO  19:28:08,164 - #8 (
+INFO  19:28:08,165 - #39 int
+INFO  19:28:08,166 - #39 a
+INFO  19:28:08,166 - #44 ,
+INFO  19:28:08,167 - #39 int
+INFO  19:28:08,167 - #39 b
+INFO  19:28:08,167 - #9 )
+INFO  19:28:08,169 - #3 {
+INFO  19:28:08,170 - #4 }
+INFO  19:28:08,171 - #34 void
+INFO  19:28:08,173 - #39 main
+INFO  19:28:08,175 - #8 (
+INFO  19:28:08,176 - #9 )
+INFO  19:28:08,176 - #3 {
+INFO  19:28:08,177 - #4 }
+INFO  19:28:08,177 - #4 }
+INFO  19:28:08,186 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstNoVar(
+    NoConstVar(
+    ) [NoConstVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclGTwo(
+       sd
+      ) [VarDeclGTwo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         add
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               b
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        NoVarL(
+        ) [NoVarL]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  19:28:08,187 - ===================================
+INFO  19:28:08,192 - Ime programa: test301 na liniji 3
+INFO  19:28:08,192 - Pronadjen tip int na liniji 5
+INFO  19:28:08,192 - Deklarisana promenljiva sd na liniji 5
+INFO  19:28:08,193 - Pronadjen tip int na liniji 10
+INFO  19:28:08,193 - Deklarisana funkcija add na liniji 10
+INFO  19:28:08,193 - Pronadjen tip int na liniji 10
+INFO  19:28:08,193 - Parametar a na liniji 10
+INFO  19:28:08,193 - Pronadjen tip int na liniji 10
+INFO  19:28:08,193 - Parametar b na liniji 10
+ERROR 19:28:08,193 - Funkcija nema return na liniji 10
+INFO  19:28:08,193 - Deklarisana funkcija main na liniji 14
+INFO  19:28:08,194 - ===================================
+ERROR 19:28:08,195 - Parsiranje NIJE uspesno zavrseno!

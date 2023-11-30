@@ -1,0 +1,87 @@
+INFO  19:21:52,956 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  19:21:53,042 - #2 program
+INFO  19:21:53,042 - #39 test301
+INFO  19:21:53,043 - #5 const
+INFO  19:21:53,045 - #39 int
+INFO  19:21:53,045 - #39 nula
+INFO  19:21:53,046 - #40 =
+INFO  19:21:53,046 - #45 0
+INFO  19:21:53,046 - #41 ;
+INFO  19:21:53,047 - #5 const
+INFO  19:21:53,048 - #39 char
+INFO  19:21:53,048 - #39 jedan
+INFO  19:21:53,048 - #40 =
+INFO  19:21:53,049 - #47 v
+INFO  19:21:53,049 - #41 ;
+INFO  19:21:53,049 - #5 const
+INFO  19:21:53,049 - #39 bool
+INFO  19:21:53,049 - #39 dva
+INFO  19:21:53,049 - #40 =
+INFO  19:21:53,049 - #46 true
+INFO  19:21:53,050 - #41 ;
+INFO  19:21:53,050 - #3 {
+INFO  19:21:53,050 - #34 void
+INFO  19:21:53,051 - #39 main
+INFO  19:21:53,051 - #8 (
+INFO  19:21:53,052 - #9 )
+INFO  19:21:53,052 - #3 {
+INFO  19:21:53,053 - #4 }
+INFO  19:21:53,054 - #4 }
+INFO  19:21:53,079 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclNoVoid(
+     main
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclNoVoid]
+  ) [MethodList]
+) [Program]
+INFO  19:21:53,079 - ===================================

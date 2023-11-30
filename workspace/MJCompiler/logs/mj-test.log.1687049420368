@@ -1,0 +1,99 @@
+INFO  02:46:18,313 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  02:46:18,384 - #2 program
+INFO  02:46:18,384 - #39 test301
+INFO  02:46:18,384 - #5 const
+INFO  02:46:18,385 - #39 int
+INFO  02:46:18,385 - #39 nula
+INFO  02:46:18,386 - #40 =
+INFO  02:46:18,386 - #45 0
+INFO  02:46:18,386 - #41 ;
+INFO  02:46:18,387 - #5 const
+INFO  02:46:18,388 - #39 char
+INFO  02:46:18,388 - #39 jedan
+INFO  02:46:18,388 - #40 =
+INFO  02:46:18,389 - #47 v
+INFO  02:46:18,389 - #41 ;
+INFO  02:46:18,389 - #5 const
+INFO  02:46:18,389 - #39 bool
+INFO  02:46:18,389 - #39 dva
+INFO  02:46:18,389 - #40 =
+INFO  02:46:18,389 - #46 true
+INFO  02:46:18,389 - #41 ;
+INFO  02:46:18,390 - #3 {
+INFO  02:46:18,390 - #34 void
+INFO  02:46:18,391 - #39 main
+INFO  02:46:18,392 - #8 (
+INFO  02:46:18,393 - #9 )
+INFO  02:46:18,393 - #3 {
+INFO  02:46:18,394 - #4 }
+INFO  02:46:18,395 - #4 }
+INFO  02:46:18,402 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  02:46:18,402 - ===================================
+INFO  02:46:18,405 - Nova konstanta: nula = 0. na liniji 6
+INFO  02:46:18,405 - Nova konstanta: jedan = v. na liniji 7
+INFO  02:46:18,405 - Nova konstanta: dva = true. na liniji 8
+INFO  02:46:18,405 - Funkcija main na liniji 11
+ERROR 02:46:18,405 - Funkcija nema return na liniji 11
+INFO  02:46:18,405 - ===================================

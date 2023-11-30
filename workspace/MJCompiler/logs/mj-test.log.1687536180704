@@ -1,0 +1,265 @@
+INFO  18:02:29,454 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  18:02:29,506 - #2 program
+INFO  18:02:29,506 - #39 test302
+INFO  18:02:29,506 - #5 const
+INFO  18:02:29,508 - #39 int
+INFO  18:02:29,508 - #39 jedan
+INFO  18:02:29,509 - #40 =
+INFO  18:02:29,509 - #45 1
+INFO  18:02:29,509 - #41 ;
+INFO  18:02:29,510 - #39 int
+INFO  18:02:29,510 - #39 i
+INFO  18:02:29,511 - #41 ;
+INFO  18:02:29,511 - #39 bool
+INFO  18:02:29,512 - #39 ibool
+INFO  18:02:29,512 - #41 ;
+INFO  18:02:29,513 - #39 int
+INFO  18:02:29,513 - #39 niz2
+INFO  18:02:29,513 - #6 [
+INFO  18:02:29,513 - #7 ]
+INFO  18:02:29,513 - #41 ;
+INFO  18:02:29,513 - #39 int
+INFO  18:02:29,513 - #39 niz
+INFO  18:02:29,515 - #6 [
+INFO  18:02:29,516 - #7 ]
+INFO  18:02:29,516 - #41 ;
+INFO  18:02:29,516 - #39 int
+INFO  18:02:29,516 - #39 a
+INFO  18:02:29,516 - #44 ,
+INFO  18:02:29,516 - #39 b
+INFO  18:02:29,516 - #44 ,
+INFO  18:02:29,516 - #39 curr
+INFO  18:02:29,516 - #41 ;
+INFO  18:02:29,516 - #3 {
+INFO  18:02:29,516 - #39 int
+INFO  18:02:29,517 - #39 izracunaj
+INFO  18:02:29,518 - #8 (
+INFO  18:02:29,519 - #39 int
+INFO  18:02:29,519 - #39 a
+INFO  18:02:29,519 - #44 ,
+INFO  18:02:29,520 - #39 int
+INFO  18:02:29,520 - #39 b
+INFO  18:02:29,520 - #9 )
+INFO  18:02:29,521 - #3 {
+INFO  18:02:29,522 - #42 return
+INFO  18:02:29,523 - #39 a
+INFO  18:02:29,523 - #12 +
+INFO  18:02:29,524 - #39 b
+INFO  18:02:29,525 - #41 ;
+INFO  18:02:29,525 - #4 }
+INFO  18:02:29,526 - #34 void
+INFO  18:02:29,526 - #39 main
+INFO  18:02:29,527 - #8 (
+INFO  18:02:29,527 - #9 )
+INFO  18:02:29,527 - #3 {
+INFO  18:02:29,527 - #39 izracunaj
+INFO  18:02:29,528 - #8 (
+INFO  18:02:29,528 - #45 1
+INFO  18:02:29,528 - #9 )
+INFO  18:02:29,529 - #41 ;
+INFO  18:02:29,529 - #4 }
+INFO  18:02:29,529 - #4 }
+INFO  18:02:29,535 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        ConstNoVar(
+          ConstNoVar(
+            ConstVardecl(
+              NoConstVar(
+              ) [NoConstVar]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+                NoList(
+                ) [NoList]
+              ) [ConstDecl]
+            ) [ConstVardecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclNo(
+               i
+              ) [VarDeclNo]
+              NoBrackList(
+              ) [NoBrackList]
+            ) [VarDecl]
+          ) [ConstNoVar]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            VarDeclNo(
+             ibool
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [ConstNoVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclGOne(
+           niz2
+          ) [VarDeclGOne]
+          NoBrackList(
+          ) [NoBrackList]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclGOne(
+         niz
+        ) [VarDeclGOne]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       a
+      ) [VarDeclNo]
+      BrackListOne(
+        BrackListOne(
+          NoBrackList(
+          ) [NoBrackList]
+          VarDeclNo(
+           b
+          ) [VarDeclNo]
+        ) [BrackListOne]
+        VarDeclNo(
+         curr
+        ) [VarDeclNo]
+      ) [BrackListOne]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         izracunaj
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               b
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        NoVarL(
+        ) [NoVarL]
+        StatementListYes(
+          NoStmt(
+          ) [NoStmt]
+          StatementRetExp(
+            ExprAddop(
+              ExprNoMinus(
+                TermFactor(
+                  FactorDesignator(
+                    NoDesig(
+                      DesigIdent(
+                       a
+                      ) [DesigIdent]
+                    ) [NoDesig]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+              AddopPlus(
+              ) [AddopPlus]
+              TermFactor(
+                FactorDesignator(
+                  NoDesig(
+                    DesigIdent(
+                     b
+                    ) [DesigIdent]
+                  ) [NoDesig]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprAddop]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStatementOne(
+          DesignatorFuncCall(
+            FactorFunc(
+              NoDesig(
+                DesigIdent(
+                 izracunaj
+                ) [DesigIdent]
+              ) [NoDesig]
+            ) [FactorFunc]
+            ActParsLista(
+              ActParsOne(
+                ExprNoMinus(
+                  TermFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [ActParsOne]
+            ) [ActParsLista]
+          ) [DesignatorFuncCall]
+        ) [DesignatorStatementOne]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  18:02:29,535 - ===================================
+INFO  18:02:29,539 - Nova konstanta: jedan = 1. na liniji 5
+INFO  18:02:29,539 - Promenljiva niz2 na liniji 10
+INFO  18:02:29,539 - Promenljiva niz na liniji 12
+INFO  18:02:29,539 - Funkcija izracunaj na liniji 16
+INFO  18:02:29,539 - Funkcija main na liniji 20
+ERROR 18:02:29,540 - Greska! Greska u broju parametara na liniji 22
+INFO  18:02:29,540 - ===================================
+ERROR 18:02:29,540 - Parsiranje NIJE uspesno zavrseno!

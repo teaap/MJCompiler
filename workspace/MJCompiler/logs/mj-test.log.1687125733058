@@ -1,0 +1,245 @@
+INFO  23:59:39,093 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  23:59:39,131 - #2 program
+INFO  23:59:39,131 - #39 myProgram
+INFO  23:59:39,131 - #39 int
+INFO  23:59:39,133 - #39 broj
+INFO  23:59:39,134 - #44 ,
+INFO  23:59:39,134 - #39 niz_brojeva
+INFO  23:59:39,134 - #6 [
+INFO  23:59:39,135 - #7 ]
+INFO  23:59:39,135 - #44 ,
+INFO  23:59:39,135 - #39 matrica_brojeva
+INFO  23:59:39,135 - #6 [
+INFO  23:59:39,135 - #7 ]
+INFO  23:59:39,135 - #6 [
+INFO  23:59:39,135 - #7 ]
+INFO  23:59:39,135 - #41 ;
+INFO  23:59:39,135 - #39 char
+INFO  23:59:39,136 - #39 karakter
+INFO  23:59:39,137 - #41 ;
+INFO  23:59:39,137 - #39 bool
+INFO  23:59:39,137 - #39 logic
+INFO  23:59:39,137 - #41 ;
+INFO  23:59:39,139 - #3 {
+INFO  23:59:39,139 - #39 bool
+INFO  23:59:39,140 - #39 f
+INFO  23:59:39,140 - #8 (
+INFO  23:59:39,141 - #39 int
+INFO  23:59:39,141 - #39 lokalnibroj
+INFO  23:59:39,141 - #44 ,
+INFO  23:59:39,142 - #39 bool
+INFO  23:59:39,142 - #39 drugiparam
+INFO  23:59:39,142 - #6 [
+INFO  23:59:39,142 - #7 ]
+INFO  23:59:39,143 - #9 )
+INFO  23:59:39,144 - #39 char
+INFO  23:59:39,144 - #39 lokalnichar
+INFO  23:59:39,144 - #41 ;
+INFO  23:59:39,144 - #3 {
+INFO  23:59:39,145 - #39 broj
+INFO  23:59:39,145 - #40 =
+INFO  23:59:39,146 - #39 lokalnibroj
+INFO  23:59:39,146 - #41 ;
+INFO  23:59:39,146 - #39 broj
+INFO  23:59:39,147 - #40 =
+INFO  23:59:39,147 - #39 niz_brojeva
+INFO  23:59:39,147 - #6 [
+INFO  23:59:39,147 - #45 2
+INFO  23:59:39,147 - #7 ]
+INFO  23:59:39,147 - #41 ;
+INFO  23:59:39,147 - #42 return
+INFO  23:59:39,148 - #46 true
+INFO  23:59:39,148 - #41 ;
+INFO  23:59:39,148 - #4 }
+INFO  23:59:39,148 - #34 void
+INFO  23:59:39,149 - #39 main
+INFO  23:59:39,150 - #8 (
+INFO  23:59:39,150 - #9 )
+INFO  23:59:39,150 - #3 {
+INFO  23:59:39,151 - #4 }
+INFO  23:59:39,151 - #4 }
+INFO  23:59:39,157 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        NoConstVar(
+        ) [NoConstVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclNo(
+           broj
+          ) [VarDeclNo]
+          BrackListOne(
+            BrackListOne(
+              NoBrackList(
+              ) [NoBrackList]
+              VarDeclGOne(
+               niz_brojeva
+              ) [VarDeclGOne]
+            ) [BrackListOne]
+            VarDeclGTwo(
+             matrica_brojeva
+            ) [VarDeclGTwo]
+          ) [BrackListOne]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclNo(
+         karakter
+        ) [VarDeclNo]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+      VarDeclNo(
+       logic
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             bool
+            ) [Type]
+          ) [MethodReturnTypeType]
+         f
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             lokalnibroj
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               bool
+              ) [Type]
+              FormParamDeclVarOne(
+               drugiparam
+              ) [FormParamDeclVarOne]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        VarList(
+          NoVarL(
+          ) [NoVarL]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclNo(
+             lokalnichar
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [VarList]
+        StatementListYes(
+          StatementListYes(
+            StatementListYes(
+              NoStmt(
+              ) [NoStmt]
+              DesignatorStatementOne(
+                DesignatorAsExpr(
+                  NoDesig(
+                   broj
+                  ) [NoDesig]
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorDesignator(
+                        NoDesig(
+                         lokalnibroj
+                        ) [NoDesig]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [DesignatorAsExpr]
+              ) [DesignatorStatementOne]
+            ) [StatementListYes]
+            DesignatorStatementOne(
+              DesignatorAsExpr(
+                NoDesig(
+                 broj
+                ) [NoDesig]
+                ExprNoMinus(
+                  TermFactor(
+                    FactorDesignator(
+                      DesigExprOne(
+                       niz_brojeva
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorNumConst(
+                             2
+                            ) [FactorNumConst]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [DesigExprOne]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [DesignatorAsExpr]
+            ) [DesignatorStatementOne]
+          ) [StatementListYes]
+          StatementRetExp(
+            ExprNoMinus(
+              TermFactor(
+                FactorBoolConst(
+                 true
+                ) [FactorBoolConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  23:59:39,158 - ===================================
+INFO  23:59:39,161 - Promenljiva niz_brojeva na liniji 6
+INFO  23:59:39,161 - Funkcija f na liniji 11
+INFO  23:59:39,161 - TIpppp: 1 na liniji 14
+INFO  23:59:39,161 - TIpppp: 3 na liniji 15
+ERROR 23:59:39,161 - Greska! Tip mora biti ili int ili bool ili char na liniji 15
+ERROR 23:59:39,162 - Greska! Leva i desna strana moraju biti kompatibilne na liniji 15
+INFO  23:59:39,162 - Tip1: 5tip2: 5 na liniji 16
+INFO  23:59:39,162 - param 5
+INFO  23:59:39,162 - Funkcija main na liniji 18
+INFO  23:59:39,162 - param 4
+INFO  23:59:39,162 - ===================================
+ERROR 23:59:39,163 - Parsiranje NIJE uspesno zavrseno!

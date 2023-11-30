@@ -1,0 +1,118 @@
+INFO  03:07:38,153 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  03:07:38,197 - #2 program
+INFO  03:07:38,197 - #39 test301
+INFO  03:07:38,198 - #5 const
+INFO  03:07:38,199 - #39 int
+INFO  03:07:38,199 - #39 nula
+INFO  03:07:38,200 - #40 =
+INFO  03:07:38,200 - #45 0
+INFO  03:07:38,200 - #41 ;
+INFO  03:07:38,201 - #5 const
+INFO  03:07:38,202 - #39 char
+INFO  03:07:38,202 - #39 jedan
+INFO  03:07:38,202 - #40 =
+INFO  03:07:38,202 - #47 v
+INFO  03:07:38,202 - #41 ;
+INFO  03:07:38,202 - #5 const
+INFO  03:07:38,203 - #39 bool
+INFO  03:07:38,203 - #39 dva
+INFO  03:07:38,203 - #40 =
+INFO  03:07:38,203 - #46 true
+INFO  03:07:38,203 - #41 ;
+INFO  03:07:38,203 - #3 {
+INFO  03:07:38,205 - #39 int
+INFO  03:07:38,206 - #39 main
+INFO  03:07:38,206 - #8 (
+INFO  03:07:38,208 - #9 )
+INFO  03:07:38,208 - #3 {
+INFO  03:07:38,209 - #42 return
+INFO  03:07:38,209 - #45 1
+INFO  03:07:38,210 - #41 ;
+INFO  03:07:38,210 - #4 }
+INFO  03:07:38,210 - #4 }
+INFO  03:07:38,219 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodReturnTypeType]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        NoStmt(
+        ) [NoStmt]
+        StatementRetExp(
+          ExprNoMinus(
+            TermFactor(
+              FactorNumConst(
+               1
+              ) [FactorNumConst]
+            ) [TermFactor]
+          ) [ExprNoMinus]
+        ) [StatementRetExp]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  03:07:38,219 - ===================================
+INFO  03:07:38,221 - Nova konstanta: nula = 0. na liniji 6
+INFO  03:07:38,222 - Nova konstanta: jedan = v. na liniji 7
+INFO  03:07:38,222 - Nova konstanta: dva = true. na liniji 8
+INFO  03:07:38,222 - Funkcija main na liniji 11
+INFO  03:07:38,222 - Current type 1 na liniji 11
+ERROR 03:07:38,222 - Funkcija nema return na liniji 11
+INFO  03:07:38,222 - ===================================
+ERROR 03:07:38,223 - Parsiranje NIJE uspesno zavrseno!

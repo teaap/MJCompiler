@@ -1,0 +1,182 @@
+INFO  23:20:22,238 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  23:20:22,276 - #2 program
+INFO  23:20:22,276 - #39 test301
+INFO  23:20:22,276 - #5 const
+INFO  23:20:22,277 - #39 int
+INFO  23:20:22,278 - #39 nula
+INFO  23:20:22,278 - #40 =
+INFO  23:20:22,278 - #45 0
+INFO  23:20:22,278 - #41 ;
+INFO  23:20:22,279 - #5 const
+INFO  23:20:22,280 - #39 char
+INFO  23:20:22,281 - #39 jedan
+INFO  23:20:22,281 - #40 =
+INFO  23:20:22,281 - #47 v
+INFO  23:20:22,281 - #41 ;
+INFO  23:20:22,281 - #5 const
+INFO  23:20:22,281 - #39 bool
+INFO  23:20:22,281 - #39 dva
+INFO  23:20:22,282 - #40 =
+INFO  23:20:22,282 - #46 true
+INFO  23:20:22,282 - #41 ;
+INFO  23:20:22,282 - #3 {
+INFO  23:20:22,284 - #39 int
+INFO  23:20:22,285 - #39 add
+INFO  23:20:22,286 - #8 (
+INFO  23:20:22,287 - #39 int
+INFO  23:20:22,287 - #39 a
+INFO  23:20:22,287 - #44 ,
+INFO  23:20:22,288 - #39 int
+INFO  23:20:22,288 - #39 b
+INFO  23:20:22,288 - #9 )
+INFO  23:20:22,289 - #39 int
+INFO  23:20:22,290 - #39 niz
+INFO  23:20:22,290 - #6 [
+INFO  23:20:22,290 - #7 ]
+INFO  23:20:22,291 - #6 [
+INFO  23:20:22,291 - #7 ]
+INFO  23:20:22,291 - #41 ;
+INFO  23:20:22,292 - #3 {
+INFO  23:20:22,292 - #42 return
+INFO  23:20:22,293 - #45 2
+INFO  23:20:22,293 - #41 ;
+INFO  23:20:22,294 - #4 }
+INFO  23:20:22,294 - #34 void
+INFO  23:20:22,294 - #39 main
+INFO  23:20:22,295 - #8 (
+INFO  23:20:22,295 - #9 )
+INFO  23:20:22,296 - #3 {
+INFO  23:20:22,296 - #4 }
+INFO  23:20:22,296 - #4 }
+INFO  23:20:22,303 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         add
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               b
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        VarList(
+          NoVarL(
+          ) [NoVarL]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclGTwo(
+             niz
+            ) [VarDeclGTwo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [VarList]
+        StatementListYes(
+          NoStmt(
+          ) [NoStmt]
+          StatementRetExp(
+            ExprNoMinus(
+              TermFactor(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  23:20:22,304 - ===================================
+INFO  23:20:22,307 - Nova konstanta: nula = 0. na liniji 6
+INFO  23:20:22,307 - Nova konstanta: jedan = v. na liniji 7
+INFO  23:20:22,307 - Nova konstanta: dva = true. na liniji 8
+INFO  23:20:22,307 - Funkcija add na liniji 12
+INFO  23:20:22,308 - param 1
+INFO  23:20:22,308 - Funkcija main na liniji 15
+INFO  23:20:22,308 - param 4
+INFO  23:20:22,308 - ===================================
+INFO  23:20:22,308 - Parsiranje uspesno zavrseno!

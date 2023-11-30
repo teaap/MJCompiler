@@ -1,0 +1,116 @@
+INFO  00:59:46,474 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  00:59:46,537 - #2 program
+INFO  00:59:46,537 - #39 myProgram
+INFO  00:59:46,537 - #39 int
+INFO  00:59:46,539 - #39 broj
+INFO  00:59:46,540 - #41 ;
+INFO  00:59:46,541 - #3 {
+INFO  00:59:46,542 - #34 void
+INFO  00:59:46,543 - #39 main
+INFO  00:59:46,544 - #8 (
+INFO  00:59:46,545 - #9 )
+INFO  00:59:46,545 - #3 {
+INFO  00:59:46,547 - #30 read
+INFO  00:59:46,548 - #8 (
+INFO  00:59:46,548 - #39 broj
+INFO  00:59:46,548 - #9 )
+INFO  00:59:46,548 - #41 ;
+INFO  00:59:46,549 - #39 broj
+INFO  00:59:46,549 - #14 ++
+INFO  00:59:46,549 - #41 ;
+INFO  00:59:46,549 - #35 print
+INFO  00:59:46,550 - #8 (
+INFO  00:59:46,550 - #39 broj
+INFO  00:59:46,552 - #10 *
+INFO  00:59:46,553 - #45 5
+INFO  00:59:46,554 - #12 +
+INFO  00:59:46,555 - #45 2
+INFO  00:59:46,556 - #9 )
+INFO  00:59:46,556 - #41 ;
+INFO  00:59:46,557 - #4 }
+INFO  00:59:46,557 - #4 }
+INFO  00:59:46,565 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    NoConstVar(
+    ) [NoConstVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       broj
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        StatementListYes(
+          StatementListYes(
+            NoStmt(
+            ) [NoStmt]
+            StatementRead(
+              NoDesig(
+               broj
+              ) [NoDesig]
+            ) [StatementRead]
+          ) [StatementListYes]
+          DesignatorStatementOne(
+            DesignatorPlusPlus(
+              NoDesig(
+               broj
+              ) [NoDesig]
+            ) [DesignatorPlusPlus]
+          ) [DesignatorStatementOne]
+        ) [StatementListYes]
+        StatementExpr(
+          ExprAddop(
+            ExprNoMinus(
+              TermFactorMulop(
+                TermFactor(
+                  FactorDesignator(
+                    NoDesig(
+                     broj
+                    ) [NoDesig]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+                MulopMulti(
+                ) [MulopMulti]
+                FactorNumConst(
+                 5
+                ) [FactorNumConst]
+              ) [TermFactorMulop]
+            ) [ExprNoMinus]
+            AddopPlus(
+            ) [AddopPlus]
+            TermFactor(
+              FactorNumConst(
+               2
+              ) [FactorNumConst]
+            ) [TermFactor]
+          ) [ExprAddop]
+        ) [StatementExpr]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  00:59:46,566 - ===================================
+INFO  00:59:46,569 - Funkcija main na liniji 10
+INFO  00:59:46,569 - ===================================
+INFO  00:59:46,574 - Parsiranje uspesno zavrseno!

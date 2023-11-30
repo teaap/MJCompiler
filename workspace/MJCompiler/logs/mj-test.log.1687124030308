@@ -1,0 +1,173 @@
+INFO  23:33:33,671 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  23:33:33,709 - #2 program
+INFO  23:33:33,709 - #39 myProgram
+INFO  23:33:33,709 - #39 int
+INFO  23:33:33,711 - #39 broj
+INFO  23:33:33,711 - #44 ,
+INFO  23:33:33,712 - #39 niz_brojeva
+INFO  23:33:33,712 - #6 [
+INFO  23:33:33,713 - #7 ]
+INFO  23:33:33,713 - #44 ,
+INFO  23:33:33,713 - #39 matrica_brojeva
+INFO  23:33:33,713 - #6 [
+INFO  23:33:33,713 - #7 ]
+INFO  23:33:33,713 - #6 [
+INFO  23:33:33,713 - #7 ]
+INFO  23:33:33,713 - #41 ;
+INFO  23:33:33,713 - #39 char
+INFO  23:33:33,714 - #39 karakter
+INFO  23:33:33,715 - #41 ;
+INFO  23:33:33,715 - #39 bool
+INFO  23:33:33,715 - #39 logic
+INFO  23:33:33,715 - #41 ;
+INFO  23:33:33,717 - #3 {
+INFO  23:33:33,717 - #39 bool
+INFO  23:33:33,718 - #39 f
+INFO  23:33:33,718 - #8 (
+INFO  23:33:33,719 - #39 int
+INFO  23:33:33,720 - #39 lokalnibroj
+INFO  23:33:33,720 - #44 ,
+INFO  23:33:33,720 - #39 bool
+INFO  23:33:33,721 - #39 drugiparam
+INFO  23:33:33,721 - #6 [
+INFO  23:33:33,721 - #7 ]
+INFO  23:33:33,721 - #9 )
+INFO  23:33:33,722 - #39 char
+INFO  23:33:33,722 - #39 lokalnichar
+INFO  23:33:33,723 - #41 ;
+INFO  23:33:33,723 - #3 {
+INFO  23:33:33,723 - #4 }
+INFO  23:33:33,724 - #34 void
+INFO  23:33:33,724 - #39 main
+INFO  23:33:33,725 - #8 (
+INFO  23:33:33,725 - #9 )
+INFO  23:33:33,725 - #3 {
+INFO  23:33:33,726 - #4 }
+INFO  23:33:33,726 - #4 }
+INFO  23:33:33,732 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        NoConstVar(
+        ) [NoConstVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclNo(
+           broj
+          ) [VarDeclNo]
+          BrackListOne(
+            BrackListOne(
+              NoBrackList(
+              ) [NoBrackList]
+              VarDeclGOne(
+               niz_brojeva
+              ) [VarDeclGOne]
+            ) [BrackListOne]
+            VarDeclGTwo(
+             matrica_brojeva
+            ) [VarDeclGTwo]
+          ) [BrackListOne]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclNo(
+         karakter
+        ) [VarDeclNo]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+      VarDeclNo(
+       logic
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             bool
+            ) [Type]
+          ) [MethodReturnTypeType]
+         f
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             lokalnibroj
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               bool
+              ) [Type]
+              FormParamDeclVarOne(
+               drugiparam
+              ) [FormParamDeclVarOne]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        VarList(
+          NoVarL(
+          ) [NoVarL]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclNo(
+             lokalnichar
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [VarList]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  23:33:33,732 - ===================================
+INFO  23:33:33,736 - Promenljiva niz_brojeva na liniji 6
+INFO  23:33:33,736 - Funkcija f na liniji 11
+INFO  23:33:33,737 - param 5
+ERROR 23:33:33,737 - Funkcija nema return na liniji 11
+INFO  23:33:33,737 - Funkcija main na liniji 16
+INFO  23:33:33,737 - param 4
+INFO  23:33:33,737 - ===================================
+ERROR 23:33:33,738 - Parsiranje NIJE uspesno zavrseno!

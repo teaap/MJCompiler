@@ -1,0 +1,147 @@
+INFO  03:36:01,438 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  03:36:01,474 - #2 program
+INFO  03:36:01,474 - #39 test301
+INFO  03:36:01,474 - #5 const
+INFO  03:36:01,475 - #39 int
+INFO  03:36:01,476 - #39 nula
+INFO  03:36:01,476 - #40 =
+INFO  03:36:01,476 - #45 0
+INFO  03:36:01,477 - #41 ;
+INFO  03:36:01,477 - #5 const
+INFO  03:36:01,479 - #39 char
+INFO  03:36:01,479 - #39 jedan
+INFO  03:36:01,479 - #40 =
+INFO  03:36:01,479 - #47 v
+INFO  03:36:01,480 - #41 ;
+INFO  03:36:01,480 - #5 const
+INFO  03:36:01,480 - #39 bool
+INFO  03:36:01,480 - #39 dva
+INFO  03:36:01,480 - #40 =
+INFO  03:36:01,480 - #46 true
+INFO  03:36:01,480 - #41 ;
+INFO  03:36:01,480 - #3 {
+INFO  03:36:01,483 - #34 void
+INFO  03:36:01,484 - #39 add
+INFO  03:36:01,484 - #8 (
+INFO  03:36:01,485 - #39 int
+INFO  03:36:01,485 - #39 a
+INFO  03:36:01,485 - #44 ,
+INFO  03:36:01,486 - #39 int
+INFO  03:36:01,486 - #39 a
+INFO  03:36:01,486 - #9 )
+INFO  03:36:01,487 - #3 {
+INFO  03:36:01,488 - #4 }
+INFO  03:36:01,489 - #34 void
+INFO  03:36:01,489 - #39 main
+INFO  03:36:01,489 - #8 (
+INFO  03:36:01,489 - #9 )
+INFO  03:36:01,489 - #3 {
+INFO  03:36:01,490 - #4 }
+INFO  03:36:01,490 - #4 }
+INFO  03:36:01,498 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeVoid(
+          ) [MethodReturnTypeVoid]
+         add
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               a
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        NoVarL(
+        ) [NoVarL]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  03:36:01,498 - ===================================
+INFO  03:36:01,501 - Nova konstanta: nula = 0. na liniji 6
+INFO  03:36:01,501 - Nova konstanta: jedan = v. na liniji 7
+INFO  03:36:01,501 - Nova konstanta: dva = true. na liniji 8
+INFO  03:36:01,501 - Funkcija add na liniji 11
+ERROR 03:36:01,501 - Promenljiva je vec parametar na liniji 11
+INFO  03:36:01,501 - param 4
+INFO  03:36:01,501 - Funkcija main na liniji 12
+INFO  03:36:01,501 - param 4
+INFO  03:36:01,501 - ===================================
+ERROR 03:36:01,502 - Parsiranje NIJE uspesno zavrseno!

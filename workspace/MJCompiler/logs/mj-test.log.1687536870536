@@ -1,0 +1,235 @@
+INFO  18:09:18,377 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  18:09:18,420 - #2 program
+INFO  18:09:18,420 - #39 test302
+INFO  18:09:18,420 - #5 const
+INFO  18:09:18,421 - #39 int
+INFO  18:09:18,421 - #39 jedan
+INFO  18:09:18,422 - #40 =
+INFO  18:09:18,423 - #45 1
+INFO  18:09:18,423 - #41 ;
+INFO  18:09:18,424 - #39 int
+INFO  18:09:18,425 - #39 i
+INFO  18:09:18,425 - #41 ;
+INFO  18:09:18,426 - #39 bool
+INFO  18:09:18,427 - #39 ibool
+INFO  18:09:18,427 - #41 ;
+INFO  18:09:18,427 - #39 int
+INFO  18:09:18,427 - #39 niz2
+INFO  18:09:18,427 - #6 [
+INFO  18:09:18,427 - #7 ]
+INFO  18:09:18,427 - #41 ;
+INFO  18:09:18,428 - #39 int
+INFO  18:09:18,428 - #39 niz
+INFO  18:09:18,428 - #6 [
+INFO  18:09:18,428 - #7 ]
+INFO  18:09:18,428 - #41 ;
+INFO  18:09:18,428 - #39 int
+INFO  18:09:18,429 - #39 a
+INFO  18:09:18,429 - #44 ,
+INFO  18:09:18,429 - #39 b
+INFO  18:09:18,429 - #44 ,
+INFO  18:09:18,429 - #39 curr
+INFO  18:09:18,429 - #41 ;
+INFO  18:09:18,429 - #3 {
+INFO  18:09:18,429 - #39 int
+INFO  18:09:18,430 - #39 izracunaj
+INFO  18:09:18,430 - #8 (
+INFO  18:09:18,431 - #39 int
+INFO  18:09:18,431 - #39 a
+INFO  18:09:18,431 - #44 ,
+INFO  18:09:18,432 - #39 int
+INFO  18:09:18,432 - #39 b
+INFO  18:09:18,432 - #9 )
+INFO  18:09:18,433 - #3 {
+INFO  18:09:18,433 - #42 return
+INFO  18:09:18,434 - #39 a
+INFO  18:09:18,435 - #12 +
+INFO  18:09:18,436 - #39 b
+INFO  18:09:18,437 - #41 ;
+INFO  18:09:18,437 - #4 }
+INFO  18:09:18,438 - #34 void
+INFO  18:09:18,438 - #39 main
+INFO  18:09:18,439 - #8 (
+INFO  18:09:18,439 - #9 )
+INFO  18:09:18,439 - #3 {
+INFO  18:09:18,439 - #4 }
+INFO  18:09:18,440 - #4 }
+INFO  18:09:18,445 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        ConstNoVar(
+          ConstNoVar(
+            ConstVardecl(
+              NoConstVar(
+              ) [NoConstVar]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+                NoList(
+                ) [NoList]
+              ) [ConstDecl]
+            ) [ConstVardecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclNo(
+               i
+              ) [VarDeclNo]
+              NoBrackList(
+              ) [NoBrackList]
+            ) [VarDecl]
+          ) [ConstNoVar]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            VarDeclNo(
+             ibool
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [ConstNoVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclGOne(
+           niz2
+          ) [VarDeclGOne]
+          NoBrackList(
+          ) [NoBrackList]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclGOne(
+         niz
+        ) [VarDeclGOne]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       a
+      ) [VarDeclNo]
+      BrackListOne(
+        BrackListOne(
+          NoBrackList(
+          ) [NoBrackList]
+          VarDeclNo(
+           b
+          ) [VarDeclNo]
+        ) [BrackListOne]
+        VarDeclNo(
+         curr
+        ) [VarDeclNo]
+      ) [BrackListOne]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         izracunaj
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               b
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        NoVarL(
+        ) [NoVarL]
+        StatementListYes(
+          NoStmt(
+          ) [NoStmt]
+          StatementRetExp(
+            ExprAddop(
+              ExprNoMinus(
+                TermFactor(
+                  FactorDesignator(
+                    NoDesig(
+                      DesigIdent(
+                       a
+                      ) [DesigIdent]
+                    ) [NoDesig]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+              AddopPlus(
+              ) [AddopPlus]
+              TermFactor(
+                FactorDesignator(
+                  NoDesig(
+                    DesigIdent(
+                     b
+                    ) [DesigIdent]
+                  ) [NoDesig]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprAddop]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  18:09:18,446 - ===================================
+INFO  18:09:18,449 - Nova konstanta: jedan = 1. na liniji 5
+INFO  18:09:18,449 - Promenljiva niz2 na liniji 10
+INFO  18:09:18,449 - Promenljiva niz na liniji 12
+INFO  18:09:18,449 - Funkcija izracunaj na liniji 16
+INFO  18:09:18,449 - Funkcija main na liniji 20
+INFO  18:09:18,449 - ===================================
+INFO  18:09:18,454 - Parsiranje uspesno zavrseno!

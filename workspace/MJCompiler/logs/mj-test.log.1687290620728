@@ -1,0 +1,85 @@
+INFO  21:36:52,046 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  21:36:52,133 - #2 program
+INFO  21:36:52,133 - #39 myProgram
+INFO  21:36:52,133 - #39 int
+INFO  21:36:52,135 - #39 broj
+INFO  21:36:52,137 - #41 ;
+INFO  21:36:52,137 - #3 {
+INFO  21:36:52,139 - #34 void
+INFO  21:36:52,140 - #39 main
+INFO  21:36:52,140 - #8 (
+INFO  21:36:52,141 - #9 )
+INFO  21:36:52,141 - #3 {
+INFO  21:36:52,143 - #30 read
+INFO  21:36:52,144 - #8 (
+INFO  21:36:52,144 - #39 broj
+INFO  21:36:52,144 - #9 )
+INFO  21:36:52,144 - #41 ;
+INFO  21:36:52,144 - #35 print
+INFO  21:36:52,145 - #8 (
+INFO  21:36:52,145 - #39 broj
+INFO  21:36:52,145 - #9 )
+INFO  21:36:52,145 - #41 ;
+INFO  21:36:52,145 - #4 }
+INFO  21:36:52,146 - #4 }
+INFO  21:36:52,153 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    NoConstVar(
+    ) [NoConstVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       broj
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        StatementListYes(
+          NoStmt(
+          ) [NoStmt]
+          StatementRead(
+            NoDesig(
+             broj
+            ) [NoDesig]
+          ) [StatementRead]
+        ) [StatementListYes]
+        StatementExpr(
+          ExprNoMinus(
+            TermFactor(
+              FactorDesignator(
+                NoDesig(
+                 broj
+                ) [NoDesig]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprNoMinus]
+        ) [StatementExpr]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  21:36:52,154 - ===================================
+INFO  21:36:52,157 - Funkcija main na liniji 10
+INFO  21:36:52,157 - param 4
+INFO  21:36:52,157 - ===================================
+INFO  21:36:52,161 - Parsiranje uspesno zavrseno!

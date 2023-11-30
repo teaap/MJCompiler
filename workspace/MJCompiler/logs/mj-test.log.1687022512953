@@ -1,0 +1,90 @@
+INFO  17:59:00,786 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  17:59:00,855 - #2 program
+INFO  17:59:00,856 - #39 test301
+INFO  17:59:00,856 - #5 const
+INFO  17:59:00,857 - #39 int
+INFO  17:59:00,857 - #39 nula
+INFO  17:59:00,858 - #40 =
+INFO  17:59:00,858 - #45 0
+INFO  17:59:00,858 - #41 ;
+INFO  17:59:00,859 - #5 const
+INFO  17:59:00,860 - #39 char
+INFO  17:59:00,860 - #39 jedan
+INFO  17:59:00,861 - #40 =
+INFO  17:59:00,861 - #47 v
+INFO  17:59:00,861 - #41 ;
+INFO  17:59:00,861 - #5 const
+INFO  17:59:00,861 - #39 bool
+INFO  17:59:00,861 - #39 dva
+INFO  17:59:00,861 - #40 =
+INFO  17:59:00,862 - #46 true
+INFO  17:59:00,862 - #41 ;
+INFO  17:59:00,862 - #3 {
+INFO  17:59:00,862 - #34 void
+INFO  17:59:00,863 - #39 main
+INFO  17:59:00,863 - #8 (
+INFO  17:59:00,863 - #9 )
+INFO  17:59:00,863 - #3 {
+INFO  17:59:00,864 - #4 }
+INFO  17:59:00,865 - #4 }
+INFO  17:59:00,902 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclNoVoid(
+     main
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclNoVoid]
+  ) [MethodList]
+) [Program]
+INFO  17:59:00,903 - ===================================
+ERROR 17:59:00,905 - Greska! main() nije pronadjen!
+INFO  17:59:00,905 - ===================================
+ERROR 17:59:00,906 - Parsiranje NIJE uspesno zavrseno!

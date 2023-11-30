@@ -1,0 +1,96 @@
+INFO  00:58:22,049 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  00:58:22,095 - #2 program
+INFO  00:58:22,096 - #39 myProgram
+INFO  00:58:22,096 - #39 int
+INFO  00:58:22,098 - #39 broj
+INFO  00:58:22,099 - #41 ;
+INFO  00:58:22,100 - #3 {
+INFO  00:58:22,101 - #34 void
+INFO  00:58:22,102 - #39 main
+INFO  00:58:22,103 - #8 (
+INFO  00:58:22,104 - #9 )
+INFO  00:58:22,104 - #3 {
+INFO  00:58:22,105 - #30 read
+INFO  00:58:22,106 - #8 (
+INFO  00:58:22,106 - #39 broj
+INFO  00:58:22,106 - #9 )
+INFO  00:58:22,106 - #41 ;
+INFO  00:58:22,106 - #39 broj
+INFO  00:58:22,106 - #14 ++
+INFO  00:58:22,107 - #41 ;
+INFO  00:58:22,107 - #35 print
+INFO  00:58:22,107 - #8 (
+INFO  00:58:22,107 - #39 broj
+INFO  00:58:22,109 - #9 )
+INFO  00:58:22,110 - #41 ;
+INFO  00:58:22,110 - #4 }
+INFO  00:58:22,110 - #4 }
+INFO  00:58:22,116 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    NoConstVar(
+    ) [NoConstVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       broj
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        StatementListYes(
+          StatementListYes(
+            NoStmt(
+            ) [NoStmt]
+            StatementRead(
+              NoDesig(
+               broj
+              ) [NoDesig]
+            ) [StatementRead]
+          ) [StatementListYes]
+          DesignatorStatementOne(
+            DesignatorPlusPlus(
+              NoDesig(
+               broj
+              ) [NoDesig]
+            ) [DesignatorPlusPlus]
+          ) [DesignatorStatementOne]
+        ) [StatementListYes]
+        StatementExpr(
+          ExprNoMinus(
+            TermFactor(
+              FactorDesignator(
+                NoDesig(
+                 broj
+                ) [NoDesig]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprNoMinus]
+        ) [StatementExpr]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  00:58:22,117 - ===================================
+INFO  00:58:22,119 - Funkcija main na liniji 10
+INFO  00:58:22,120 - ===================================
+INFO  00:58:22,124 - Parsiranje uspesno zavrseno!

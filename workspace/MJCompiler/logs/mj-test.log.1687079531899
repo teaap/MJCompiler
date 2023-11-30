@@ -1,0 +1,165 @@
+INFO  11:11:22,479 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  11:11:22,518 - #2 program
+INFO  11:11:22,518 - #39 test301
+INFO  11:11:22,519 - #5 const
+INFO  11:11:22,520 - #39 int
+INFO  11:11:22,521 - #39 nula
+INFO  11:11:22,521 - #40 =
+INFO  11:11:22,522 - #45 0
+INFO  11:11:22,522 - #41 ;
+INFO  11:11:22,523 - #5 const
+INFO  11:11:22,524 - #39 char
+INFO  11:11:22,524 - #39 jedan
+INFO  11:11:22,524 - #40 =
+INFO  11:11:22,524 - #47 v
+INFO  11:11:22,525 - #41 ;
+INFO  11:11:22,525 - #5 const
+INFO  11:11:22,525 - #39 bool
+INFO  11:11:22,525 - #39 dva
+INFO  11:11:22,525 - #40 =
+INFO  11:11:22,525 - #46 true
+INFO  11:11:22,525 - #41 ;
+INFO  11:11:22,526 - #3 {
+INFO  11:11:22,527 - #34 void
+INFO  11:11:22,529 - #39 add
+INFO  11:11:22,530 - #8 (
+INFO  11:11:22,531 - #39 int
+INFO  11:11:22,531 - #39 a
+INFO  11:11:22,531 - #44 ,
+INFO  11:11:22,533 - #39 int
+INFO  11:11:22,533 - #39 b
+INFO  11:11:22,533 - #9 )
+INFO  11:11:22,534 - #39 int
+INFO  11:11:22,535 - #39 niz
+INFO  11:11:22,536 - #6 [
+INFO  11:11:22,536 - #7 ]
+INFO  11:11:22,536 - #6 [
+INFO  11:11:22,536 - #7 ]
+INFO  11:11:22,536 - #41 ;
+INFO  11:11:22,537 - #3 {
+INFO  11:11:22,538 - #4 }
+INFO  11:11:22,539 - #34 void
+INFO  11:11:22,539 - #39 main
+INFO  11:11:22,540 - #8 (
+INFO  11:11:22,540 - #9 )
+INFO  11:11:22,540 - #3 {
+INFO  11:11:22,540 - #4 }
+INFO  11:11:22,541 - #4 }
+INFO  11:11:22,549 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ConstVardecl(
+    ConstVardecl(
+      ConstVardecl(
+        NoConstVar(
+        ) [NoConstVar]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NumConst(
+           nula
+           0
+          ) [NumConst]
+          NoList(
+          ) [NoList]
+        ) [ConstDecl]
+      ) [ConstVardecl]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        CharConst(
+         jedan
+         v
+        ) [CharConst]
+        NoList(
+        ) [NoList]
+      ) [ConstDecl]
+    ) [ConstVardecl]
+    ConstDecl(
+      Type(
+       bool
+      ) [Type]
+      BoolConst(
+       dva
+       true
+      ) [BoolConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeVoid(
+          ) [MethodReturnTypeVoid]
+         add
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               b
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        VarList(
+          NoVarL(
+          ) [NoVarL]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclGTwo(
+             niz
+            ) [VarDeclGTwo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [VarList]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  11:11:22,549 - ===================================
+INFO  11:11:22,552 - Nova konstanta: nula = 0. na liniji 6
+INFO  11:11:22,552 - Nova konstanta: jedan = v. na liniji 7
+INFO  11:11:22,552 - Nova konstanta: dva = true. na liniji 8
+INFO  11:11:22,553 - Funkcija add na liniji 12
+INFO  11:11:22,553 - param 4
+INFO  11:11:22,553 - Funkcija main na liniji 13
+INFO  11:11:22,553 - param 4
+INFO  11:11:22,553 - ===================================
+INFO  11:11:22,554 - Parsiranje uspesno zavrseno!

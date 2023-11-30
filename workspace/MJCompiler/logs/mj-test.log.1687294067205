@@ -1,0 +1,70 @@
+INFO  22:46:57,265 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  22:46:57,431 - #2 program
+INFO  22:46:57,431 - #39 myProgram
+INFO  22:46:57,431 - #39 int
+INFO  22:46:57,434 - #39 broj
+INFO  22:46:57,436 - #41 ;
+INFO  22:46:57,438 - #3 {
+INFO  22:46:57,441 - #34 void
+INFO  22:46:57,443 - #39 main
+INFO  22:46:57,445 - #8 (
+INFO  22:46:57,448 - #9 )
+INFO  22:46:57,448 - #3 {
+INFO  22:46:57,452 - #35 print
+INFO  22:46:57,454 - #8 (
+INFO  22:46:57,454 - #45 3
+INFO  22:46:57,454 - #9 )
+INFO  22:46:57,455 - #41 ;
+INFO  22:46:57,455 - #4 }
+INFO  22:46:57,456 - #4 }
+INFO  22:46:57,480 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    NoConstVar(
+    ) [NoConstVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       broj
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        NoStmt(
+        ) [NoStmt]
+        StatementExpr(
+          ExprNoMinus(
+            TermFactor(
+              FactorNumConst(
+               3
+              ) [FactorNumConst]
+            ) [TermFactor]
+          ) [ExprNoMinus]
+        ) [StatementExpr]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  22:46:57,482 - ===================================
+INFO  22:46:57,497 - Funkcija main na liniji 10
+INFO  22:46:57,497 - ===================================
+INFO  22:46:57,505 - Parsiranje uspesno zavrseno!

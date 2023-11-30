@@ -1,0 +1,268 @@
+INFO  01:30:07,451 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  01:30:07,494 - #2 program
+INFO  01:30:07,494 - #39 test302
+INFO  01:30:07,494 - #5 const
+INFO  01:30:07,495 - #39 int
+INFO  01:30:07,495 - #39 jedan
+INFO  01:30:07,496 - #41 =
+INFO  01:30:07,496 - #46 1
+INFO  01:30:07,496 - #42 ;
+INFO  01:30:07,497 - #39 int
+INFO  01:30:07,497 - #39 i
+INFO  01:30:07,497 - #42 ;
+INFO  01:30:07,498 - #39 bool
+INFO  01:30:07,499 - #39 ibool
+INFO  01:30:07,499 - #42 ;
+INFO  01:30:07,499 - #39 char
+INFO  01:30:07,499 - #39 niz2
+INFO  01:30:07,499 - #6 [
+INFO  01:30:07,499 - #7 ]
+INFO  01:30:07,499 - #42 ;
+INFO  01:30:07,500 - #39 char
+INFO  01:30:07,500 - #39 matrica
+INFO  01:30:07,502 - #6 [
+INFO  01:30:07,502 - #7 ]
+INFO  01:30:07,502 - #6 [
+INFO  01:30:07,502 - #7 ]
+INFO  01:30:07,502 - #42 ;
+INFO  01:30:07,502 - #39 char
+INFO  01:30:07,503 - #39 niz
+INFO  01:30:07,503 - #6 [
+INFO  01:30:07,503 - #7 ]
+INFO  01:30:07,503 - #42 ;
+INFO  01:30:07,503 - #39 char
+INFO  01:30:07,503 - #39 a
+INFO  01:30:07,503 - #45 ,
+INFO  01:30:07,503 - #39 curr
+INFO  01:30:07,503 - #42 ;
+INFO  01:30:07,504 - #39 int
+INFO  01:30:07,504 - #39 aa
+INFO  01:30:07,504 - #45 ,
+INFO  01:30:07,504 - #39 bb
+INFO  01:30:07,504 - #42 ;
+INFO  01:30:07,504 - #3 {
+INFO  01:30:07,504 - #34 void
+INFO  01:30:07,505 - #39 main
+INFO  01:30:07,506 - #8 (
+INFO  01:30:07,507 - #9 )
+INFO  01:30:07,507 - #3 {
+INFO  01:30:07,509 - #39 aa
+INFO  01:30:07,510 - #41 =
+INFO  01:30:07,510 - #46 5
+INFO  01:30:07,510 - #42 ;
+INFO  01:30:07,511 - #39 bb
+INFO  01:30:07,511 - #41 =
+INFO  01:30:07,511 - #46 1
+INFO  01:30:07,511 - #42 ;
+INFO  01:30:07,511 - #39 aa
+INFO  01:30:07,512 - #40 @
+ERROR 01:30:07,512 - 
+Sintaksna greska na liniji 23
+INFO  01:30:07,512 - #39 bb
+INFO  01:30:07,512 - #4 }
+INFO  01:30:07,512 - #4 }
+ERROR 01:30:07,513 - Sintaksna greska! Izvrsen oporavak posle naredbe dodele na liniji 1
+INFO  01:30:07,519 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        ConstNoVar(
+          ConstNoVar(
+            ConstNoVar(
+              ConstNoVar(
+                ConstVardecl(
+                  NoConstVar(
+                  ) [NoConstVar]
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    NumConst(
+                     jedan
+                     1
+                    ) [NumConst]
+                    NoList(
+                    ) [NoList]
+                  ) [ConstDecl]
+                ) [ConstVardecl]
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclNo(
+                   i
+                  ) [VarDeclNo]
+                  NoBrackList(
+                  ) [NoBrackList]
+                ) [VarDecl]
+              ) [ConstNoVar]
+              VarDecl(
+                Type(
+                 bool
+                ) [Type]
+                VarDeclNo(
+                 ibool
+                ) [VarDeclNo]
+                NoBrackList(
+                ) [NoBrackList]
+              ) [VarDecl]
+            ) [ConstNoVar]
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              VarDeclGOne(
+               niz2
+              ) [VarDeclGOne]
+              NoBrackList(
+              ) [NoBrackList]
+            ) [VarDecl]
+          ) [ConstNoVar]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclGTwo(
+             matrica
+            ) [VarDeclGTwo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [ConstNoVar]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDeclGOne(
+           niz
+          ) [VarDeclGOne]
+          NoBrackList(
+          ) [NoBrackList]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclNo(
+         a
+        ) [VarDeclNo]
+        BrackListOne(
+          NoBrackList(
+          ) [NoBrackList]
+          VarDeclNo(
+           curr
+          ) [VarDeclNo]
+        ) [BrackListOne]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       aa
+      ) [VarDeclNo]
+      BrackListOne(
+        NoBrackList(
+        ) [NoBrackList]
+        VarDeclNo(
+         bb
+        ) [VarDeclNo]
+      ) [BrackListOne]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        StatementListYes(
+          StatementListYes(
+            NoStmt(
+            ) [NoStmt]
+            DesignatorStatementOne(
+              DesignatorAsExpr(
+                DsignatorAss(
+                  NoDesig(
+                    DesigIdent(
+                     aa
+                    ) [DesigIdent]
+                  ) [NoDesig]
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorNumConst(
+                       5
+                      ) [FactorNumConst]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [DsignatorAss]
+              ) [DesignatorAsExpr]
+            ) [DesignatorStatementOne]
+          ) [StatementListYes]
+          DesignatorStatementOne(
+            DesignatorAsExpr(
+              DsignatorAss(
+                NoDesig(
+                  DesigIdent(
+                   bb
+                  ) [DesigIdent]
+                ) [NoDesig]
+                ExprNoMinus(
+                  TermFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [DsignatorAss]
+            ) [DesignatorAsExpr]
+          ) [DesignatorStatementOne]
+        ) [StatementListYes]
+        DesignatorStatementOne(
+          DesignatorAsExpr(
+            DesignatorExprError(
+            ) [DesignatorExprError]
+          ) [DesignatorAsExpr]
+        ) [DesignatorStatementOne]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  01:30:07,519 - ===================================
+INFO  01:30:07,524 - Ime programa: test302 na liniji 3
+INFO  01:30:07,524 - Pronadjen tip int na liniji 5
+INFO  01:30:07,524 - Deklarisana konstanta: jedan = 1. na liniji 5
+INFO  01:30:07,524 - Pronadjen tip int na liniji 7
+INFO  01:30:07,524 - Deklarisana promenljiva i na liniji 7
+INFO  01:30:07,525 - Pronadjen tip bool na liniji 8
+INFO  01:30:07,525 - Deklarisana promenljiva ibool na liniji 8
+INFO  01:30:07,525 - Pronadjen tip char na liniji 10
+INFO  01:30:07,525 - Deklarisana promenljiva niz2 na liniji 10
+INFO  01:30:07,525 - Pronadjen tip char na liniji 11
+INFO  01:30:07,525 - Deklarisana promenljiva matrica na liniji 11
+INFO  01:30:07,525 - Pronadjen tip char na liniji 12
+INFO  01:30:07,525 - Deklarisana promenljiva niz na liniji 12
+INFO  01:30:07,525 - Pronadjen tip char na liniji 13
+INFO  01:30:07,525 - Deklarisana promenljiva a na liniji 13
+INFO  01:30:07,525 - Deklarisana promenljiva curr na liniji 13
+INFO  01:30:07,525 - Pronadjen tip int na liniji 14
+INFO  01:30:07,525 - Deklarisana promenljiva aa na liniji 14
+INFO  01:30:07,525 - Deklarisana promenljiva bb na liniji 14
+INFO  01:30:07,525 - Deklarisana funkcija main na liniji 19
+INFO  01:30:07,526 - Dodela vrednosti na liniji 21
+INFO  01:30:07,526 - Dodela vrednosti na liniji 22
+INFO  01:30:07,526 - ===================================
+ERROR 01:30:07,526 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,300 @@
+INFO  04:22:49,822 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  04:22:49,858 - #2 program
+INFO  04:22:49,858 - #39 myProgram
+INFO  04:22:49,858 - #39 int
+INFO  04:22:49,859 - #39 broj
+INFO  04:22:49,860 - #44 ,
+INFO  04:22:49,861 - #39 niz_brojeva
+INFO  04:22:49,861 - #6 [
+INFO  04:22:49,861 - #7 ]
+INFO  04:22:49,861 - #44 ,
+INFO  04:22:49,861 - #39 matrica_brojeva
+INFO  04:22:49,861 - #6 [
+INFO  04:22:49,861 - #7 ]
+INFO  04:22:49,861 - #6 [
+INFO  04:22:49,862 - #7 ]
+INFO  04:22:49,862 - #41 ;
+INFO  04:22:49,862 - #39 char
+INFO  04:22:49,863 - #39 karakter
+INFO  04:22:49,863 - #41 ;
+INFO  04:22:49,863 - #39 bool
+INFO  04:22:49,863 - #39 logic
+INFO  04:22:49,863 - #41 ;
+INFO  04:22:49,865 - #3 {
+INFO  04:22:49,866 - #39 int
+INFO  04:22:49,867 - #39 x
+INFO  04:22:49,867 - #8 (
+INFO  04:22:49,868 - #39 bool
+INFO  04:22:49,868 - #39 a
+INFO  04:22:49,868 - #44 ,
+INFO  04:22:49,869 - #39 int
+INFO  04:22:49,869 - #39 b
+INFO  04:22:49,869 - #9 )
+INFO  04:22:49,870 - #3 {
+INFO  04:22:49,870 - #42 return
+INFO  04:22:49,871 - #45 1
+INFO  04:22:49,871 - #41 ;
+INFO  04:22:49,871 - #4 }
+INFO  04:22:49,872 - #39 int
+INFO  04:22:49,872 - #39 f
+INFO  04:22:49,872 - #8 (
+INFO  04:22:49,872 - #39 int
+INFO  04:22:49,872 - #39 lokalnibroj
+INFO  04:22:49,872 - #44 ,
+INFO  04:22:49,872 - #39 bool
+INFO  04:22:49,872 - #39 drugiparam
+INFO  04:22:49,872 - #6 [
+INFO  04:22:49,873 - #7 ]
+INFO  04:22:49,873 - #9 )
+INFO  04:22:49,873 - #39 char
+INFO  04:22:49,873 - #39 lokalnichar
+INFO  04:22:49,873 - #41 ;
+INFO  04:22:49,873 - #3 {
+INFO  04:22:49,873 - #27 if
+INFO  04:22:49,873 - #8 (
+INFO  04:22:49,873 - #45 2
+INFO  04:22:49,874 - #18 >
+INFO  04:22:49,874 - #45 3
+INFO  04:22:49,875 - #9 )
+INFO  04:22:49,875 - #39 lokalnichar
+INFO  04:22:49,875 - #40 =
+INFO  04:22:49,875 - #47 a
+INFO  04:22:49,876 - #41 ;
+INFO  04:22:49,876 - #42 return
+INFO  04:22:49,876 - #45 1
+INFO  04:22:49,876 - #41 ;
+INFO  04:22:49,876 - #4 }
+INFO  04:22:49,876 - #34 void
+INFO  04:22:49,876 - #39 main
+INFO  04:22:49,877 - #8 (
+INFO  04:22:49,877 - #9 )
+INFO  04:22:49,877 - #3 {
+INFO  04:22:49,878 - #4 }
+INFO  04:22:49,878 - #4 }
+INFO  04:22:49,884 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        NoConstVar(
+        ) [NoConstVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclNo(
+           broj
+          ) [VarDeclNo]
+          BrackListOne(
+            BrackListOne(
+              NoBrackList(
+              ) [NoBrackList]
+              VarDeclGOne(
+               niz_brojeva
+              ) [VarDeclGOne]
+            ) [BrackListOne]
+            VarDeclGTwo(
+             matrica_brojeva
+            ) [VarDeclGTwo]
+          ) [BrackListOne]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclNo(
+         karakter
+        ) [VarDeclNo]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+      VarDeclNo(
+       logic
+      ) [VarDeclNo]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      MethodList(
+        NoMethodList(
+        ) [NoMethodList]
+        MethodDeclType(
+          MethodDeclReturn(
+            MethodReturnTypeType(
+              Type(
+               int
+              ) [Type]
+            ) [MethodReturnTypeType]
+           x
+          ) [MethodDeclReturn]
+          FormParsListParams(
+            FormPars(
+              Type(
+               bool
+              ) [Type]
+              FormParamDeclVarNo(
+               a
+              ) [FormParamDeclVarNo]
+              BrackListForm(
+                NoBrackListForm(
+                ) [NoBrackListForm]
+                Type(
+                 int
+                ) [Type]
+                FormParamDeclVarNo(
+                 b
+                ) [FormParamDeclVarNo]
+              ) [BrackListForm]
+            ) [FormPars]
+          ) [FormParsListParams]
+          NoVarL(
+          ) [NoVarL]
+          StatementListYes(
+            NoStmt(
+            ) [NoStmt]
+            StatementRetExp(
+              ExprNoMinus(
+                TermFactor(
+                  FactorNumConst(
+                   1
+                  ) [FactorNumConst]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [StatementRetExp]
+          ) [StatementListYes]
+        ) [MethodDeclType]
+      ) [MethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         f
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             lokalnibroj
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              NoBrackListForm(
+              ) [NoBrackListForm]
+              Type(
+               bool
+              ) [Type]
+              FormParamDeclVarOne(
+               drugiparam
+              ) [FormParamDeclVarOne]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        VarList(
+          NoVarL(
+          ) [NoVarL]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclNo(
+             lokalnichar
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [VarList]
+        StatementListYes(
+          StatementListYes(
+            NoStmt(
+            ) [NoStmt]
+            StatementIf(
+              CondTermOne(
+                CondFactOne(
+                  CondFactRelop(
+                    ExprNoMinus(
+                      TermFactor(
+                        FactorNumConst(
+                         2
+                        ) [FactorNumConst]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                    RelopGre(
+                    ) [RelopGre]
+                    ExprNoMinus(
+                      TermFactor(
+                        FactorNumConst(
+                         3
+                        ) [FactorNumConst]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [CondFactRelop]
+                ) [CondFactOne]
+              ) [CondTermOne]
+              DesignatorStatementOne(
+                DesignatorAsExpr(
+                  NoDesig(
+                   lokalnichar
+                  ) [NoDesig]
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorCharConst(
+                       a
+                      ) [FactorCharConst]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [DesignatorAsExpr]
+              ) [DesignatorStatementOne]
+            ) [StatementIf]
+          ) [StatementListYes]
+          StatementRetExp(
+            ExprNoMinus(
+              TermFactor(
+                FactorNumConst(
+                 1
+                ) [FactorNumConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  04:22:49,884 - ===================================
+INFO  04:22:49,888 - Promenljiva niz_brojeva na liniji 6
+INFO  04:22:49,888 - Funkcija x na liniji 12
+INFO  04:22:49,888 - param 1
+INFO  04:22:49,888 - Funkcija f na liniji 17
+INFO  04:22:49,888 - Dodela na liniji 20
+INFO  04:22:49,888 - param 1
+INFO  04:22:49,888 - Funkcija main na liniji 24
+INFO  04:22:49,888 - param 4
+INFO  04:22:49,888 - ===================================
+INFO  04:22:49,889 - Parsiranje uspesno zavrseno!

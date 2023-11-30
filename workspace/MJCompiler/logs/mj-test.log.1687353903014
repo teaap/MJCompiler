@@ -1,0 +1,104 @@
+INFO  15:24:44,847 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  15:24:44,885 - #2 program
+INFO  15:24:44,885 - #39 myProgram
+INFO  15:24:44,885 - #39 int
+INFO  15:24:44,887 - #39 broj
+INFO  15:24:44,888 - #41 ;
+INFO  15:24:44,888 - #39 int
+INFO  15:24:44,889 - #39 a
+INFO  15:24:44,889 - #6 [
+INFO  15:24:44,889 - #7 ]
+INFO  15:24:44,889 - #41 ;
+INFO  15:24:44,890 - #3 {
+INFO  15:24:44,890 - #34 void
+INFO  15:24:44,890 - #39 main
+INFO  15:24:44,891 - #8 (
+INFO  15:24:44,892 - #9 )
+INFO  15:24:44,892 - #3 {
+INFO  15:24:44,893 - #39 a
+INFO  15:24:44,893 - #6 [
+INFO  15:24:44,894 - #45 1
+INFO  15:24:44,894 - #7 ]
+INFO  15:24:44,895 - #40 =
+INFO  15:24:44,895 - #45 2
+INFO  15:24:44,898 - #41 ;
+INFO  15:24:44,898 - #4 }
+INFO  15:24:44,898 - #4 }
+INFO  15:24:44,905 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      NoConstVar(
+      ) [NoConstVar]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclNo(
+         broj
+        ) [VarDeclNo]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclGOne(
+       a
+      ) [VarDeclGOne]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        NoStmt(
+        ) [NoStmt]
+        DesignatorStatementOne(
+          DesignatorAsExpr(
+            DesigExprOne(
+              DesigIdent(
+               a
+              ) [DesigIdent]
+              ExprNoMinus(
+                TermFactor(
+                  FactorNumConst(
+                   1
+                  ) [FactorNumConst]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [DesigExprOne]
+            ExprNoMinus(
+              TermFactor(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [DesignatorAsExpr]
+        ) [DesignatorStatementOne]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  15:24:44,905 - ===================================
+INFO  15:24:44,908 - Promenljiva a na liniji 7
+INFO  15:24:44,908 - Funkcija main na liniji 11
+INFO  15:24:44,909 - Dodela na liniji 14
+INFO  15:24:44,909 - ===================================

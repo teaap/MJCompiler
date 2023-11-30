@@ -1,0 +1,172 @@
+INFO  15:32:21,831 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  15:32:21,873 - #2 program
+INFO  15:32:21,873 - #39 myProgram
+INFO  15:32:21,873 - #39 int
+INFO  15:32:21,874 - #39 broj
+INFO  15:32:21,875 - #41 ;
+INFO  15:32:21,876 - #39 int
+INFO  15:32:21,877 - #39 a
+INFO  15:32:21,877 - #6 [
+INFO  15:32:21,877 - #7 ]
+INFO  15:32:21,877 - #41 ;
+INFO  15:32:21,877 - #3 {
+INFO  15:32:21,878 - #34 void
+INFO  15:32:21,878 - #39 main
+INFO  15:32:21,879 - #8 (
+INFO  15:32:21,880 - #9 )
+INFO  15:32:21,880 - #3 {
+INFO  15:32:21,882 - #39 a
+INFO  15:32:21,882 - #40 =
+INFO  15:32:21,883 - #28 new
+INFO  15:32:21,883 - #39 a
+INFO  15:32:21,883 - #6 [
+INFO  15:32:21,884 - #45 10
+INFO  15:32:21,886 - #7 ]
+INFO  15:32:21,886 - #41 ;
+INFO  15:32:21,887 - #39 a
+INFO  15:32:21,887 - #6 [
+INFO  15:32:21,887 - #45 1
+INFO  15:32:21,887 - #7 ]
+INFO  15:32:21,887 - #40 =
+INFO  15:32:21,887 - #45 2
+INFO  15:32:21,888 - #41 ;
+INFO  15:32:21,888 - #35 print
+INFO  15:32:21,888 - #8 (
+INFO  15:32:21,888 - #39 a
+INFO  15:32:21,888 - #6 [
+INFO  15:32:21,888 - #45 1
+INFO  15:32:21,888 - #7 ]
+INFO  15:32:21,888 - #9 )
+INFO  15:32:21,888 - #41 ;
+INFO  15:32:21,888 - #4 }
+INFO  15:32:21,889 - #4 }
+INFO  15:32:21,895 - Program(
+  ProgName(
+   myProgram
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      NoConstVar(
+      ) [NoConstVar]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclNo(
+         broj
+        ) [VarDeclNo]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclGOne(
+       a
+      ) [VarDeclGOne]
+      NoBrackList(
+      ) [NoBrackList]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    NoMethodList(
+    ) [NoMethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        StatementListYes(
+          StatementListYes(
+            NoStmt(
+            ) [NoStmt]
+            DesignatorStatementOne(
+              DesignatorAsExpr(
+                NoDesig(
+                  DesigIdent(
+                   a
+                  ) [DesigIdent]
+                ) [NoDesig]
+                ExprNoMinus(
+                  TermFactor(
+                    FactorNewBracket(
+                      Type(
+                       a
+                      ) [Type]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorNumConst(
+                           10
+                          ) [FactorNumConst]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [FactorNewBracket]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [DesignatorAsExpr]
+            ) [DesignatorStatementOne]
+          ) [StatementListYes]
+          DesignatorStatementOne(
+            DesignatorAsExpr(
+              DesigExprOne(
+                DesigIdent(
+                 a
+                ) [DesigIdent]
+                ExprNoMinus(
+                  TermFactor(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [DesigExprOne]
+              ExprNoMinus(
+                TermFactor(
+                  FactorNumConst(
+                   2
+                  ) [FactorNumConst]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [DesignatorAsExpr]
+          ) [DesignatorStatementOne]
+        ) [StatementListYes]
+        StatementExpr(
+          ExprNoMinus(
+            TermFactor(
+              FactorDesignator(
+                DesigExprOne(
+                  DesigIdent(
+                   a
+                  ) [DesigIdent]
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [DesigExprOne]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprNoMinus]
+        ) [StatementExpr]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  15:32:21,895 - ===================================
+INFO  15:32:21,898 - Promenljiva a na liniji 7
+INFO  15:32:21,899 - Funkcija main na liniji 11
+ERROR 15:32:21,899 - Greska: Ime a ne predstavlja tip! na liniji 13
+INFO  15:32:21,899 - Dodela na liniji 13
+INFO  15:32:21,899 - Dodela na liniji 14
+INFO  15:32:21,899 - ===================================
+ERROR 15:32:21,900 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,360 @@
+INFO  23:43:10,899 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\program.mj
+INFO  23:43:10,940 - #2 program
+INFO  23:43:10,940 - #39 test1
+INFO  23:43:10,940 - #5 const
+INFO  23:43:10,941 - #39 int
+INFO  23:43:10,941 - #39 jedan
+INFO  23:43:10,942 - #40 =
+INFO  23:43:10,942 - #45 1
+INFO  23:43:10,942 - #41 ;
+INFO  23:43:10,943 - #3 {
+INFO  23:43:10,944 - #39 int
+INFO  23:43:10,945 - #39 sabiranje
+INFO  23:43:10,945 - #8 (
+INFO  23:43:10,946 - #39 int
+INFO  23:43:10,946 - #39 a
+INFO  23:43:10,946 - #44 ,
+INFO  23:43:10,947 - #39 int
+INFO  23:43:10,947 - #39 b
+INFO  23:43:10,947 - #44 ,
+INFO  23:43:10,947 - #39 int
+INFO  23:43:10,947 - #39 c
+INFO  23:43:10,947 - #9 )
+INFO  23:43:10,948 - #3 {
+INFO  23:43:10,951 - #39 int
+INFO  23:43:10,952 - #39 pov
+ERROR 23:43:10,952 - 
+Sintaksna greska na liniji 9
+INFO  23:43:10,952 - #40 =
+INFO  23:43:10,952 - #39 a
+INFO  23:43:10,952 - #12 +
+ERROR 23:43:10,953 - Sintaksna greska! Izvrsen oporavak posle naredbe dodele na liniji 33
+INFO  23:43:10,954 - #39 b
+INFO  23:43:10,955 - #41 ;
+INFO  23:43:10,955 - #42 return
+INFO  23:43:10,955 - #39 pov
+INFO  23:43:10,955 - #12 +
+INFO  23:43:10,955 - #39 c
+INFO  23:43:10,955 - #41 ;
+INFO  23:43:10,956 - #4 }
+INFO  23:43:10,956 - #34 void
+INFO  23:43:10,956 - #39 main
+INFO  23:43:10,956 - #8 (
+INFO  23:43:10,957 - #9 )
+INFO  23:43:10,957 - #3 {
+INFO  23:43:10,957 - #39 int
+INFO  23:43:10,957 - #39 a
+ERROR 23:43:10,957 - 
+Sintaksna greska na liniji 15
+INFO  23:43:10,957 - #44 ,
+INFO  23:43:10,957 - #39 b
+INFO  23:43:10,957 - #44 ,
+INFO  23:43:10,958 - #39 c
+INFO  23:43:10,958 - #41 ;
+INFO  23:43:10,958 - #30 read
+INFO  23:43:10,958 - #8 (
+INFO  23:43:10,958 - #39 a
+INFO  23:43:10,958 - #9 )
+ERROR 23:43:10,958 - Sintaksna greska! Izvrsen oporavak posle naredbe dodele na liniji 1
+INFO  23:43:10,958 - #41 ;
+INFO  23:43:10,958 - #30 read
+INFO  23:43:10,958 - #8 (
+INFO  23:43:10,958 - #39 b
+INFO  23:43:10,958 - #9 )
+INFO  23:43:10,958 - #41 ;
+INFO  23:43:10,958 - #30 read
+INFO  23:43:10,958 - #8 (
+INFO  23:43:10,959 - #39 c
+INFO  23:43:10,959 - #9 )
+INFO  23:43:10,959 - #41 ;
+INFO  23:43:10,959 - #35 print
+INFO  23:43:10,959 - #8 (
+INFO  23:43:10,959 - #39 sabiranje
+INFO  23:43:10,959 - #8 (
+INFO  23:43:10,960 - #39 a
+INFO  23:43:10,960 - #44 ,
+INFO  23:43:10,960 - #39 b
+INFO  23:43:10,960 - #44 ,
+INFO  23:43:10,960 - #39 c
+INFO  23:43:10,960 - #9 )
+INFO  23:43:10,960 - #9 )
+INFO  23:43:10,961 - #41 ;
+INFO  23:43:10,961 - #4 }
+INFO  23:43:10,961 - #4 }
+INFO  23:43:10,966 - Program(
+  ProgName(
+   test1
+  ) [ProgName]
+  ConstVardecl(
+    NoConstVar(
+    ) [NoConstVar]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      NumConst(
+       jedan
+       1
+      ) [NumConst]
+      NoList(
+      ) [NoList]
+    ) [ConstDecl]
+  ) [ConstVardecl]
+  MethodList(
+    MethodList(
+      NoMethodList(
+      ) [NoMethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeType]
+         sabiranje
+        ) [MethodDeclReturn]
+        FormParsListParams(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+            FormParamDeclVarNo(
+             a
+            ) [FormParamDeclVarNo]
+            BrackListForm(
+              BrackListForm(
+                NoBrackListForm(
+                ) [NoBrackListForm]
+                Type(
+                 int
+                ) [Type]
+                FormParamDeclVarNo(
+                 b
+                ) [FormParamDeclVarNo]
+              ) [BrackListForm]
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               c
+              ) [FormParamDeclVarNo]
+            ) [BrackListForm]
+          ) [FormPars]
+        ) [FormParsListParams]
+        NoVarL(
+        ) [NoVarL]
+        StatementListYes(
+          StatementListYes(
+            StatementListYes(
+              NoStmt(
+              ) [NoStmt]
+              DesignatorStatementOne(
+                DesignatorAsExpr(
+                  DesignatorExprError(
+                  ) [DesignatorExprError]
+                ) [DesignatorAsExpr]
+              ) [DesignatorStatementOne]
+            ) [StatementListYes]
+            DesignatorStatementOne(
+              DesignatorAsExpr(
+                DsignatorAss(
+                  NoDesig(
+                    DesigIdent(
+                     pov
+                    ) [DesigIdent]
+                  ) [NoDesig]
+                  ExprAddop(
+                    ExprNoMinus(
+                      TermFactor(
+                        FactorDesignator(
+                          NoDesig(
+                            DesigIdent(
+                             a
+                            ) [DesigIdent]
+                          ) [NoDesig]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermFactor(
+                      FactorDesignator(
+                        NoDesig(
+                          DesigIdent(
+                           b
+                          ) [DesigIdent]
+                        ) [NoDesig]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprAddop]
+                ) [DsignatorAss]
+              ) [DesignatorAsExpr]
+            ) [DesignatorStatementOne]
+          ) [StatementListYes]
+          StatementRetExp(
+            ExprAddop(
+              ExprNoMinus(
+                TermFactor(
+                  FactorDesignator(
+                    NoDesig(
+                      DesigIdent(
+                       pov
+                      ) [DesigIdent]
+                    ) [NoDesig]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+              AddopPlus(
+              ) [AddopPlus]
+              TermFactor(
+                FactorDesignator(
+                  NoDesig(
+                    DesigIdent(
+                     c
+                    ) [DesigIdent]
+                  ) [NoDesig]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprAddop]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        StatementListYes(
+          StatementListYes(
+            StatementListYes(
+              StatementListYes(
+                NoStmt(
+                ) [NoStmt]
+                DesignatorStatementOne(
+                  DesignatorAsExpr(
+                    DesignatorExprError(
+                    ) [DesignatorExprError]
+                  ) [DesignatorAsExpr]
+                ) [DesignatorStatementOne]
+              ) [StatementListYes]
+              StatementRead(
+                NoDesig(
+                  DesigIdent(
+                   a
+                  ) [DesigIdent]
+                ) [NoDesig]
+              ) [StatementRead]
+            ) [StatementListYes]
+            StatementRead(
+              NoDesig(
+                DesigIdent(
+                 b
+                ) [DesigIdent]
+              ) [NoDesig]
+            ) [StatementRead]
+          ) [StatementListYes]
+          StatementRead(
+            NoDesig(
+              DesigIdent(
+               c
+              ) [DesigIdent]
+            ) [NoDesig]
+          ) [StatementRead]
+        ) [StatementListYes]
+        StatementExpr(
+          ExprNoMinus(
+            TermFactor(
+              FactorFuncCall(
+                FactorFunc(
+                  NoDesig(
+                    DesigIdent(
+                     sabiranje
+                    ) [DesigIdent]
+                  ) [NoDesig]
+                ) [FactorFunc]
+                ActParsLista(
+                  ListExpr(
+                    ListExpr(
+                      ActParsOne(
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorDesignator(
+                              NoDesig(
+                                DesigIdent(
+                                 a
+                                ) [DesigIdent]
+                              ) [NoDesig]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [ActParsOne]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorDesignator(
+                            NoDesig(
+                              DesigIdent(
+                               b
+                              ) [DesigIdent]
+                            ) [NoDesig]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [ListExpr]
+                    ExprNoMinus(
+                      TermFactor(
+                        FactorDesignator(
+                          NoDesig(
+                            DesigIdent(
+                             c
+                            ) [DesigIdent]
+                          ) [NoDesig]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [ListExpr]
+                ) [ActParsLista]
+              ) [FactorFuncCall]
+            ) [TermFactor]
+          ) [ExprNoMinus]
+        ) [StatementExpr]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  23:43:10,966 - ===================================
+INFO  23:43:10,969 - Ime programa: test1 na liniji 3
+INFO  23:43:10,969 - Pronadjen tip int na liniji 5
+INFO  23:43:10,969 - Deklarisana konstanta: jedan = 1. na liniji 5
+INFO  23:43:10,969 - Pronadjen tip int na liniji 8
+INFO  23:43:10,969 - Deklarisana funkcija sabiranje na liniji 8
+INFO  23:43:10,970 - Pronadjen tip int na liniji 8
+INFO  23:43:10,970 - Parametar a na liniji 8
+INFO  23:43:10,970 - Pronadjen tip int na liniji 8
+INFO  23:43:10,970 - Parametar b na liniji 8
+INFO  23:43:10,970 - Pronadjen tip int na liniji 8
+INFO  23:43:10,970 - Parametar c na liniji 8
+ERROR 23:43:10,970 - Greska! Simbol nije pronadjen na liniji 9
+ERROR 23:43:10,970 - Greska! Leva i desna strana nisu kompatibilne! na liniji 9
+ERROR 23:43:10,970 - Greska! Simbol nije pronadjen na liniji 10
+ERROR 23:43:10,970 - Greska! Neodgovarajuci tipovi pri sabiranju! na liniji 10
+ERROR 23:43:10,970 - Greska! Tip povratne vrednosti funkcije se ne poklapa sa tipom izraza u return naredbi na liniji 10
+INFO  23:43:10,970 - Deklarisana funkcija main na liniji 13
+ERROR 23:43:10,970 - Greska! Simbol nije pronadjen na liniji 16
+ERROR 23:43:10,970 - Greska! Parametar mora biti tipa ili int ili bool ili char na liniji 16
+ERROR 23:43:10,970 - Greska! Simbol nije pronadjen na liniji 17
+ERROR 23:43:10,970 - Greska! Parametar mora biti tipa ili int ili bool ili char na liniji 17
+ERROR 23:43:10,970 - Greska! Simbol nije pronadjen na liniji 18
+ERROR 23:43:10,970 - Greska! Parametar mora biti tipa ili int ili bool ili char na liniji 18
+ERROR 23:43:10,971 - Greska! Simbol nije pronadjen na liniji 19
+ERROR 23:43:10,971 - Greska! Simbol nije pronadjen na liniji 19
+ERROR 23:43:10,971 - Greska! Simbol nije pronadjen na liniji 19
+ERROR 23:43:10,971 - Greska! Nisu kompatibilni tipovi na liniji 19
+INFO  23:43:10,971 - ===================================
+ERROR 23:43:10,971 - Parsiranje NIJE uspesno zavrseno!

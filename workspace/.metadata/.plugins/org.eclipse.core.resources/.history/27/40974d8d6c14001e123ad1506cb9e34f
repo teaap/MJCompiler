@@ -1,0 +1,20 @@
+//Test 3
+
+program test3
+char curr;
+
+{
+//provera map
+//tacno je ako ispise sve 2
+	
+	void main()int niz[],niz1[];{
+		niz=new char[10];
+		niz[0]='a';
+		niz[1]='b';
+		niz[1]='c';
+		niz[1]='d';
+		niz[1]='e';
+		niz2=niz.map(curr=>curr+1);
+	}
+}
+

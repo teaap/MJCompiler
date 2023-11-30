@@ -1,0 +1,2224 @@
+INFO  00:01:47,380 - Compiling source file: E:\faks\sem7\pp\projekat1\workspace\MJCompiler\test\test302.mj
+INFO  00:01:47,420 - #2 program
+INFO  00:01:47,420 - #39 test302
+INFO  00:01:47,420 - #5 const
+INFO  00:01:47,422 - #39 int
+INFO  00:01:47,422 - #39 jedan
+INFO  00:01:47,423 - #40 =
+INFO  00:01:47,423 - #45 1
+INFO  00:01:47,423 - #41 ;
+INFO  00:01:47,424 - #39 int
+INFO  00:01:47,425 - #39 i
+INFO  00:01:47,425 - #41 ;
+INFO  00:01:47,426 - #39 bool
+INFO  00:01:47,427 - #39 ibool
+INFO  00:01:47,427 - #41 ;
+INFO  00:01:47,427 - #39 int
+INFO  00:01:47,427 - #39 niz2
+INFO  00:01:47,427 - #6 [
+INFO  00:01:47,427 - #7 ]
+INFO  00:01:47,427 - #41 ;
+INFO  00:01:47,427 - #39 int
+INFO  00:01:47,427 - #39 niz
+INFO  00:01:47,430 - #6 [
+INFO  00:01:47,430 - #7 ]
+INFO  00:01:47,430 - #41 ;
+INFO  00:01:47,430 - #39 int
+INFO  00:01:47,430 - #39 a
+INFO  00:01:47,430 - #44 ,
+INFO  00:01:47,430 - #39 curr
+INFO  00:01:47,430 - #41 ;
+INFO  00:01:47,430 - #3 {
+INFO  00:01:47,431 - #39 int
+INFO  00:01:47,431 - #39 sum
+INFO  00:01:47,432 - #8 (
+INFO  00:01:47,432 - #39 int
+INFO  00:01:47,432 - #39 z
+INFO  00:01:47,432 - #44 ,
+INFO  00:01:47,433 - #39 int
+INFO  00:01:47,433 - #39 d
+INFO  00:01:47,433 - #9 )
+INFO  00:01:47,434 - #3 {
+INFO  00:01:47,435 - #42 return
+INFO  00:01:47,437 - #39 z
+INFO  00:01:47,437 - #12 +
+INFO  00:01:47,438 - #39 d
+INFO  00:01:47,440 - #41 ;
+INFO  00:01:47,440 - #4 }
+INFO  00:01:47,440 - #39 int
+INFO  00:01:47,440 - #39 inkrement
+INFO  00:01:47,440 - #8 (
+INFO  00:01:47,440 - #39 int
+INFO  00:01:47,441 - #39 a
+INFO  00:01:47,441 - #44 ,
+INFO  00:01:47,441 - #39 int
+INFO  00:01:47,441 - #39 inc
+INFO  00:01:47,441 - #9 )
+INFO  00:01:47,441 - #39 int
+INFO  00:01:47,441 - #39 pom
+INFO  00:01:47,441 - #41 ;
+INFO  00:01:47,441 - #3 {
+INFO  00:01:47,441 - #27 if
+INFO  00:01:47,441 - #8 (
+INFO  00:01:47,441 - #39 inc
+INFO  00:01:47,441 - #15 ==
+INFO  00:01:47,441 - #39 jedan
+INFO  00:01:47,443 - #9 )
+INFO  00:01:47,443 - #39 pom
+INFO  00:01:47,443 - #40 =
+INFO  00:01:47,443 - #45 1
+INFO  00:01:47,443 - #41 ;
+INFO  00:01:47,443 - #26 else
+INFO  00:01:47,443 - #27 if
+INFO  00:01:47,443 - #8 (
+INFO  00:01:47,443 - #39 inc
+INFO  00:01:47,444 - #15 ==
+INFO  00:01:47,444 - #45 2
+INFO  00:01:47,444 - #9 )
+INFO  00:01:47,444 - #39 pom
+INFO  00:01:47,444 - #40 =
+INFO  00:01:47,444 - #39 a
+INFO  00:01:47,444 - #41 ;
+INFO  00:01:47,444 - #42 return
+INFO  00:01:47,444 - #39 sum
+INFO  00:01:47,444 - #8 (
+INFO  00:01:47,445 - #39 a
+INFO  00:01:47,445 - #44 ,
+INFO  00:01:47,445 - #39 pom
+INFO  00:01:47,445 - #9 )
+INFO  00:01:47,446 - #41 ;
+INFO  00:01:47,446 - #4 }
+INFO  00:01:47,446 - #39 bool
+INFO  00:01:47,446 - #39 verify
+INFO  00:01:47,446 - #8 (
+INFO  00:01:47,446 - #9 )
+INFO  00:01:47,446 - #3 {
+INFO  00:01:47,447 - #35 print
+INFO  00:01:47,447 - #8 (
+INFO  00:01:47,447 - #47 v
+INFO  00:01:47,447 - #9 )
+INFO  00:01:47,447 - #41 ;
+INFO  00:01:47,447 - #42 return
+INFO  00:01:47,448 - #46 false
+INFO  00:01:47,448 - #41 ;
+INFO  00:01:47,448 - #4 }
+INFO  00:01:47,448 - #34 void
+INFO  00:01:47,448 - #39 main
+INFO  00:01:47,449 - #8 (
+INFO  00:01:47,449 - #9 )
+INFO  00:01:47,449 - #3 {
+INFO  00:01:47,449 - #27 if
+INFO  00:01:47,449 - #8 (
+INFO  00:01:47,449 - #45 1
+INFO  00:01:47,449 - #16 !=
+INFO  00:01:47,449 - #45 1
+INFO  00:01:47,450 - #9 )
+INFO  00:01:47,450 - #35 print
+INFO  00:01:47,450 - #8 (
+INFO  00:01:47,450 - #11 -
+INFO  00:01:47,451 - #45 6
+INFO  00:01:47,451 - #9 )
+INFO  00:01:47,451 - #41 ;
+INFO  00:01:47,451 - #26 else
+INFO  00:01:47,451 - #35 print
+INFO  00:01:47,451 - #8 (
+INFO  00:01:47,451 - #45 0
+INFO  00:01:47,451 - #9 )
+INFO  00:01:47,451 - #41 ;
+INFO  00:01:47,451 - #39 ibool
+INFO  00:01:47,451 - #40 =
+INFO  00:01:47,452 - #46 false
+INFO  00:01:47,452 - #41 ;
+INFO  00:01:47,452 - #39 i
+INFO  00:01:47,452 - #40 =
+INFO  00:01:47,452 - #45 0
+INFO  00:01:47,452 - #41 ;
+INFO  00:01:47,452 - #29 while
+INFO  00:01:47,452 - #8 (
+INFO  00:01:47,453 - #39 i
+INFO  00:01:47,453 - #19 <
+INFO  00:01:47,454 - #45 5
+INFO  00:01:47,454 - #9 )
+INFO  00:01:47,454 - #3 {
+INFO  00:01:47,454 - #27 if
+INFO  00:01:47,455 - #8 (
+INFO  00:01:47,455 - #39 i
+INFO  00:01:47,455 - #15 ==
+INFO  00:01:47,455 - #45 2
+INFO  00:01:47,455 - #9 )
+INFO  00:01:47,455 - #39 ibool
+INFO  00:01:47,455 - #40 =
+INFO  00:01:47,455 - #46 true
+INFO  00:01:47,455 - #41 ;
+INFO  00:01:47,455 - #39 i
+INFO  00:01:47,455 - #14 ++
+INFO  00:01:47,456 - #41 ;
+INFO  00:01:47,456 - #4 }
+INFO  00:01:47,456 - #27 if
+INFO  00:01:47,457 - #8 (
+INFO  00:01:47,457 - #39 ibool
+INFO  00:01:47,457 - #9 )
+INFO  00:01:47,457 - #27 if
+INFO  00:01:47,457 - #8 (
+INFO  00:01:47,457 - #39 i
+INFO  00:01:47,457 - #15 ==
+INFO  00:01:47,457 - #45 5
+INFO  00:01:47,457 - #9 )
+INFO  00:01:47,457 - #35 print
+INFO  00:01:47,457 - #8 (
+INFO  00:01:47,457 - #45 1
+INFO  00:01:47,457 - #9 )
+INFO  00:01:47,457 - #41 ;
+INFO  00:01:47,458 - #26 else
+INFO  00:01:47,458 - #35 print
+INFO  00:01:47,458 - #8 (
+INFO  00:01:47,458 - #11 -
+INFO  00:01:47,458 - #45 1
+INFO  00:01:47,458 - #9 )
+INFO  00:01:47,458 - #41 ;
+INFO  00:01:47,458 - #39 a
+INFO  00:01:47,458 - #40 =
+INFO  00:01:47,458 - #45 2
+INFO  00:01:47,458 - #41 ;
+INFO  00:01:47,458 - #39 niz
+INFO  00:01:47,458 - #40 =
+INFO  00:01:47,458 - #28 new
+INFO  00:01:47,458 - #39 int
+INFO  00:01:47,458 - #6 [
+INFO  00:01:47,458 - #45 3
+INFO  00:01:47,458 - #7 ]
+INFO  00:01:47,458 - #41 ;
+INFO  00:01:47,459 - #39 niz
+INFO  00:01:47,459 - #6 [
+INFO  00:01:47,459 - #45 0
+INFO  00:01:47,459 - #7 ]
+INFO  00:01:47,459 - #40 =
+INFO  00:01:47,459 - #45 1
+INFO  00:01:47,459 - #10 *
+INFO  00:01:47,459 - #39 a
+INFO  00:01:47,460 - #41 ;
+INFO  00:01:47,461 - #39 niz
+INFO  00:01:47,461 - #6 [
+INFO  00:01:47,461 - #45 1
+INFO  00:01:47,461 - #7 ]
+INFO  00:01:47,461 - #40 =
+INFO  00:01:47,461 - #45 2
+INFO  00:01:47,461 - #10 *
+INFO  00:01:47,461 - #39 a
+INFO  00:01:47,461 - #41 ;
+INFO  00:01:47,461 - #39 niz
+INFO  00:01:47,461 - #6 [
+INFO  00:01:47,461 - #45 2
+INFO  00:01:47,461 - #7 ]
+INFO  00:01:47,462 - #40 =
+INFO  00:01:47,462 - #39 sum
+INFO  00:01:47,462 - #8 (
+INFO  00:01:47,462 - #39 niz
+INFO  00:01:47,462 - #6 [
+INFO  00:01:47,462 - #45 1
+INFO  00:01:47,462 - #7 ]
+INFO  00:01:47,462 - #44 ,
+INFO  00:01:47,462 - #39 niz
+INFO  00:01:47,462 - #6 [
+INFO  00:01:47,462 - #45 0
+INFO  00:01:47,462 - #7 ]
+INFO  00:01:47,462 - #9 )
+INFO  00:01:47,462 - #10 *
+INFO  00:01:47,462 - #39 a
+INFO  00:01:47,462 - #12 +
+INFO  00:01:47,462 - #45 1
+INFO  00:01:47,462 - #41 ;
+INFO  00:01:47,462 - #27 if
+INFO  00:01:47,462 - #8 (
+INFO  00:01:47,462 - #39 verify
+INFO  00:01:47,463 - #8 (
+INFO  00:01:47,463 - #9 )
+INFO  00:01:47,463 - #23 ||
+INFO  00:01:47,463 - #39 niz
+INFO  00:01:47,464 - #6 [
+INFO  00:01:47,464 - #45 2
+INFO  00:01:47,464 - #7 ]
+INFO  00:01:47,464 - #15 ==
+INFO  00:01:47,464 - #45 4
+INFO  00:01:47,464 - #9 )
+INFO  00:01:47,465 - #35 print
+INFO  00:01:47,465 - #8 (
+INFO  00:01:47,465 - #39 ord
+INFO  00:01:47,465 - #8 (
+INFO  00:01:47,465 - #47 A
+INFO  00:01:47,465 - #9 )
+INFO  00:01:47,465 - #9 )
+INFO  00:01:47,465 - #41 ;
+INFO  00:01:47,465 - #26 else
+INFO  00:01:47,465 - #35 print
+INFO  00:01:47,465 - #8 (
+INFO  00:01:47,465 - #39 ord
+INFO  00:01:47,465 - #8 (
+INFO  00:01:47,466 - #47 a
+INFO  00:01:47,466 - #9 )
+INFO  00:01:47,466 - #9 )
+INFO  00:01:47,466 - #41 ;
+INFO  00:01:47,466 - #35 print
+INFO  00:01:47,466 - #8 (
+INFO  00:01:47,466 - #39 eol
+INFO  00:01:47,466 - #9 )
+INFO  00:01:47,466 - #41 ;
+INFO  00:01:47,466 - #39 i
+INFO  00:01:47,466 - #40 =
+INFO  00:01:47,466 - #45 0
+INFO  00:01:47,466 - #41 ;
+INFO  00:01:47,466 - #29 while
+INFO  00:01:47,466 - #8 (
+INFO  00:01:47,466 - #39 i
+INFO  00:01:47,466 - #19 <
+INFO  00:01:47,467 - #45 10
+INFO  00:01:47,467 - #9 )
+INFO  00:01:47,467 - #3 {
+INFO  00:01:47,467 - #27 if
+INFO  00:01:47,467 - #8 (
+INFO  00:01:47,467 - #39 i
+INFO  00:01:47,467 - #15 ==
+INFO  00:01:47,467 - #45 3
+INFO  00:01:47,467 - #9 )
+INFO  00:01:47,467 - #3 {
+INFO  00:01:47,467 - #39 i
+INFO  00:01:47,467 - #14 ++
+INFO  00:01:47,467 - #41 ;
+INFO  00:01:47,467 - #31 continue
+INFO  00:01:47,467 - #41 ;
+INFO  00:01:47,467 - #4 }
+INFO  00:01:47,468 - #27 if
+INFO  00:01:47,468 - #8 (
+INFO  00:01:47,468 - #39 i
+INFO  00:01:47,468 - #15 ==
+INFO  00:01:47,468 - #45 4
+INFO  00:01:47,468 - #9 )
+INFO  00:01:47,468 - #43 break
+INFO  00:01:47,469 - #41 ;
+INFO  00:01:47,469 - #39 i
+INFO  00:01:47,469 - #40 =
+INFO  00:01:47,470 - #39 inkrement
+INFO  00:01:47,470 - #8 (
+INFO  00:01:47,470 - #39 i
+INFO  00:01:47,470 - #44 ,
+INFO  00:01:47,470 - #45 1
+INFO  00:01:47,470 - #9 )
+INFO  00:01:47,470 - #41 ;
+INFO  00:01:47,470 - #4 }
+INFO  00:01:47,470 - #27 if
+INFO  00:01:47,470 - #8 (
+INFO  00:01:47,470 - #39 i
+INFO  00:01:47,470 - #15 ==
+INFO  00:01:47,470 - #45 3
+INFO  00:01:47,470 - #22 &&
+INFO  00:01:47,471 - #39 verify
+INFO  00:01:47,471 - #8 (
+INFO  00:01:47,472 - #9 )
+INFO  00:01:47,472 - #9 )
+INFO  00:01:47,472 - #35 print
+INFO  00:01:47,472 - #8 (
+INFO  00:01:47,472 - #11 -
+INFO  00:01:47,472 - #45 4
+INFO  00:01:47,472 - #9 )
+INFO  00:01:47,472 - #41 ;
+INFO  00:01:47,472 - #26 else
+INFO  00:01:47,472 - #35 print
+INFO  00:01:47,472 - #8 (
+INFO  00:01:47,472 - #45 4
+INFO  00:01:47,472 - #9 )
+INFO  00:01:47,472 - #41 ;
+INFO  00:01:47,472 - #30 read
+INFO  00:01:47,472 - #8 (
+INFO  00:01:47,472 - #39 niz
+INFO  00:01:47,473 - #6 [
+INFO  00:01:47,473 - #45 0
+INFO  00:01:47,473 - #7 ]
+INFO  00:01:47,473 - #9 )
+INFO  00:01:47,473 - #41 ;
+INFO  00:01:47,473 - #30 read
+INFO  00:01:47,473 - #8 (
+INFO  00:01:47,473 - #39 niz
+INFO  00:01:47,473 - #6 [
+INFO  00:01:47,473 - #45 1
+INFO  00:01:47,473 - #7 ]
+INFO  00:01:47,473 - #9 )
+INFO  00:01:47,473 - #41 ;
+INFO  00:01:47,473 - #30 read
+INFO  00:01:47,473 - #8 (
+INFO  00:01:47,473 - #39 niz
+INFO  00:01:47,473 - #6 [
+INFO  00:01:47,473 - #45 2
+INFO  00:01:47,473 - #7 ]
+INFO  00:01:47,474 - #9 )
+INFO  00:01:47,474 - #41 ;
+INFO  00:01:47,474 - #35 print
+INFO  00:01:47,474 - #8 (
+INFO  00:01:47,474 - #39 eol
+INFO  00:01:47,474 - #9 )
+INFO  00:01:47,474 - #41 ;
+INFO  00:01:47,474 - #35 print
+INFO  00:01:47,474 - #8 (
+INFO  00:01:47,474 - #39 sum
+INFO  00:01:47,474 - #8 (
+INFO  00:01:47,474 - #39 sum
+INFO  00:01:47,474 - #8 (
+INFO  00:01:47,474 - #39 niz
+INFO  00:01:47,474 - #6 [
+INFO  00:01:47,474 - #45 0
+INFO  00:01:47,474 - #7 ]
+INFO  00:01:47,474 - #44 ,
+INFO  00:01:47,475 - #39 niz
+INFO  00:01:47,475 - #6 [
+INFO  00:01:47,475 - #45 1
+INFO  00:01:47,475 - #7 ]
+INFO  00:01:47,475 - #9 )
+INFO  00:01:47,475 - #44 ,
+INFO  00:01:47,475 - #39 niz
+INFO  00:01:47,475 - #6 [
+INFO  00:01:47,475 - #45 2
+INFO  00:01:47,475 - #7 ]
+INFO  00:01:47,475 - #9 )
+INFO  00:01:47,475 - #9 )
+INFO  00:01:47,475 - #41 ;
+INFO  00:01:47,475 - #35 print
+INFO  00:01:47,475 - #8 (
+INFO  00:01:47,475 - #39 eol
+INFO  00:01:47,475 - #9 )
+INFO  00:01:47,476 - #41 ;
+INFO  00:01:47,476 - #35 print
+INFO  00:01:47,476 - #8 (
+INFO  00:01:47,476 - #39 inkrement
+INFO  00:01:47,476 - #8 (
+INFO  00:01:47,476 - #39 niz
+INFO  00:01:47,476 - #6 [
+INFO  00:01:47,476 - #45 2
+INFO  00:01:47,476 - #7 ]
+INFO  00:01:47,476 - #44 ,
+INFO  00:01:47,476 - #45 2
+INFO  00:01:47,476 - #9 )
+INFO  00:01:47,476 - #9 )
+INFO  00:01:47,476 - #41 ;
+INFO  00:01:47,476 - #39 a
+INFO  00:01:47,476 - #40 =
+INFO  00:01:47,476 - #45 3
+INFO  00:01:47,476 - #41 ;
+INFO  00:01:47,476 - #39 i
+INFO  00:01:47,477 - #40 =
+INFO  00:01:47,477 - #45 0
+INFO  00:01:47,477 - #41 ;
+INFO  00:01:47,477 - #29 while
+INFO  00:01:47,477 - #8 (
+INFO  00:01:47,477 - #39 i
+INFO  00:01:47,477 - #19 <
+INFO  00:01:47,477 - #45 3
+INFO  00:01:47,477 - #9 )
+INFO  00:01:47,477 - #3 {
+INFO  00:01:47,477 - #39 niz
+INFO  00:01:47,477 - #6 [
+INFO  00:01:47,477 - #39 i
+INFO  00:01:47,477 - #7 ]
+INFO  00:01:47,477 - #40 =
+INFO  00:01:47,477 - #39 niz
+INFO  00:01:47,477 - #6 [
+INFO  00:01:47,477 - #39 i
+INFO  00:01:47,477 - #7 ]
+INFO  00:01:47,478 - #10 *
+INFO  00:01:47,478 - #45 2
+INFO  00:01:47,478 - #10 *
+INFO  00:01:47,478 - #39 a
+INFO  00:01:47,478 - #41 ;
+INFO  00:01:47,478 - #39 i
+INFO  00:01:47,478 - #14 ++
+INFO  00:01:47,478 - #41 ;
+INFO  00:01:47,478 - #4 }
+INFO  00:01:47,478 - #39 niz2
+INFO  00:01:47,478 - #40 =
+INFO  00:01:47,478 - #39 niz
+INFO  00:01:47,478 - #24 .
+INFO  00:01:47,478 - #32 map
+INFO  00:01:47,478 - #8 (
+INFO  00:01:47,478 - #39 curr
+INFO  00:01:47,478 - #25 =>
+INFO  00:01:47,479 - #39 curr
+INFO  00:01:47,479 - #10 *
+INFO  00:01:47,479 - #45 3
+INFO  00:01:47,479 - #9 )
+INFO  00:01:47,479 - #41 ;
+INFO  00:01:47,479 - #39 i
+INFO  00:01:47,479 - #40 =
+INFO  00:01:47,479 - #45 0
+INFO  00:01:47,479 - #41 ;
+INFO  00:01:47,479 - #29 while
+INFO  00:01:47,479 - #8 (
+INFO  00:01:47,479 - #39 i
+INFO  00:01:47,479 - #19 <
+INFO  00:01:47,479 - #45 3
+INFO  00:01:47,480 - #9 )
+INFO  00:01:47,480 - #3 {
+INFO  00:01:47,480 - #35 print
+INFO  00:01:47,480 - #8 (
+INFO  00:01:47,480 - #39 niz2
+INFO  00:01:47,480 - #6 [
+INFO  00:01:47,480 - #39 i
+INFO  00:01:47,480 - #7 ]
+INFO  00:01:47,480 - #9 )
+INFO  00:01:47,480 - #41 ;
+INFO  00:01:47,480 - #39 i
+INFO  00:01:47,480 - #14 ++
+INFO  00:01:47,480 - #41 ;
+INFO  00:01:47,480 - #4 }
+INFO  00:01:47,480 - #4 }
+INFO  00:01:47,480 - #4 }
+INFO  00:01:47,493 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ConstNoVar(
+    ConstNoVar(
+      ConstNoVar(
+        ConstNoVar(
+          ConstNoVar(
+            ConstVardecl(
+              NoConstVar(
+              ) [NoConstVar]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NumConst(
+                 jedan
+                 1
+                ) [NumConst]
+                NoList(
+                ) [NoList]
+              ) [ConstDecl]
+            ) [ConstVardecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclNo(
+               i
+              ) [VarDeclNo]
+              NoBrackList(
+              ) [NoBrackList]
+            ) [VarDecl]
+          ) [ConstNoVar]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            VarDeclNo(
+             ibool
+            ) [VarDeclNo]
+            NoBrackList(
+            ) [NoBrackList]
+          ) [VarDecl]
+        ) [ConstNoVar]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclGOne(
+           niz2
+          ) [VarDeclGOne]
+          NoBrackList(
+          ) [NoBrackList]
+        ) [VarDecl]
+      ) [ConstNoVar]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclGOne(
+         niz
+        ) [VarDeclGOne]
+        NoBrackList(
+        ) [NoBrackList]
+      ) [VarDecl]
+    ) [ConstNoVar]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclNo(
+       a
+      ) [VarDeclNo]
+      BrackListOne(
+        NoBrackList(
+        ) [NoBrackList]
+        VarDeclNo(
+         curr
+        ) [VarDeclNo]
+      ) [BrackListOne]
+    ) [VarDecl]
+  ) [ConstNoVar]
+  MethodList(
+    MethodList(
+      MethodList(
+        MethodList(
+          NoMethodList(
+          ) [NoMethodList]
+          MethodDeclType(
+            MethodDeclReturn(
+              MethodReturnTypeType(
+                Type(
+                 int
+                ) [Type]
+              ) [MethodReturnTypeType]
+             sum
+            ) [MethodDeclReturn]
+            FormParsListParams(
+              FormPars(
+                Type(
+                 int
+                ) [Type]
+                FormParamDeclVarNo(
+                 z
+                ) [FormParamDeclVarNo]
+                BrackListForm(
+                  NoBrackListForm(
+                  ) [NoBrackListForm]
+                  Type(
+                   int
+                  ) [Type]
+                  FormParamDeclVarNo(
+                   d
+                  ) [FormParamDeclVarNo]
+                ) [BrackListForm]
+              ) [FormPars]
+            ) [FormParsListParams]
+            NoVarL(
+            ) [NoVarL]
+            StatementListYes(
+              NoStmt(
+              ) [NoStmt]
+              StatementRetExp(
+                ExprAddop(
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorDesignator(
+                        NoDesig(
+                          DesigIdent(
+                           z
+                          ) [DesigIdent]
+                        ) [NoDesig]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermFactor(
+                    FactorDesignator(
+                      NoDesig(
+                        DesigIdent(
+                         d
+                        ) [DesigIdent]
+                      ) [NoDesig]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprAddop]
+              ) [StatementRetExp]
+            ) [StatementListYes]
+          ) [MethodDeclType]
+        ) [MethodList]
+        MethodDeclType(
+          MethodDeclReturn(
+            MethodReturnTypeType(
+              Type(
+               int
+              ) [Type]
+            ) [MethodReturnTypeType]
+           inkrement
+          ) [MethodDeclReturn]
+          FormParsListParams(
+            FormPars(
+              Type(
+               int
+              ) [Type]
+              FormParamDeclVarNo(
+               a
+              ) [FormParamDeclVarNo]
+              BrackListForm(
+                NoBrackListForm(
+                ) [NoBrackListForm]
+                Type(
+                 int
+                ) [Type]
+                FormParamDeclVarNo(
+                 inc
+                ) [FormParamDeclVarNo]
+              ) [BrackListForm]
+            ) [FormPars]
+          ) [FormParsListParams]
+          VarList(
+            NoVarL(
+            ) [NoVarL]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclNo(
+               pom
+              ) [VarDeclNo]
+              NoBrackList(
+              ) [NoBrackList]
+            ) [VarDecl]
+          ) [VarList]
+          StatementListYes(
+            StatementListYes(
+              NoStmt(
+              ) [NoStmt]
+              StatementIfElse(
+                CondTermOne(
+                  CondFactOne(
+                    CondFactRelop(
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorDesignator(
+                            NoDesig(
+                              DesigIdent(
+                               inc
+                              ) [DesigIdent]
+                            ) [NoDesig]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                      RelopEqual(
+                      ) [RelopEqual]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorDesignator(
+                            NoDesig(
+                              DesigIdent(
+                               jedan
+                              ) [DesigIdent]
+                            ) [NoDesig]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [CondFactRelop]
+                  ) [CondFactOne]
+                ) [CondTermOne]
+                DesignatorStatementOne(
+                  DesignatorAsExpr(
+                    NoDesig(
+                      DesigIdent(
+                       pom
+                      ) [DesigIdent]
+                    ) [NoDesig]
+                    ExprNoMinus(
+                      TermFactor(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [DesignatorAsExpr]
+                ) [DesignatorStatementOne]
+                StatementIf(
+                  CondTermOne(
+                    CondFactOne(
+                      CondFactRelop(
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorDesignator(
+                              NoDesig(
+                                DesigIdent(
+                                 inc
+                                ) [DesigIdent]
+                              ) [NoDesig]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                        RelopEqual(
+                        ) [RelopEqual]
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorNumConst(
+                             2
+                            ) [FactorNumConst]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [CondFactRelop]
+                    ) [CondFactOne]
+                  ) [CondTermOne]
+                  DesignatorStatementOne(
+                    DesignatorAsExpr(
+                      NoDesig(
+                        DesigIdent(
+                         pom
+                        ) [DesigIdent]
+                      ) [NoDesig]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorDesignator(
+                            NoDesig(
+                              DesigIdent(
+                               a
+                              ) [DesigIdent]
+                            ) [NoDesig]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [DesignatorAsExpr]
+                  ) [DesignatorStatementOne]
+                ) [StatementIf]
+              ) [StatementIfElse]
+            ) [StatementListYes]
+            StatementRetExp(
+              ExprNoMinus(
+                TermFactor(
+                  FactorFuncCall(
+                    FactorFunc(
+                      NoDesig(
+                        DesigIdent(
+                         sum
+                        ) [DesigIdent]
+                      ) [NoDesig]
+                    ) [FactorFunc]
+                    ActParsLista(
+                      ListExpr(
+                        ActParsOne(
+                          ExprNoMinus(
+                            TermFactor(
+                              FactorDesignator(
+                                NoDesig(
+                                  DesigIdent(
+                                   a
+                                  ) [DesigIdent]
+                                ) [NoDesig]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprNoMinus]
+                        ) [ActParsOne]
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorDesignator(
+                              NoDesig(
+                                DesigIdent(
+                                 pom
+                                ) [DesigIdent]
+                              ) [NoDesig]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [ListExpr]
+                    ) [ActParsLista]
+                  ) [FactorFuncCall]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [StatementRetExp]
+          ) [StatementListYes]
+        ) [MethodDeclType]
+      ) [MethodList]
+      MethodDeclType(
+        MethodDeclReturn(
+          MethodReturnTypeType(
+            Type(
+             bool
+            ) [Type]
+          ) [MethodReturnTypeType]
+         verify
+        ) [MethodDeclReturn]
+        FormParsListNoParams(
+        ) [FormParsListNoParams]
+        NoVarL(
+        ) [NoVarL]
+        StatementListYes(
+          StatementListYes(
+            NoStmt(
+            ) [NoStmt]
+            StatementExpr(
+              ExprNoMinus(
+                TermFactor(
+                  FactorCharConst(
+                   v
+                  ) [FactorCharConst]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [StatementExpr]
+          ) [StatementListYes]
+          StatementRetExp(
+            ExprNoMinus(
+              TermFactor(
+                FactorBoolConst(
+                 false
+                ) [FactorBoolConst]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [StatementRetExp]
+        ) [StatementListYes]
+      ) [MethodDeclType]
+    ) [MethodList]
+    MethodDeclType(
+      MethodDeclReturn(
+        MethodReturnTypeVoid(
+        ) [MethodReturnTypeVoid]
+       main
+      ) [MethodDeclReturn]
+      FormParsListNoParams(
+      ) [FormParsListNoParams]
+      NoVarL(
+      ) [NoVarL]
+      StatementListYes(
+        StatementListYes(
+          StatementListYes(
+            StatementListYes(
+              StatementListYes(
+                StatementListYes(
+                  StatementListYes(
+                    StatementListYes(
+                      StatementListYes(
+                        StatementListYes(
+                          StatementListYes(
+                            StatementListYes(
+                              StatementListYes(
+                                StatementListYes(
+                                  StatementListYes(
+                                    StatementListYes(
+                                      StatementListYes(
+                                        StatementListYes(
+                                          StatementListYes(
+                                            StatementListYes(
+                                              StatementListYes(
+                                                StatementListYes(
+                                                  StatementListYes(
+                                                    StatementListYes(
+                                                      StatementListYes(
+                                                        StatementListYes(
+                                                          StatementListYes(
+                                                            StatementListYes(
+                                                              NoStmt(
+                                                              ) [NoStmt]
+                                                              StatementIfElse(
+                                                                CondTermOne(
+                                                                  CondFactOne(
+                                                                    CondFactRelop(
+                                                                      ExprNoMinus(
+                                                                        TermFactor(
+                                                                          FactorNumConst(
+                                                                           1
+                                                                          ) [FactorNumConst]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprNoMinus]
+                                                                      RelopNoEqual(
+                                                                      ) [RelopNoEqual]
+                                                                      ExprNoMinus(
+                                                                        TermFactor(
+                                                                          FactorNumConst(
+                                                                           1
+                                                                          ) [FactorNumConst]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprNoMinus]
+                                                                    ) [CondFactRelop]
+                                                                  ) [CondFactOne]
+                                                                ) [CondTermOne]
+                                                                StatementExpr(
+                                                                  ExprMinus(
+                                                                    TermFactor(
+                                                                      FactorNumConst(
+                                                                       6
+                                                                      ) [FactorNumConst]
+                                                                    ) [TermFactor]
+                                                                  ) [ExprMinus]
+                                                                ) [StatementExpr]
+                                                                StatementExpr(
+                                                                  ExprNoMinus(
+                                                                    TermFactor(
+                                                                      FactorNumConst(
+                                                                       0
+                                                                      ) [FactorNumConst]
+                                                                    ) [TermFactor]
+                                                                  ) [ExprNoMinus]
+                                                                ) [StatementExpr]
+                                                              ) [StatementIfElse]
+                                                            ) [StatementListYes]
+                                                            DesignatorStatementOne(
+                                                              DesignatorAsExpr(
+                                                                NoDesig(
+                                                                  DesigIdent(
+                                                                   ibool
+                                                                  ) [DesigIdent]
+                                                                ) [NoDesig]
+                                                                ExprNoMinus(
+                                                                  TermFactor(
+                                                                    FactorBoolConst(
+                                                                     false
+                                                                    ) [FactorBoolConst]
+                                                                  ) [TermFactor]
+                                                                ) [ExprNoMinus]
+                                                              ) [DesignatorAsExpr]
+                                                            ) [DesignatorStatementOne]
+                                                          ) [StatementListYes]
+                                                          DesignatorStatementOne(
+                                                            DesignatorAsExpr(
+                                                              NoDesig(
+                                                                DesigIdent(
+                                                                 i
+                                                                ) [DesigIdent]
+                                                              ) [NoDesig]
+                                                              ExprNoMinus(
+                                                                TermFactor(
+                                                                  FactorNumConst(
+                                                                   0
+                                                                  ) [FactorNumConst]
+                                                                ) [TermFactor]
+                                                              ) [ExprNoMinus]
+                                                            ) [DesignatorAsExpr]
+                                                          ) [DesignatorStatementOne]
+                                                        ) [StatementListYes]
+                                                        StatementWhile(
+                                                          WHILEStart(
+                                                          ) [WHILEStart]
+                                                          CondTermOne(
+                                                            CondFactOne(
+                                                              CondFactRelop(
+                                                                ExprNoMinus(
+                                                                  TermFactor(
+                                                                    FactorDesignator(
+                                                                      NoDesig(
+                                                                        DesigIdent(
+                                                                         i
+                                                                        ) [DesigIdent]
+                                                                      ) [NoDesig]
+                                                                    ) [FactorDesignator]
+                                                                  ) [TermFactor]
+                                                                ) [ExprNoMinus]
+                                                                RelopLess(
+                                                                ) [RelopLess]
+                                                                ExprNoMinus(
+                                                                  TermFactor(
+                                                                    FactorNumConst(
+                                                                     5
+                                                                    ) [FactorNumConst]
+                                                                  ) [TermFactor]
+                                                                ) [ExprNoMinus]
+                                                              ) [CondFactRelop]
+                                                            ) [CondFactOne]
+                                                          ) [CondTermOne]
+                                                          StatementListBrace(
+                                                            StatementListYes(
+                                                              StatementListYes(
+                                                                NoStmt(
+                                                                ) [NoStmt]
+                                                                StatementIf(
+                                                                  CondTermOne(
+                                                                    CondFactOne(
+                                                                      CondFactRelop(
+                                                                        ExprNoMinus(
+                                                                          TermFactor(
+                                                                            FactorDesignator(
+                                                                              NoDesig(
+                                                                                DesigIdent(
+                                                                                 i
+                                                                                ) [DesigIdent]
+                                                                              ) [NoDesig]
+                                                                            ) [FactorDesignator]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprNoMinus]
+                                                                        RelopEqual(
+                                                                        ) [RelopEqual]
+                                                                        ExprNoMinus(
+                                                                          TermFactor(
+                                                                            FactorNumConst(
+                                                                             2
+                                                                            ) [FactorNumConst]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprNoMinus]
+                                                                      ) [CondFactRelop]
+                                                                    ) [CondFactOne]
+                                                                  ) [CondTermOne]
+                                                                  DesignatorStatementOne(
+                                                                    DesignatorAsExpr(
+                                                                      NoDesig(
+                                                                        DesigIdent(
+                                                                         ibool
+                                                                        ) [DesigIdent]
+                                                                      ) [NoDesig]
+                                                                      ExprNoMinus(
+                                                                        TermFactor(
+                                                                          FactorBoolConst(
+                                                                           true
+                                                                          ) [FactorBoolConst]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprNoMinus]
+                                                                    ) [DesignatorAsExpr]
+                                                                  ) [DesignatorStatementOne]
+                                                                ) [StatementIf]
+                                                              ) [StatementListYes]
+                                                              DesignatorStatementOne(
+                                                                DesignatorPlusPlus(
+                                                                  NoDesig(
+                                                                    DesigIdent(
+                                                                     i
+                                                                    ) [DesigIdent]
+                                                                  ) [NoDesig]
+                                                                ) [DesignatorPlusPlus]
+                                                              ) [DesignatorStatementOne]
+                                                            ) [StatementListYes]
+                                                          ) [StatementListBrace]
+                                                        ) [StatementWhile]
+                                                      ) [StatementListYes]
+                                                      StatementIf(
+                                                        CondTermOne(
+                                                          CondFactOne(
+                                                            CondFactExpr(
+                                                              ExprNoMinus(
+                                                                TermFactor(
+                                                                  FactorDesignator(
+                                                                    NoDesig(
+                                                                      DesigIdent(
+                                                                       ibool
+                                                                      ) [DesigIdent]
+                                                                    ) [NoDesig]
+                                                                  ) [FactorDesignator]
+                                                                ) [TermFactor]
+                                                              ) [ExprNoMinus]
+                                                            ) [CondFactExpr]
+                                                          ) [CondFactOne]
+                                                        ) [CondTermOne]
+                                                        StatementIfElse(
+                                                          CondTermOne(
+                                                            CondFactOne(
+                                                              CondFactRelop(
+                                                                ExprNoMinus(
+                                                                  TermFactor(
+                                                                    FactorDesignator(
+                                                                      NoDesig(
+                                                                        DesigIdent(
+                                                                         i
+                                                                        ) [DesigIdent]
+                                                                      ) [NoDesig]
+                                                                    ) [FactorDesignator]
+                                                                  ) [TermFactor]
+                                                                ) [ExprNoMinus]
+                                                                RelopEqual(
+                                                                ) [RelopEqual]
+                                                                ExprNoMinus(
+                                                                  TermFactor(
+                                                                    FactorNumConst(
+                                                                     5
+                                                                    ) [FactorNumConst]
+                                                                  ) [TermFactor]
+                                                                ) [ExprNoMinus]
+                                                              ) [CondFactRelop]
+                                                            ) [CondFactOne]
+                                                          ) [CondTermOne]
+                                                          StatementExpr(
+                                                            ExprNoMinus(
+                                                              TermFactor(
+                                                                FactorNumConst(
+                                                                 1
+                                                                ) [FactorNumConst]
+                                                              ) [TermFactor]
+                                                            ) [ExprNoMinus]
+                                                          ) [StatementExpr]
+                                                          StatementExpr(
+                                                            ExprMinus(
+                                                              TermFactor(
+                                                                FactorNumConst(
+                                                                 1
+                                                                ) [FactorNumConst]
+                                                              ) [TermFactor]
+                                                            ) [ExprMinus]
+                                                          ) [StatementExpr]
+                                                        ) [StatementIfElse]
+                                                      ) [StatementIf]
+                                                    ) [StatementListYes]
+                                                    DesignatorStatementOne(
+                                                      DesignatorAsExpr(
+                                                        NoDesig(
+                                                          DesigIdent(
+                                                           a
+                                                          ) [DesigIdent]
+                                                        ) [NoDesig]
+                                                        ExprNoMinus(
+                                                          TermFactor(
+                                                            FactorNumConst(
+                                                             2
+                                                            ) [FactorNumConst]
+                                                          ) [TermFactor]
+                                                        ) [ExprNoMinus]
+                                                      ) [DesignatorAsExpr]
+                                                    ) [DesignatorStatementOne]
+                                                  ) [StatementListYes]
+                                                  DesignatorStatementOne(
+                                                    DesignatorAsExpr(
+                                                      NoDesig(
+                                                        DesigIdent(
+                                                         niz
+                                                        ) [DesigIdent]
+                                                      ) [NoDesig]
+                                                      ExprNoMinus(
+                                                        TermFactor(
+                                                          FactorNewBracket(
+                                                            Type(
+                                                             int
+                                                            ) [Type]
+                                                            ExprNoMinus(
+                                                              TermFactor(
+                                                                FactorNumConst(
+                                                                 3
+                                                                ) [FactorNumConst]
+                                                              ) [TermFactor]
+                                                            ) [ExprNoMinus]
+                                                          ) [FactorNewBracket]
+                                                        ) [TermFactor]
+                                                      ) [ExprNoMinus]
+                                                    ) [DesignatorAsExpr]
+                                                  ) [DesignatorStatementOne]
+                                                ) [StatementListYes]
+                                                DesignatorStatementOne(
+                                                  DesignatorAsExpr(
+                                                    DesigExprOne(
+                                                      DesigIdent(
+                                                       niz
+                                                      ) [DesigIdent]
+                                                      ExprNoMinus(
+                                                        TermFactor(
+                                                          FactorNumConst(
+                                                           0
+                                                          ) [FactorNumConst]
+                                                        ) [TermFactor]
+                                                      ) [ExprNoMinus]
+                                                    ) [DesigExprOne]
+                                                    ExprNoMinus(
+                                                      TermFactorMulop(
+                                                        TermFactor(
+                                                          FactorNumConst(
+                                                           1
+                                                          ) [FactorNumConst]
+                                                        ) [TermFactor]
+                                                        MulopMulti(
+                                                        ) [MulopMulti]
+                                                        FactorDesignator(
+                                                          NoDesig(
+                                                            DesigIdent(
+                                                             a
+                                                            ) [DesigIdent]
+                                                          ) [NoDesig]
+                                                        ) [FactorDesignator]
+                                                      ) [TermFactorMulop]
+                                                    ) [ExprNoMinus]
+                                                  ) [DesignatorAsExpr]
+                                                ) [DesignatorStatementOne]
+                                              ) [StatementListYes]
+                                              DesignatorStatementOne(
+                                                DesignatorAsExpr(
+                                                  DesigExprOne(
+                                                    DesigIdent(
+                                                     niz
+                                                    ) [DesigIdent]
+                                                    ExprNoMinus(
+                                                      TermFactor(
+                                                        FactorNumConst(
+                                                         1
+                                                        ) [FactorNumConst]
+                                                      ) [TermFactor]
+                                                    ) [ExprNoMinus]
+                                                  ) [DesigExprOne]
+                                                  ExprNoMinus(
+                                                    TermFactorMulop(
+                                                      TermFactor(
+                                                        FactorNumConst(
+                                                         2
+                                                        ) [FactorNumConst]
+                                                      ) [TermFactor]
+                                                      MulopMulti(
+                                                      ) [MulopMulti]
+                                                      FactorDesignator(
+                                                        NoDesig(
+                                                          DesigIdent(
+                                                           a
+                                                          ) [DesigIdent]
+                                                        ) [NoDesig]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactorMulop]
+                                                  ) [ExprNoMinus]
+                                                ) [DesignatorAsExpr]
+                                              ) [DesignatorStatementOne]
+                                            ) [StatementListYes]
+                                            DesignatorStatementOne(
+                                              DesignatorAsExpr(
+                                                DesigExprOne(
+                                                  DesigIdent(
+                                                   niz
+                                                  ) [DesigIdent]
+                                                  ExprNoMinus(
+                                                    TermFactor(
+                                                      FactorNumConst(
+                                                       2
+                                                      ) [FactorNumConst]
+                                                    ) [TermFactor]
+                                                  ) [ExprNoMinus]
+                                                ) [DesigExprOne]
+                                                ExprAddop(
+                                                  ExprNoMinus(
+                                                    TermFactorMulop(
+                                                      TermFactor(
+                                                        FactorFuncCall(
+                                                          FactorFunc(
+                                                            NoDesig(
+                                                              DesigIdent(
+                                                               sum
+                                                              ) [DesigIdent]
+                                                            ) [NoDesig]
+                                                          ) [FactorFunc]
+                                                          ActParsLista(
+                                                            ListExpr(
+                                                              ActParsOne(
+                                                                ExprNoMinus(
+                                                                  TermFactor(
+                                                                    FactorDesignator(
+                                                                      DesigExprOne(
+                                                                        DesigIdent(
+                                                                         niz
+                                                                        ) [DesigIdent]
+                                                                        ExprNoMinus(
+                                                                          TermFactor(
+                                                                            FactorNumConst(
+                                                                             1
+                                                                            ) [FactorNumConst]
+                                                                          ) [TermFactor]
+                                                                        ) [ExprNoMinus]
+                                                                      ) [DesigExprOne]
+                                                                    ) [FactorDesignator]
+                                                                  ) [TermFactor]
+                                                                ) [ExprNoMinus]
+                                                              ) [ActParsOne]
+                                                              ExprNoMinus(
+                                                                TermFactor(
+                                                                  FactorDesignator(
+                                                                    DesigExprOne(
+                                                                      DesigIdent(
+                                                                       niz
+                                                                      ) [DesigIdent]
+                                                                      ExprNoMinus(
+                                                                        TermFactor(
+                                                                          FactorNumConst(
+                                                                           0
+                                                                          ) [FactorNumConst]
+                                                                        ) [TermFactor]
+                                                                      ) [ExprNoMinus]
+                                                                    ) [DesigExprOne]
+                                                                  ) [FactorDesignator]
+                                                                ) [TermFactor]
+                                                              ) [ExprNoMinus]
+                                                            ) [ListExpr]
+                                                          ) [ActParsLista]
+                                                        ) [FactorFuncCall]
+                                                      ) [TermFactor]
+                                                      MulopMulti(
+                                                      ) [MulopMulti]
+                                                      FactorDesignator(
+                                                        NoDesig(
+                                                          DesigIdent(
+                                                           a
+                                                          ) [DesigIdent]
+                                                        ) [NoDesig]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactorMulop]
+                                                  ) [ExprNoMinus]
+                                                  AddopPlus(
+                                                  ) [AddopPlus]
+                                                  TermFactor(
+                                                    FactorNumConst(
+                                                     1
+                                                    ) [FactorNumConst]
+                                                  ) [TermFactor]
+                                                ) [ExprAddop]
+                                              ) [DesignatorAsExpr]
+                                            ) [DesignatorStatementOne]
+                                          ) [StatementListYes]
+                                          StatementIfElse(
+                                            ListCondTerm(
+                                              CondTermOne(
+                                                CondFactOne(
+                                                  CondFactExpr(
+                                                    ExprNoMinus(
+                                                      TermFactor(
+                                                        FactorFuncCall(
+                                                          FactorFunc(
+                                                            NoDesig(
+                                                              DesigIdent(
+                                                               verify
+                                                              ) [DesigIdent]
+                                                            ) [NoDesig]
+                                                          ) [FactorFunc]
+                                                          NoActParsL(
+                                                          ) [NoActParsL]
+                                                        ) [FactorFuncCall]
+                                                      ) [TermFactor]
+                                                    ) [ExprNoMinus]
+                                                  ) [CondFactExpr]
+                                                ) [CondFactOne]
+                                              ) [CondTermOne]
+                                              ORStart(
+                                              ) [ORStart]
+                                              CondFactOne(
+                                                CondFactRelop(
+                                                  ExprNoMinus(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        DesigExprOne(
+                                                          DesigIdent(
+                                                           niz
+                                                          ) [DesigIdent]
+                                                          ExprNoMinus(
+                                                            TermFactor(
+                                                              FactorNumConst(
+                                                               2
+                                                              ) [FactorNumConst]
+                                                            ) [TermFactor]
+                                                          ) [ExprNoMinus]
+                                                        ) [DesigExprOne]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprNoMinus]
+                                                  RelopEqual(
+                                                  ) [RelopEqual]
+                                                  ExprNoMinus(
+                                                    TermFactor(
+                                                      FactorNumConst(
+                                                       4
+                                                      ) [FactorNumConst]
+                                                    ) [TermFactor]
+                                                  ) [ExprNoMinus]
+                                                ) [CondFactRelop]
+                                              ) [CondFactOne]
+                                            ) [ListCondTerm]
+                                            StatementExpr(
+                                              ExprNoMinus(
+                                                TermFactor(
+                                                  FactorFuncCall(
+                                                    FactorFunc(
+                                                      NoDesig(
+                                                        DesigIdent(
+                                                         ord
+                                                        ) [DesigIdent]
+                                                      ) [NoDesig]
+                                                    ) [FactorFunc]
+                                                    ActParsLista(
+                                                      ActParsOne(
+                                                        ExprNoMinus(
+                                                          TermFactor(
+                                                            FactorCharConst(
+                                                             A
+                                                            ) [FactorCharConst]
+                                                          ) [TermFactor]
+                                                        ) [ExprNoMinus]
+                                                      ) [ActParsOne]
+                                                    ) [ActParsLista]
+                                                  ) [FactorFuncCall]
+                                                ) [TermFactor]
+                                              ) [ExprNoMinus]
+                                            ) [StatementExpr]
+                                            StatementExpr(
+                                              ExprNoMinus(
+                                                TermFactor(
+                                                  FactorFuncCall(
+                                                    FactorFunc(
+                                                      NoDesig(
+                                                        DesigIdent(
+                                                         ord
+                                                        ) [DesigIdent]
+                                                      ) [NoDesig]
+                                                    ) [FactorFunc]
+                                                    ActParsLista(
+                                                      ActParsOne(
+                                                        ExprNoMinus(
+                                                          TermFactor(
+                                                            FactorCharConst(
+                                                             a
+                                                            ) [FactorCharConst]
+                                                          ) [TermFactor]
+                                                        ) [ExprNoMinus]
+                                                      ) [ActParsOne]
+                                                    ) [ActParsLista]
+                                                  ) [FactorFuncCall]
+                                                ) [TermFactor]
+                                              ) [ExprNoMinus]
+                                            ) [StatementExpr]
+                                          ) [StatementIfElse]
+                                        ) [StatementListYes]
+                                        StatementExpr(
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorDesignator(
+                                                NoDesig(
+                                                  DesigIdent(
+                                                   eol
+                                                  ) [DesigIdent]
+                                                ) [NoDesig]
+                                              ) [FactorDesignator]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                        ) [StatementExpr]
+                                      ) [StatementListYes]
+                                      DesignatorStatementOne(
+                                        DesignatorAsExpr(
+                                          NoDesig(
+                                            DesigIdent(
+                                             i
+                                            ) [DesigIdent]
+                                          ) [NoDesig]
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorNumConst(
+                                               0
+                                              ) [FactorNumConst]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                        ) [DesignatorAsExpr]
+                                      ) [DesignatorStatementOne]
+                                    ) [StatementListYes]
+                                    StatementWhile(
+                                      WHILEStart(
+                                      ) [WHILEStart]
+                                      CondTermOne(
+                                        CondFactOne(
+                                          CondFactRelop(
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorDesignator(
+                                                  NoDesig(
+                                                    DesigIdent(
+                                                     i
+                                                    ) [DesigIdent]
+                                                  ) [NoDesig]
+                                                ) [FactorDesignator]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                            RelopLess(
+                                            ) [RelopLess]
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorNumConst(
+                                                 10
+                                                ) [FactorNumConst]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                          ) [CondFactRelop]
+                                        ) [CondFactOne]
+                                      ) [CondTermOne]
+                                      StatementListBrace(
+                                        StatementListYes(
+                                          StatementListYes(
+                                            StatementListYes(
+                                              NoStmt(
+                                              ) [NoStmt]
+                                              StatementIf(
+                                                CondTermOne(
+                                                  CondFactOne(
+                                                    CondFactRelop(
+                                                      ExprNoMinus(
+                                                        TermFactor(
+                                                          FactorDesignator(
+                                                            NoDesig(
+                                                              DesigIdent(
+                                                               i
+                                                              ) [DesigIdent]
+                                                            ) [NoDesig]
+                                                          ) [FactorDesignator]
+                                                        ) [TermFactor]
+                                                      ) [ExprNoMinus]
+                                                      RelopEqual(
+                                                      ) [RelopEqual]
+                                                      ExprNoMinus(
+                                                        TermFactor(
+                                                          FactorNumConst(
+                                                           3
+                                                          ) [FactorNumConst]
+                                                        ) [TermFactor]
+                                                      ) [ExprNoMinus]
+                                                    ) [CondFactRelop]
+                                                  ) [CondFactOne]
+                                                ) [CondTermOne]
+                                                StatementListBrace(
+                                                  StatementListYes(
+                                                    StatementListYes(
+                                                      NoStmt(
+                                                      ) [NoStmt]
+                                                      DesignatorStatementOne(
+                                                        DesignatorPlusPlus(
+                                                          NoDesig(
+                                                            DesigIdent(
+                                                             i
+                                                            ) [DesigIdent]
+                                                          ) [NoDesig]
+                                                        ) [DesignatorPlusPlus]
+                                                      ) [DesignatorStatementOne]
+                                                    ) [StatementListYes]
+                                                    StatementContinue(
+                                                    ) [StatementContinue]
+                                                  ) [StatementListYes]
+                                                ) [StatementListBrace]
+                                              ) [StatementIf]
+                                            ) [StatementListYes]
+                                            StatementIf(
+                                              CondTermOne(
+                                                CondFactOne(
+                                                  CondFactRelop(
+                                                    ExprNoMinus(
+                                                      TermFactor(
+                                                        FactorDesignator(
+                                                          NoDesig(
+                                                            DesigIdent(
+                                                             i
+                                                            ) [DesigIdent]
+                                                          ) [NoDesig]
+                                                        ) [FactorDesignator]
+                                                      ) [TermFactor]
+                                                    ) [ExprNoMinus]
+                                                    RelopEqual(
+                                                    ) [RelopEqual]
+                                                    ExprNoMinus(
+                                                      TermFactor(
+                                                        FactorNumConst(
+                                                         4
+                                                        ) [FactorNumConst]
+                                                      ) [TermFactor]
+                                                    ) [ExprNoMinus]
+                                                  ) [CondFactRelop]
+                                                ) [CondFactOne]
+                                              ) [CondTermOne]
+                                              StatementBreak(
+                                              ) [StatementBreak]
+                                            ) [StatementIf]
+                                          ) [StatementListYes]
+                                          DesignatorStatementOne(
+                                            DesignatorAsExpr(
+                                              NoDesig(
+                                                DesigIdent(
+                                                 i
+                                                ) [DesigIdent]
+                                              ) [NoDesig]
+                                              ExprNoMinus(
+                                                TermFactor(
+                                                  FactorFuncCall(
+                                                    FactorFunc(
+                                                      NoDesig(
+                                                        DesigIdent(
+                                                         inkrement
+                                                        ) [DesigIdent]
+                                                      ) [NoDesig]
+                                                    ) [FactorFunc]
+                                                    ActParsLista(
+                                                      ListExpr(
+                                                        ActParsOne(
+                                                          ExprNoMinus(
+                                                            TermFactor(
+                                                              FactorDesignator(
+                                                                NoDesig(
+                                                                  DesigIdent(
+                                                                   i
+                                                                  ) [DesigIdent]
+                                                                ) [NoDesig]
+                                                              ) [FactorDesignator]
+                                                            ) [TermFactor]
+                                                          ) [ExprNoMinus]
+                                                        ) [ActParsOne]
+                                                        ExprNoMinus(
+                                                          TermFactor(
+                                                            FactorNumConst(
+                                                             1
+                                                            ) [FactorNumConst]
+                                                          ) [TermFactor]
+                                                        ) [ExprNoMinus]
+                                                      ) [ListExpr]
+                                                    ) [ActParsLista]
+                                                  ) [FactorFuncCall]
+                                                ) [TermFactor]
+                                              ) [ExprNoMinus]
+                                            ) [DesignatorAsExpr]
+                                          ) [DesignatorStatementOne]
+                                        ) [StatementListYes]
+                                      ) [StatementListBrace]
+                                    ) [StatementWhile]
+                                  ) [StatementListYes]
+                                  StatementIfElse(
+                                    CondTermOne(
+                                      CondFactList(
+                                        CondFactOne(
+                                          CondFactRelop(
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorDesignator(
+                                                  NoDesig(
+                                                    DesigIdent(
+                                                     i
+                                                    ) [DesigIdent]
+                                                  ) [NoDesig]
+                                                ) [FactorDesignator]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                            RelopEqual(
+                                            ) [RelopEqual]
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorNumConst(
+                                                 3
+                                                ) [FactorNumConst]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                          ) [CondFactRelop]
+                                        ) [CondFactOne]
+                                        ANDStart(
+                                        ) [ANDStart]
+                                        CondFactExpr(
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorFuncCall(
+                                                FactorFunc(
+                                                  NoDesig(
+                                                    DesigIdent(
+                                                     verify
+                                                    ) [DesigIdent]
+                                                  ) [NoDesig]
+                                                ) [FactorFunc]
+                                                NoActParsL(
+                                                ) [NoActParsL]
+                                              ) [FactorFuncCall]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                        ) [CondFactExpr]
+                                      ) [CondFactList]
+                                    ) [CondTermOne]
+                                    StatementExpr(
+                                      ExprMinus(
+                                        TermFactor(
+                                          FactorNumConst(
+                                           4
+                                          ) [FactorNumConst]
+                                        ) [TermFactor]
+                                      ) [ExprMinus]
+                                    ) [StatementExpr]
+                                    StatementExpr(
+                                      ExprNoMinus(
+                                        TermFactor(
+                                          FactorNumConst(
+                                           4
+                                          ) [FactorNumConst]
+                                        ) [TermFactor]
+                                      ) [ExprNoMinus]
+                                    ) [StatementExpr]
+                                  ) [StatementIfElse]
+                                ) [StatementListYes]
+                                StatementRead(
+                                  DesigExprOne(
+                                    DesigIdent(
+                                     niz
+                                    ) [DesigIdent]
+                                    ExprNoMinus(
+                                      TermFactor(
+                                        FactorNumConst(
+                                         0
+                                        ) [FactorNumConst]
+                                      ) [TermFactor]
+                                    ) [ExprNoMinus]
+                                  ) [DesigExprOne]
+                                ) [StatementRead]
+                              ) [StatementListYes]
+                              StatementRead(
+                                DesigExprOne(
+                                  DesigIdent(
+                                   niz
+                                  ) [DesigIdent]
+                                  ExprNoMinus(
+                                    TermFactor(
+                                      FactorNumConst(
+                                       1
+                                      ) [FactorNumConst]
+                                    ) [TermFactor]
+                                  ) [ExprNoMinus]
+                                ) [DesigExprOne]
+                              ) [StatementRead]
+                            ) [StatementListYes]
+                            StatementRead(
+                              DesigExprOne(
+                                DesigIdent(
+                                 niz
+                                ) [DesigIdent]
+                                ExprNoMinus(
+                                  TermFactor(
+                                    FactorNumConst(
+                                     2
+                                    ) [FactorNumConst]
+                                  ) [TermFactor]
+                                ) [ExprNoMinus]
+                              ) [DesigExprOne]
+                            ) [StatementRead]
+                          ) [StatementListYes]
+                          StatementExpr(
+                            ExprNoMinus(
+                              TermFactor(
+                                FactorDesignator(
+                                  NoDesig(
+                                    DesigIdent(
+                                     eol
+                                    ) [DesigIdent]
+                                  ) [NoDesig]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprNoMinus]
+                          ) [StatementExpr]
+                        ) [StatementListYes]
+                        StatementExpr(
+                          ExprNoMinus(
+                            TermFactor(
+                              FactorFuncCall(
+                                FactorFunc(
+                                  NoDesig(
+                                    DesigIdent(
+                                     sum
+                                    ) [DesigIdent]
+                                  ) [NoDesig]
+                                ) [FactorFunc]
+                                ActParsLista(
+                                  ListExpr(
+                                    ActParsOne(
+                                      ExprNoMinus(
+                                        TermFactor(
+                                          FactorFuncCall(
+                                            FactorFunc(
+                                              NoDesig(
+                                                DesigIdent(
+                                                 sum
+                                                ) [DesigIdent]
+                                              ) [NoDesig]
+                                            ) [FactorFunc]
+                                            ActParsLista(
+                                              ListExpr(
+                                                ActParsOne(
+                                                  ExprNoMinus(
+                                                    TermFactor(
+                                                      FactorDesignator(
+                                                        DesigExprOne(
+                                                          DesigIdent(
+                                                           niz
+                                                          ) [DesigIdent]
+                                                          ExprNoMinus(
+                                                            TermFactor(
+                                                              FactorNumConst(
+                                                               0
+                                                              ) [FactorNumConst]
+                                                            ) [TermFactor]
+                                                          ) [ExprNoMinus]
+                                                        ) [DesigExprOne]
+                                                      ) [FactorDesignator]
+                                                    ) [TermFactor]
+                                                  ) [ExprNoMinus]
+                                                ) [ActParsOne]
+                                                ExprNoMinus(
+                                                  TermFactor(
+                                                    FactorDesignator(
+                                                      DesigExprOne(
+                                                        DesigIdent(
+                                                         niz
+                                                        ) [DesigIdent]
+                                                        ExprNoMinus(
+                                                          TermFactor(
+                                                            FactorNumConst(
+                                                             1
+                                                            ) [FactorNumConst]
+                                                          ) [TermFactor]
+                                                        ) [ExprNoMinus]
+                                                      ) [DesigExprOne]
+                                                    ) [FactorDesignator]
+                                                  ) [TermFactor]
+                                                ) [ExprNoMinus]
+                                              ) [ListExpr]
+                                            ) [ActParsLista]
+                                          ) [FactorFuncCall]
+                                        ) [TermFactor]
+                                      ) [ExprNoMinus]
+                                    ) [ActParsOne]
+                                    ExprNoMinus(
+                                      TermFactor(
+                                        FactorDesignator(
+                                          DesigExprOne(
+                                            DesigIdent(
+                                             niz
+                                            ) [DesigIdent]
+                                            ExprNoMinus(
+                                              TermFactor(
+                                                FactorNumConst(
+                                                 2
+                                                ) [FactorNumConst]
+                                              ) [TermFactor]
+                                            ) [ExprNoMinus]
+                                          ) [DesigExprOne]
+                                        ) [FactorDesignator]
+                                      ) [TermFactor]
+                                    ) [ExprNoMinus]
+                                  ) [ListExpr]
+                                ) [ActParsLista]
+                              ) [FactorFuncCall]
+                            ) [TermFactor]
+                          ) [ExprNoMinus]
+                        ) [StatementExpr]
+                      ) [StatementListYes]
+                      StatementExpr(
+                        ExprNoMinus(
+                          TermFactor(
+                            FactorDesignator(
+                              NoDesig(
+                                DesigIdent(
+                                 eol
+                                ) [DesigIdent]
+                              ) [NoDesig]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprNoMinus]
+                      ) [StatementExpr]
+                    ) [StatementListYes]
+                    StatementExpr(
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorFuncCall(
+                            FactorFunc(
+                              NoDesig(
+                                DesigIdent(
+                                 inkrement
+                                ) [DesigIdent]
+                              ) [NoDesig]
+                            ) [FactorFunc]
+                            ActParsLista(
+                              ListExpr(
+                                ActParsOne(
+                                  ExprNoMinus(
+                                    TermFactor(
+                                      FactorDesignator(
+                                        DesigExprOne(
+                                          DesigIdent(
+                                           niz
+                                          ) [DesigIdent]
+                                          ExprNoMinus(
+                                            TermFactor(
+                                              FactorNumConst(
+                                               2
+                                              ) [FactorNumConst]
+                                            ) [TermFactor]
+                                          ) [ExprNoMinus]
+                                        ) [DesigExprOne]
+                                      ) [FactorDesignator]
+                                    ) [TermFactor]
+                                  ) [ExprNoMinus]
+                                ) [ActParsOne]
+                                ExprNoMinus(
+                                  TermFactor(
+                                    FactorNumConst(
+                                     2
+                                    ) [FactorNumConst]
+                                  ) [TermFactor]
+                                ) [ExprNoMinus]
+                              ) [ListExpr]
+                            ) [ActParsLista]
+                          ) [FactorFuncCall]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [StatementExpr]
+                  ) [StatementListYes]
+                  DesignatorStatementOne(
+                    DesignatorAsExpr(
+                      NoDesig(
+                        DesigIdent(
+                         a
+                        ) [DesigIdent]
+                      ) [NoDesig]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorNumConst(
+                           3
+                          ) [FactorNumConst]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [DesignatorAsExpr]
+                  ) [DesignatorStatementOne]
+                ) [StatementListYes]
+                DesignatorStatementOne(
+                  DesignatorAsExpr(
+                    NoDesig(
+                      DesigIdent(
+                       i
+                      ) [DesigIdent]
+                    ) [NoDesig]
+                    ExprNoMinus(
+                      TermFactor(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [DesignatorAsExpr]
+                ) [DesignatorStatementOne]
+              ) [StatementListYes]
+              StatementWhile(
+                WHILEStart(
+                ) [WHILEStart]
+                CondTermOne(
+                  CondFactOne(
+                    CondFactRelop(
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorDesignator(
+                            NoDesig(
+                              DesigIdent(
+                               i
+                              ) [DesigIdent]
+                            ) [NoDesig]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                      RelopLess(
+                      ) [RelopLess]
+                      ExprNoMinus(
+                        TermFactor(
+                          FactorNumConst(
+                           3
+                          ) [FactorNumConst]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [CondFactRelop]
+                  ) [CondFactOne]
+                ) [CondTermOne]
+                StatementListBrace(
+                  StatementListYes(
+                    StatementListYes(
+                      NoStmt(
+                      ) [NoStmt]
+                      DesignatorStatementOne(
+                        DesignatorAsExpr(
+                          DesigExprOne(
+                            DesigIdent(
+                             niz
+                            ) [DesigIdent]
+                            ExprNoMinus(
+                              TermFactor(
+                                FactorDesignator(
+                                  NoDesig(
+                                    DesigIdent(
+                                     i
+                                    ) [DesigIdent]
+                                  ) [NoDesig]
+                                ) [FactorDesignator]
+                              ) [TermFactor]
+                            ) [ExprNoMinus]
+                          ) [DesigExprOne]
+                          ExprNoMinus(
+                            TermFactorMulop(
+                              TermFactorMulop(
+                                TermFactor(
+                                  FactorDesignator(
+                                    DesigExprOne(
+                                      DesigIdent(
+                                       niz
+                                      ) [DesigIdent]
+                                      ExprNoMinus(
+                                        TermFactor(
+                                          FactorDesignator(
+                                            NoDesig(
+                                              DesigIdent(
+                                               i
+                                              ) [DesigIdent]
+                                            ) [NoDesig]
+                                          ) [FactorDesignator]
+                                        ) [TermFactor]
+                                      ) [ExprNoMinus]
+                                    ) [DesigExprOne]
+                                  ) [FactorDesignator]
+                                ) [TermFactor]
+                                MulopMulti(
+                                ) [MulopMulti]
+                                FactorNumConst(
+                                 2
+                                ) [FactorNumConst]
+                              ) [TermFactorMulop]
+                              MulopMulti(
+                              ) [MulopMulti]
+                              FactorDesignator(
+                                NoDesig(
+                                  DesigIdent(
+                                   a
+                                  ) [DesigIdent]
+                                ) [NoDesig]
+                              ) [FactorDesignator]
+                            ) [TermFactorMulop]
+                          ) [ExprNoMinus]
+                        ) [DesignatorAsExpr]
+                      ) [DesignatorStatementOne]
+                    ) [StatementListYes]
+                    DesignatorStatementOne(
+                      DesignatorPlusPlus(
+                        NoDesig(
+                          DesigIdent(
+                           i
+                          ) [DesigIdent]
+                        ) [NoDesig]
+                      ) [DesignatorPlusPlus]
+                    ) [DesignatorStatementOne]
+                  ) [StatementListYes]
+                ) [StatementListBrace]
+              ) [StatementWhile]
+            ) [StatementListYes]
+            StatementMap(
+              NoDesig(
+                DesigIdent(
+                 niz2
+                ) [DesigIdent]
+              ) [NoDesig]
+              NoDesig(
+                DesigIdent(
+                 niz
+                ) [DesigIdent]
+              ) [NoDesig]
+             curr
+              ExprNoMinus(
+                TermFactorMulop(
+                  TermFactor(
+                    FactorDesignator(
+                      NoDesig(
+                        DesigIdent(
+                         curr
+                        ) [DesigIdent]
+                      ) [NoDesig]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                  MulopMulti(
+                  ) [MulopMulti]
+                  FactorNumConst(
+                   3
+                  ) [FactorNumConst]
+                ) [TermFactorMulop]
+              ) [ExprNoMinus]
+            ) [StatementMap]
+          ) [StatementListYes]
+          DesignatorStatementOne(
+            DesignatorAsExpr(
+              NoDesig(
+                DesigIdent(
+                 i
+                ) [DesigIdent]
+              ) [NoDesig]
+              ExprNoMinus(
+                TermFactor(
+                  FactorNumConst(
+                   0
+                  ) [FactorNumConst]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [DesignatorAsExpr]
+          ) [DesignatorStatementOne]
+        ) [StatementListYes]
+        StatementWhile(
+          WHILEStart(
+          ) [WHILEStart]
+          CondTermOne(
+            CondFactOne(
+              CondFactRelop(
+                ExprNoMinus(
+                  TermFactor(
+                    FactorDesignator(
+                      NoDesig(
+                        DesigIdent(
+                         i
+                        ) [DesigIdent]
+                      ) [NoDesig]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+                RelopLess(
+                ) [RelopLess]
+                ExprNoMinus(
+                  TermFactor(
+                    FactorNumConst(
+                     3
+                    ) [FactorNumConst]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [CondFactRelop]
+            ) [CondFactOne]
+          ) [CondTermOne]
+          StatementListBrace(
+            StatementListYes(
+              StatementListYes(
+                NoStmt(
+                ) [NoStmt]
+                StatementExpr(
+                  ExprNoMinus(
+                    TermFactor(
+                      FactorDesignator(
+                        DesigExprOne(
+                          DesigIdent(
+                           niz2
+                          ) [DesigIdent]
+                          ExprNoMinus(
+                            TermFactor(
+                              FactorDesignator(
+                                NoDesig(
+                                  DesigIdent(
+                                   i
+                                  ) [DesigIdent]
+                                ) [NoDesig]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprNoMinus]
+                        ) [DesigExprOne]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [StatementExpr]
+              ) [StatementListYes]
+              DesignatorStatementOne(
+                DesignatorPlusPlus(
+                  NoDesig(
+                    DesigIdent(
+                     i
+                    ) [DesigIdent]
+                  ) [NoDesig]
+                ) [DesignatorPlusPlus]
+              ) [DesignatorStatementOne]
+            ) [StatementListYes]
+          ) [StatementListBrace]
+        ) [StatementWhile]
+      ) [StatementListYes]
+    ) [MethodDeclType]
+  ) [MethodList]
+) [Program]
+INFO  00:01:47,495 - ===================================
+INFO  00:01:47,499 - Nova konstanta: jedan = 1. na liniji 5
+INFO  00:01:47,499 - Promenljiva niz2 na liniji 10
+INFO  00:01:47,499 - Promenljiva niz na liniji 12
+INFO  00:01:47,499 - Funkcija sum na liniji 17
+INFO  00:01:47,499 - Funkcija inkrement na liniji 23
+INFO  00:01:47,499 - Dodela na liniji 26
+INFO  00:01:47,499 - Dodela na liniji 27
+INFO  00:01:47,500 - Funkcija verify na liniji 32
+INFO  00:01:47,500 - Funkcija main na liniji 37
+INFO  00:01:47,500 - Dodela na liniji 43
+INFO  00:01:47,500 - Dodela na liniji 44
+INFO  00:01:47,500 - Dodela na liniji 46
+INFO  00:01:47,500 - Dodela na liniji 53
+INFO  00:01:47,500 - Dodela na liniji 54
+INFO  00:01:47,500 - Dodela na liniji 55
+INFO  00:01:47,500 - Dodela na liniji 56
+INFO  00:01:47,500 - Dodela na liniji 57
+INFO  00:01:47,500 - Dodela na liniji 62
+INFO  00:01:47,501 - Dodela na liniji 70
+INFO  00:01:47,501 - Dodela na liniji 85
+INFO  00:01:47,501 - Dodela na liniji 86
+INFO  00:01:47,501 - Dodela na liniji 88
+INFO  00:01:47,501 - Dodela na liniji 93
+INFO  00:01:47,501 - ===================================
+INFO  00:01:47,505 - adr fje: 0 na liniji 29
+INFO  00:01:47,506 - adr fje: 0 na liniji 57
+INFO  00:01:47,506 - adr fje: 30 na liniji 58
+INFO  00:01:47,506 - adr fje: 0 na liniji 58
+INFO  00:01:47,506 - adr fje: 0 na liniji 59
+INFO  00:01:47,506 - adr fje: 10 na liniji 70
+INFO  00:01:47,506 - adr fje: 30 na liniji 73
+INFO  00:01:47,506 - adr fje: 0 na liniji 80
+INFO  00:01:47,506 - adr fje: 0 na liniji 80
+INFO  00:01:47,506 - adr fje: 10 na liniji 83
+INFO  00:01:47,507 - Parsiranje uspesno zavrseno!
